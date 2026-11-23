@@ -1,0 +1,34 @@
+[
+  {
+    "id": "I01", "area": "complementares", "assunto": "interjeicao", "dificuldade": "iniciante", "tipo": "identificar_classe",
+    "texto_base": "Ufa! Terminei a prova.", "destaque": "Ufa",
+    "enunciado": "Classifique 'Ufa'.",
+    "alternativas": [
+      {"letra": "A", "texto": "Interjeição de alívio", "comentario": null},
+      {"letra": "B", "texto": "Advérbio", "comentario": "'Ufa' não modifica verbo, adjetivo ou advérbio; está isolada e exprime emoção."},
+      {"letra": "C", "texto": "Substantivo", "comentario": "Não nomeia nada; exprime uma reação."},
+      {"letra": "D", "texto": "Conjunção", "comentario": "Não liga orações."}
+    ],
+    "resposta": "A",
+    "justificativa": "'Ufa' exprime alívio, vem isolada pela exclamação e equivale a uma frase inteira.",
+    "regra": "Interjeição exprime emoção ou apelo e não exerce função sintática na oração.",
+    "exemplos_relacionados": ["Ai! Que dor.", "Oba! Passei."],
+    "tags": ["interjeição"]
+  },
+  {
+    "id": "I02", "area": "complementares", "assunto": "interjeicao", "dificuldade": "intermediario", "tipo": "comparar",
+    "texto_base": "(I) Socorro!\n(II) Pedi socorro ao vizinho.",
+    "enunciado": "Compare a palavra 'socorro' nas duas frases.",
+    "alternativas": [
+      {"letra": "A", "texto": "É interjeição nas duas.", "comentario": "Em II, 'socorro' é o que se pede: integra a oração como complemento, nomeando algo."},
+      {"letra": "B", "texto": "É interjeição em I e substantivo em II.", "comentario": null},
+      {"letra": "C", "texto": "É substantivo nas duas.", "comentario": "Em I, isolada e exclamativa, exprime apelo: uso interjetivo."},
+      {"letra": "D", "texto": "É substantivo em I e interjeição em II.", "comentario": "Invertido."}
+    ],
+    "resposta": "B",
+    "justificativa": "Em I, 'Socorro!' é um apelo isolado (interjeição). Em II, 'socorro' nomeia o que foi pedido, sendo complemento de 'pedi' (substantivo).",
+    "regra": "Palavras de outras classes podem funcionar como interjeição quando isoladas e com valor emotivo.",
+    "exemplos_relacionados": ["Silêncio! / Pediu silêncio."],
+    "tags": ["interjeição", "comparar", "substantivo"]
+  }
+]

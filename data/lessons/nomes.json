@@ -1,0 +1,302 @@
+[
+  {
+    "id": "licao_substantivo",
+    "area": "nomes",
+    "assunto": "substantivo",
+    "titulo": "Substantivo: o núcleo da estrutura nominal",
+    "nivel": "iniciante",
+    "classe_ou_expressao": "Classe gramatical (variável)",
+    "conceito": "Substantivo é a palavra que nomeia seres (reais ou imaginários), objetos, lugares, sentimentos, ações e estados tomados como conceitos. Na estrutura nominal ele é o núcleo: a palavra em torno da qual artigos, pronomes adjetivos, numerais e adjetivos se organizam. Pense nele como o objeto principal de uma expressão; os demais termos nominais são atributos ou determinantes desse objeto.",
+    "subtopicos": [
+      {"titulo": "Próprios e comuns", "texto": "O substantivo comum nomeia qualquer ser de uma espécie (cidade, rio, menino). O próprio nomeia um ser específico e se escreve com inicial maiúscula (Recife, Amazonas, João).", "exemplos": ["João chegou cedo. (próprio)", "O menino chegou cedo. (comum)"]},
+      {"titulo": "Concretos e abstratos", "texto": "Concreto nomeia ser de existência própria, real ou imaginária (mesa, cachorro, fada, Deus). Abstrato nomeia ação, estado, qualidade ou sentimento que só existe a partir de outro ser (corrida, saudade, beleza, amor). O critério não é 'poder tocar': fada é concreto; vento, também.", "exemplos": ["A fada desapareceu. (concreto)", "O amor é essencial. (abstrato)"]},
+      {"titulo": "Simples e compostos", "texto": "Simples têm um só radical (chuva, flor). Compostos têm mais de um (guarda-chuva, girassol, couve-flor).", "exemplos": ["O guarda-chuva quebrou."]},
+      {"titulo": "Primitivos e derivados", "texto": "Primitivo não se origina de outra palavra da língua (pedra); derivado se forma a partir de outra (pedreiro, pedregulho).", "exemplos": ["pedra → pedreiro", "livro → livraria"]},
+      {"titulo": "Coletivos", "texto": "Coletivo é o substantivo que, no singular, nomeia um conjunto de seres da mesma espécie.", "exemplos": ["cardume (peixes)", "alcateia (lobos)", "arquipélago (ilhas)", "constelação (estrelas)", "enxame (abelhas)"]},
+      {"titulo": "Flexão de gênero", "texto": "Biformes têm uma forma para cada gênero (menino/menina). Uniformes têm forma única: epicenos (a cobra macho/fêmea), sobrecomuns (a criança, o indivíduo) e comuns de dois gêneros, em que o determinante indica o gênero (o/a estudante).", "exemplos": ["o estudante / a estudante", "a criança (sobrecomum)"]},
+      {"titulo": "Flexão de número", "texto": "Regra geral: acréscimo de -s. Há padrões específicos: -ão faz -ões, -ães ou -ãos (balões, pães, mãos); -r e -z fazem -es (mares, luzes); -al faz -ais (animais). Compostos variam conforme as classes que os formam (guarda-chuvas, couves-flores, beija-flores).", "exemplos": ["cidadão → cidadãos", "pão → pães"]},
+      {"titulo": "Substantivação", "texto": "Palavras de outras classes podem funcionar como substantivo quando precedidas de determinante (artigo, pronome) e tomadas como nome de algo: 'o bom', 'o não', 'um sim', 'o amanhã'. O determinante revela o emprego substantivo naquele contexto; ele não altera a classe que a palavra tem no dicionário.", "exemplos": ["O bom sempre vence.", "Recebi um não."]}
+    ],
+    "regras": [
+      "Indício 1: substantivos admitem determinante antes de si (a casa, esta casa, duas casas). É um indício, não uma prova: o artigo também substantiva palavras de outras classes.",
+      "Indício 2: substantivos podem receber caracterização por adjetivo ou locução adjetiva (casa velha, casa de madeira).",
+      "A classe depende do uso na frase: 'jovem' é substantivo em 'O jovem chegou' e adjetivo em 'O professor jovem chegou'.",
+      "Abstrato não significa 'intocável': significa que o ser nomeado depende de outro para existir (a corrida depende de quem corre).",
+      "Na estrutura nominal, o substantivo é o núcleo; os demais termos nominais se relacionam com ele."
+    ],
+    "exemplos": [
+      {"frase": "A rosa hereditária.", "destaque": "rosa", "explicacao": "'rosa' nomeia um ser e é o núcleo da expressão; 'A' o determina e 'hereditária' o caracteriza."},
+      {"frase": "O cardume atravessou o rio.", "destaque": "cardume", "explicacao": "Substantivo coletivo: no singular, nomeia um conjunto de peixes."},
+      {"frase": "A saudade aperta à noite.", "destaque": "saudade", "explicacao": "Substantivo abstrato: nomeia um sentimento, que depende de quem o sente."}
+    ],
+    "contraexemplos": [
+      {"frase": "A menina inteligente chegou.", "destaque": "inteligente", "explicacao": "Estar ao lado de um substantivo não torna a palavra substantivo: 'inteligente' caracteriza 'menina', logo é adjetivo."},
+      {"frase": "Ele estuda bastante.", "destaque": "bastante", "explicacao": "'bastante' modifica o verbo 'estuda' (intensidade); é advérbio, não nomeia nada."}
+    ],
+    "excecoes": [
+      "Fada, saci e Deus são substantivos concretos: nomeiam seres de existência própria, ainda que imaginária.",
+      "Alguns substantivos mudam de sentido conforme o gênero: o capital (dinheiro) / a capital (cidade); o cabeça (líder) / a cabeça (parte do corpo).",
+      "Há substantivos usados só no plural (óculos, férias, núpcias)."
+    ],
+    "comparacoes": [
+      {"frase": "O jovem chegou.", "palavra": "jovem", "classificacao": "Substantivo", "explicacao": "Nomeia a pessoa; é o núcleo da expressão 'O jovem'."},
+      {"frase": "O professor jovem chegou.", "palavra": "jovem", "classificacao": "Adjetivo", "explicacao": "O núcleo é 'professor'; 'jovem' o caracteriza."},
+      {"frase": "O amanhã é incerto.", "palavra": "amanhã", "classificacao": "Substantivo (substantivação)", "explicacao": "Palavra que costuma ser advérbio, aqui tomada como nome de um conceito, precedida de artigo."}
+    ],
+    "logica": {
+      "pseudocodigo": "SE a palavra nomeia um ser, objeto ou conceito NO CONTEXTO\n    investigar SUBSTANTIVO\n    SE pode receber determinante e caracterizador sem mudar o sentido\n        reforça a hipótese\nSENÃO SE a palavra caracteriza um nome\n    investigar ADJETIVO\nSENÃO\n    analisar o contexto completo",
+      "python": "def investigar_substantivo(palavra, frase):\n    # Modelo didático de raciocínio, não um classificador infalível.\n    if nomeia_ser_ou_conceito(palavra, frase):\n        hipotese = 'substantivo'\n        if tem_determinante(palavra, frase):\n            # indício, não prova: o artigo também substantiva\n            hipotese += ' (reforçado pelo determinante)'\n        return hipotese\n    if caracteriza_nome(palavra, frase):\n        return 'investigar adjetivo'\n    return 'analisar o contexto completo'",
+      "fluxograma": "digraph G { rankdir=TB; node [shape=box, style=rounded, fontname=Helvetica]; a [label=\"Palavra no contexto\"]; b [shape=diamond, label=\"Nomeia ser ou conceito?\"]; c [label=\"Hipótese: substantivo\"]; d [shape=diamond, label=\"Aceita determinante e caracterizador?\"]; e [label=\"Hipótese reforçada\"]; f [shape=diamond, label=\"Caracteriza um nome?\"]; g [label=\"Investigar adjetivo\"]; h [label=\"Analisar o contexto completo\"]; a -> b; b -> c [label=\"sim\"]; c -> d; d -> e [label=\"sim\"]; d -> h [label=\"não\"]; b -> f [label=\"não\"]; f -> g [label=\"sim\"]; f -> h [label=\"não\"]; }",
+      "limitacoes": [
+        "Funções como nomeia_ser_ou_conceito exigem compreensão de sentido; não são testes mecânicos.",
+        "A presença de artigo não garante que a palavra seja substantivo de origem (ex.: 'o bom' é adjetivo substantivado).",
+        "Palavras como 'jovem', 'velho' e 'brasileiro' alternam entre substantivo e adjetivo conforme o uso."
+      ]
+    }
+  },
+  {
+    "id": "licao_adjetivo",
+    "area": "nomes",
+    "assunto": "adjetivo",
+    "titulo": "Adjetivo: o caracterizador do nome",
+    "nivel": "iniciante",
+    "classe_ou_expressao": "Classe gramatical (variável)",
+    "conceito": "Adjetivo é a palavra que caracteriza o substantivo, atribuindo-lhe qualidade, estado, aspecto ou relação (origem, matéria, tempo). Ele concorda em gênero e número com o substantivo a que se refere. Se o substantivo é o objeto, o adjetivo é um atributo desse objeto.",
+    "subtopicos": [
+      {"titulo": "Função caracterizadora", "texto": "O adjetivo não nomeia: ele diz como é, como está ou de que tipo é um ser já nomeado.", "exemplos": ["menina inteligente", "água gelada", "povo brasileiro"]},
+      {"titulo": "Simples e compostos", "texto": "Simples têm um radical (azul, claro); compostos têm mais de um (azul-claro, luso-brasileiro, socioeconômico).", "exemplos": ["camisa azul-clara", "acordo luso-brasileiro"]},
+      {"titulo": "Flexões", "texto": "Gênero (bonito/bonita; uniformes: feliz, inteligente), número (feliz/felizes) e grau: comparativo (mais alto que, tão alto quanto, menos alto que) e superlativo (altíssimo, muito alto, o mais alto de).", "exemplos": ["Ela é mais alta que o irmão.", "Ele está felicíssimo."]},
+      {"titulo": "Posição e mudança de sentido", "texto": "Em português o adjetivo pode vir antes ou depois do substantivo. Alguns mudam de sentido com a posição.", "exemplos": ["grande homem (notável) × homem grande (alto, corpulento)", "pobre menino (digno de pena) × menino pobre (sem dinheiro)", "velho amigo (de longa data) × amigo velho (idoso)"]},
+      {"titulo": "Emprego substantivado", "texto": "Precedido de determinante e sem um substantivo a caracterizar, o adjetivo passa a nomear: 'O bom sempre vence', 'Os humildes herdarão a terra'.", "exemplos": ["O bom sempre vence."]}
+    ],
+    "regras": [
+      "Pergunta-chave: a palavra caracteriza um substantivo presente (ou facilmente recuperável) no contexto?",
+      "O adjetivo concorda com o substantivo que caracteriza: 'meninas inteligentes'.",
+      "Estar perto de um substantivo não basta: artigos, pronomes e numerais também acompanham substantivos e não são adjetivos.",
+      "O adjetivo pode estar longe do substantivo, ligado por verbo de ligação: 'A prova estava difícil' ('difícil' caracteriza 'prova').",
+      "Classe morfológica (adjetivo) não é função sintática (adjunto adnominal, predicativo). Uma mesma classe pode exercer funções diferentes."
+    ],
+    "exemplos": [
+      {"frase": "A menina inteligente respondeu.", "destaque": "inteligente", "explicacao": "Caracteriza 'menina' e concorda com ela (feminino, singular)."},
+      {"frase": "A prova estava difícil.", "destaque": "difícil", "explicacao": "Mesmo separado pelo verbo 'estava', caracteriza o substantivo 'prova'."},
+      {"frase": "O professor jovem chegou.", "destaque": "jovem", "explicacao": "O núcleo é 'professor'; 'jovem' o caracteriza."}
+    ],
+    "contraexemplos": [
+      {"frase": "Ela chegou muito cansada.", "destaque": "muito", "explicacao": "'muito' está junto de um adjetivo, mas o intensifica: é advérbio de intensidade."},
+      {"frase": "Esta casa é antiga.", "destaque": "Esta", "explicacao": "'Esta' acompanha o substantivo, mas o situa (demonstrativo), não o caracteriza: é pronome adjetivo."}
+    ],
+    "excecoes": [
+      "Alguns adjetivos mudam de sentido conforme a posição (grande homem × homem grande).",
+      "Adjetivos compostos de cor seguidos de substantivo ficam invariáveis: 'camisas verde-musgo'. Adjetivo composto comum flexiona só o último elemento: 'acordos luso-brasileiros'.",
+      "Na frase 'Ela fala alto', 'alto' modifica o verbo e fica invariável: funciona como advérbio (adjetivo adverbializado)."
+    ],
+    "comparacoes": [
+      {"frase": "O professor jovem chegou.", "palavra": "jovem", "classificacao": "Adjetivo", "explicacao": "Caracteriza 'professor'."},
+      {"frase": "O jovem chegou.", "palavra": "jovem", "classificacao": "Substantivo", "explicacao": "Sem outro nome a caracterizar, 'jovem' passa a nomear a pessoa."},
+      {"frase": "Ela fala alto.", "palavra": "alto", "classificacao": "Advérbio", "explicacao": "Modifica o verbo 'fala' e não concorda com 'Ela' (não se diz 'fala alta')."}
+    ],
+    "logica": {
+      "pseudocodigo": "PARA a palavra candidata\n    SE existe substantivo no contexto que ela caracteriza\n        E concorda com ele em gênero e número\n            investigar ADJETIVO\n    SENÃO SE está precedida de determinante e nomeia algo\n        investigar emprego SUBSTANTIVADO\n    SENÃO SE modifica verbo e é invariável\n        investigar ADVÉRBIO",
+      "python": "def investigar_adjetivo(palavra, frase):\n    nome = substantivo_caracterizado(palavra, frase)\n    if nome is not None:\n        if concorda(palavra, nome):\n            return f'adjetivo: caracteriza {nome}'\n        return 'verificar: não há concordância, rever hipótese'\n    if precedida_de_determinante(palavra, frase):\n        return 'investigar emprego substantivado'\n    if modifica_verbo(palavra, frase):\n        return 'investigar advérbio'\n    return 'analisar o contexto completo'",
+      "fluxograma": "digraph G { rankdir=TB; node [shape=box, style=rounded, fontname=Helvetica]; a [label=\"Palavra candidata\"]; b [shape=diamond, label=\"Caracteriza um substantivo?\"]; c [shape=diamond, label=\"Concorda com ele?\"]; d [label=\"Adjetivo\"]; e [shape=diamond, label=\"Tem determinante e nomeia algo?\"]; f [label=\"Emprego substantivado\"]; g [shape=diamond, label=\"Modifica verbo e é invariável?\"]; h [label=\"Investigar advérbio\"]; i [label=\"Analisar contexto\"]; a -> b; b -> c [label=\"sim\"]; c -> d [label=\"sim\"]; c -> i [label=\"não\"]; b -> e [label=\"não\"]; e -> f [label=\"sim\"]; e -> g [label=\"não\"]; g -> h [label=\"sim\"]; g -> i [label=\"não\"]; }",
+      "limitacoes": [
+        "Concordância é forte indício, mas adjetivos uniformes (feliz, inteligente) não mostram gênero.",
+        "O caracterizador pode ser uma locução (casa de madeira), que não é um adjetivo, e sim uma expressão de valor adjetivo.",
+        "Fronteiras com o advérbio (falar alto, custar caro) exigem observar o que é modificado."
+      ]
+    }
+  },
+  {
+    "id": "licao_locucao_adjetiva",
+    "area": "nomes",
+    "assunto": "locucao_adjetiva",
+    "titulo": "Locução adjetiva: caracterizar com mais de uma palavra",
+    "nivel": "intermediario",
+    "classe_ou_expressao": "Expressão de valor adjetivo (não é classe gramatical independente)",
+    "conceito": "Locução adjetiva é um conjunto de palavras, geralmente preposição + substantivo (ou advérbio), que caracteriza um substantivo, exercendo papel semelhante ao de um adjetivo. Não é uma classe gramatical à parte: internamente, cada palavra mantém sua classe (de = preposição, madeira = substantivo), mas o conjunto tem valor adjetivo.",
+    "subtopicos": [
+      {"titulo": "Estrutura", "texto": "Mais comum: preposição + substantivo (de ouro, de madeira, sem sal). Também: preposição + advérbio (de perto, de longe → 'visão de perto').", "exemplos": ["anel de ouro", "comida sem sal", "luz do sol"]},
+      {"titulo": "Relação com o substantivo", "texto": "A locução adjetiva se liga a um substantivo e o caracteriza, assim como o adjetivo.", "exemplos": ["A casa de madeira foi vendida."]},
+      {"titulo": "Comparação com adjetivos", "texto": "Muitas locuções têm adjetivo correspondente: de pai = paterno; da chuva = pluvial; de ouro = áureo; do campo = rural; de madeira = lígneo (pouco usual). Nem toda locução tem um equivalente de uso corrente, e a troca pode alterar o registro ou o sentido.", "exemplos": ["amor de mãe = amor materno", "água da chuva = água pluvial"]}
+    ],
+    "regras": [
+      "Verifique se a expressão se refere a um substantivo e o caracteriza (que tipo de casa? de madeira).",
+      "Nem toda expressão com preposição é locução adjetiva: em 'Gosto de música', 'de música' completa o verbo; em 'chegou de madrugada', indica circunstância de tempo (valor adverbial).",
+      "Teste prático: tente trocar a expressão por um adjetivo. Se a troca preserva o papel de caracterizar o substantivo, há forte indício de locução adjetiva.",
+      "Morfologicamente, analise também as palavras internas: 'de' (preposição) + 'madeira' (substantivo)."
+    ],
+    "exemplos": [
+      {"frase": "A casa de madeira foi vendida.", "destaque": "de madeira", "explicacao": "Caracteriza 'casa' (que tipo de casa?)."},
+      {"frase": "Ganhei um anel de ouro.", "destaque": "de ouro", "explicacao": "Caracteriza 'anel' quanto à matéria; equivale a 'áureo'."},
+      {"frase": "O amor de mãe é imenso.", "destaque": "de mãe", "explicacao": "Caracteriza 'amor'; equivale a 'materno'."}
+    ],
+    "contraexemplos": [
+      {"frase": "João chegou de madrugada.", "destaque": "de madrugada", "explicacao": "Refere-se ao verbo 'chegou' e indica tempo: locução adverbial."},
+      {"frase": "Gosto de música.", "destaque": "de música", "explicacao": "A preposição é exigida pelo verbo 'gostar'; a expressão completa o verbo, não caracteriza um nome."}
+    ],
+    "excecoes": [
+      "A mesma sequência pode ter valores diferentes: 'O livro de Pedro' (posse, caracteriza 'livro') × 'Saí de casa' (lugar, ligado ao verbo).",
+      "Em sintaxe, uma locução adjetiva costuma ser adjunto adnominal, mas há casos de complemento nominal ('a invenção do rádio'), tema de estudo posterior."
+    ],
+    "comparacoes": [
+      {"frase": "A casa de madeira foi vendida.", "palavra": "de madeira", "classificacao": "Locução adjetiva", "explicacao": "Caracteriza o substantivo 'casa'."},
+      {"frase": "João chegou de madrugada.", "palavra": "de madrugada", "classificacao": "Locução adverbial de tempo", "explicacao": "Indica quando ocorreu a ação do verbo."}
+    ],
+    "logica": {
+      "pseudocodigo": "SE a expressão tem mais de uma palavra E começa por preposição\n    SE refere-se a um substantivo e o caracteriza\n        investigar LOCUÇÃO ADJETIVA\n    SENÃO SE refere-se ao verbo indicando circunstância\n        investigar LOCUÇÃO ADVERBIAL\n    SENÃO SE completa o sentido de um verbo que exige preposição\n        investigar COMPLEMENTO (regência)",
+      "python": "def investigar_expressao_preposicionada(expr, frase):\n    alvo = termo_modificado(expr, frase)\n    if eh_substantivo(alvo) and caracteriza(expr, alvo):\n        return 'investigar locução adjetiva'\n    if eh_verbo(alvo) and indica_circunstancia(expr):\n        return 'investigar locução adverbial'\n    if verbo_exige_preposicao(alvo):\n        return 'investigar complemento verbal (regência)'\n    return 'analisar o contexto completo'",
+      "fluxograma": "digraph G { rankdir=TB; node [shape=box, style=rounded, fontname=Helvetica]; a [label=\"Preposição + palavra\"]; b [shape=diamond, label=\"Caracteriza substantivo?\"]; c [label=\"Locução adjetiva\"]; d [shape=diamond, label=\"Circunstância do verbo?\"]; e [label=\"Locução adverbial\"]; f [shape=diamond, label=\"Verbo exige a preposição?\"]; g [label=\"Complemento (regência)\"]; h [label=\"Analisar contexto\"]; a -> b; b -> c [label=\"sim\"]; b -> d [label=\"não\"]; d -> e [label=\"sim\"]; d -> f [label=\"não\"]; f -> g [label=\"sim\"]; f -> h [label=\"não\"]; }",
+      "limitacoes": [
+        "Nem toda expressão com preposição é locução adjetiva ou adverbial.",
+        "A distinção entre adjunto adnominal e complemento nominal pertence à sintaxe e exige análise semântica mais fina."
+      ]
+    }
+  },
+  {
+    "id": "licao_artigo",
+    "area": "nomes",
+    "assunto": "artigo",
+    "titulo": "Artigo: o determinante do substantivo",
+    "nivel": "iniciante",
+    "classe_ou_expressao": "Classe gramatical (variável)",
+    "conceito": "Artigo é a palavra que antecede o substantivo para determiná-lo (de modo definido ou indefinido), indicando também seu gênero e número. Definidos: o, a, os, as. Indefinidos: um, uma, uns, umas.",
+    "subtopicos": [
+      {"titulo": "Definido e indefinido", "texto": "O definido apresenta o ser como conhecido ou específico ('o livro que você pediu'); o indefinido apresenta-o como qualquer um da espécie ou novo no discurso ('um livro').", "exemplos": ["Comprei o livro.", "Comprei um livro."]},
+      {"titulo": "Relação com o substantivo", "texto": "O artigo concorda com o substantivo em gênero e número e ajuda a revelar o gênero dos substantivos comuns de dois gêneros: o estudante / a estudante.", "exemplos": ["as meninas", "uns livros"]},
+      {"titulo": "Emprego substantivador", "texto": "Antes de palavra de outra classe, o artigo pode substantivá-la: 'o bom', 'o não', 'o porquê'.", "exemplos": ["Não entendi o porquê da decisão."]},
+      {"titulo": "Combinação e contração com preposições", "texto": "O artigo pode se unir a preposições: de + o = do; em + a = na; por + o = pelo; a + a = à (crase).", "exemplos": ["Saí do prédio.", "Respondeu à questão."]}
+    ],
+    "regras": [
+      "O artigo sempre se refere a um substantivo (ou palavra substantivada) e vem antes dele.",
+      "'a' pode ser artigo, preposição ou pronome oblíquo: verifique o papel no contexto.",
+      "'um' pode ser artigo indefinido ou numeral: 'Comprei um livro' (indeterminação) × 'Comprei um livro, não dois' (quantidade).",
+      "A presença de artigo não determina sozinha a classe de origem da palavra seguinte; ela mostra que, naquele uso, a palavra funciona como substantivo."
+    ],
+    "exemplos": [
+      {"frase": "A rosa hereditária.", "destaque": "A", "explicacao": "Artigo definido: determina o substantivo 'rosa'."},
+      {"frase": "Uma aluna perguntou.", "destaque": "Uma", "explicacao": "Artigo indefinido: apresenta a aluna de modo indeterminado."},
+      {"frase": "O bom sempre vence.", "destaque": "O", "explicacao": "Artigo com efeito substantivador sobre 'bom'."}
+    ],
+    "contraexemplos": [
+      {"frase": "Entreguei a carta a Maria.", "destaque": "a Maria", "explicacao": "Aqui 'a' antes de 'Maria' é preposição exigida pelo verbo 'entregar' (entregar algo a alguém). O primeiro 'a' (a carta) é artigo."},
+      {"frase": "Eu a vi ontem.", "destaque": "a", "explicacao": "'a' substitui um nome feminino (vi ela → a vi): pronome oblíquo, não artigo."}
+    ],
+    "excecoes": [
+      "Antes de nomes próprios de pessoa, o uso do artigo varia regionalmente ('Maria chegou' / 'A Maria chegou').",
+      "Com 'todo' + artigo, o sentido muda: 'todo o bolo' (inteiro) × 'todo bolo' (qualquer bolo), segundo a tradição gramatical."
+    ],
+    "comparacoes": [
+      {"frase": "Comprei um livro.", "palavra": "um", "classificacao": "Artigo indefinido", "explicacao": "Apresenta o livro sem especificá-lo."},
+      {"frase": "Comprei um livro, e não dois.", "palavra": "um", "classificacao": "Numeral cardinal", "explicacao": "O contexto opõe quantidades: indica quantidade exata."},
+      {"frase": "Eu a vi ontem.", "palavra": "a", "classificacao": "Pronome pessoal oblíquo", "explicacao": "Substitui um nome; não acompanha substantivo."}
+    ],
+    "logica": {
+      "pseudocodigo": "SE a palavra é o, a, os, as, um, uma, uns, umas\n    SE vem antes de um substantivo (ou palavra substantivada) e o determina\n        investigar ARTIGO\n    SENÃO SE substitui um nome junto a um verbo\n        investigar PRONOME OBLÍQUO\n    SENÃO SE liga termos e é exigida por verbo ou nome\n        investigar PREPOSIÇÃO\n    SE é 'um' e o contexto opõe quantidades\n        investigar NUMERAL",
+      "python": "def investigar_artigo(palavra, frase):\n    if palavra.lower() not in {'o', 'a', 'os', 'as', 'um', 'uma', 'uns', 'umas'}:\n        return 'não é forma de artigo'\n    proxima = proxima_palavra(palavra, frase)\n    if determina_nome(palavra, proxima):\n        if palavra.lower() in {'um', 'uma'} and contexto_de_quantidade(frase):\n            return 'investigar numeral'\n        return 'artigo'\n    if substitui_nome_junto_a_verbo(palavra, frase):\n        return 'investigar pronome oblíquo'\n    return 'investigar preposição'",
+      "fluxograma": "digraph G { rankdir=TB; node [shape=box, style=rounded, fontname=Helvetica]; a [label=\"o, a, um, uma...\"]; b [shape=diamond, label=\"Determina um nome seguinte?\"]; c [shape=diamond, label=\"'um' com ideia de quantidade?\"]; d [label=\"Artigo\"]; e [label=\"Numeral\"]; f [shape=diamond, label=\"Substitui nome junto a verbo?\"]; g [label=\"Pronome oblíquo\"]; h [label=\"Investigar preposição\"]; a -> b; b -> c [label=\"sim\"]; c -> e [label=\"sim\"]; c -> d [label=\"não\"]; b -> f [label=\"não\"]; f -> g [label=\"sim\"]; f -> h [label=\"não\"]; }",
+      "limitacoes": [
+        "A diferença entre artigo indefinido e numeral 'um' às vezes depende de intenção comunicativa e pode ser ambígua.",
+        "O artigo revela o emprego substantivo, mas não define a classe de dicionário da palavra seguinte."
+      ]
+    }
+  },
+  {
+    "id": "licao_pronome",
+    "area": "nomes",
+    "assunto": "pronome",
+    "titulo": "Pronome: substituir ou acompanhar o nome",
+    "nivel": "intermediario",
+    "classe_ou_expressao": "Classe gramatical (variável)",
+    "conceito": "Pronome é a palavra que substitui ou acompanha o substantivo, indicando-o em relação às pessoas do discurso (quem fala, com quem se fala, de quem se fala) ou situando-o no espaço, no tempo ou no próprio texto. Quando substitui o nome, é pronome substantivo; quando o acompanha, é pronome adjetivo.",
+    "subtopicos": [
+      {"titulo": "Pronome substantivo × pronome adjetivo", "texto": "Pronome substantivo ocupa o lugar do nome ('Este é meu'); pronome adjetivo acompanha o nome ('Este livro é meu' — 'Este' acompanha 'livro'). Note que em 'é meu' o possessivo também está sem nome ao lado, funcionando como substantivo.", "exemplos": ["Este livro é bom. (adjetivo)", "Este é bom. (substantivo)"]},
+      {"titulo": "Pessoais", "texto": "Retos (eu, tu, ele/ela, nós, vós, eles/elas), oblíquos átonos (me, te, se, o, a, lhe, nos, vos, os, as, lhes) e tônicos (mim, ti, si, ele, nós...), além dos de tratamento (você, senhor, Vossa Excelência). São sempre pronomes substantivos.", "exemplos": ["Ele respondeu rapidamente.", "Eu a encontrei."]},
+      {"titulo": "Possessivos", "texto": "Indicam posse em relação às pessoas do discurso: meu, teu, seu, nosso, vosso (e flexões).", "exemplos": ["Meu caderno sumiu."]},
+      {"titulo": "Demonstrativos", "texto": "Situam o ser no espaço, no tempo ou no texto: este, esse, aquele (e flexões), isto, isso, aquilo. Isto, isso e aquilo são sempre substantivos.", "exemplos": ["Aquela casa é antiga.", "Isso é verdade."]},
+      {"titulo": "Indefinidos", "texto": "Referem-se à 3ª pessoa de modo vago ou genérico: algum, nenhum, todo, outro, muito, pouco, certo, vários, qualquer, alguém, ninguém, tudo, nada.", "exemplos": ["Alguns alunos faltaram.", "Ninguém saiu."]},
+      {"titulo": "Relativos e interrogativos", "texto": "Relativos retomam um termo anterior e introduzem oração (que, o qual, quem, cujo, onde). Interrogativos introduzem perguntas (que, quem, qual, quanto).", "exemplos": ["O livro que li é ótimo.", "Quem chegou?"]}
+    ],
+    "regras": [
+      "Pergunta-chave: a palavra está no lugar de um nome ou ao lado de um nome?",
+      "Ao lado do nome → pronome adjetivo (determina, situa ou quantifica vagamente). No lugar do nome → pronome substantivo.",
+      "'muito' e 'pouco' são pronomes indefinidos quando acompanham substantivo e concordam com ele ('muitos alunos'); são advérbios quando modificam verbo, adjetivo ou advérbio e ficam invariáveis ('muito felizes').",
+      "Pronome adjetivo não caracteriza qualidade como o adjetivo; ele determina, situa ou indica posse."
+    ],
+    "exemplos": [
+      {"frase": "Ele respondeu rapidamente.", "destaque": "Ele", "explicacao": "Pronome pessoal reto: substitui um nome (pronome substantivo)."},
+      {"frase": "Aquela casa é antiga.", "destaque": "Aquela", "explicacao": "Pronome demonstrativo adjetivo: acompanha e situa 'casa'."},
+      {"frase": "Muitos alunos estudam à noite.", "destaque": "Muitos", "explicacao": "Pronome indefinido adjetivo: acompanha 'alunos' e concorda com ele."}
+    ],
+    "contraexemplos": [
+      {"frase": "Ele estava muito feliz.", "destaque": "muito", "explicacao": "Intensifica o adjetivo 'feliz' e é invariável: advérbio de intensidade, não pronome."},
+      {"frase": "Estudei porque precisava aprender.", "destaque": "porque", "explicacao": "Liga orações expressando causa: conjunção, não pronome."}
+    ],
+    "excecoes": [
+      "'que' é uma das palavras mais polivalentes: pronome relativo, interrogativo, conjunção integrante, advérbio de intensidade ('Que lindo!') e outras.",
+      "O possessivo sem nome ao lado ('O livro é meu') funciona como pronome substantivo na classificação tradicional; algumas gramáticas analisam como adjetivo com o nome subentendido."
+    ],
+    "comparacoes": [
+      {"frase": "Este livro é ótimo.", "palavra": "Este", "classificacao": "Pronome adjetivo", "explicacao": "Acompanha o substantivo 'livro'."},
+      {"frase": "Este é ótimo.", "palavra": "Este", "classificacao": "Pronome substantivo", "explicacao": "Ocupa o lugar do nome."},
+      {"frase": "Ele estava muito feliz.", "palavra": "muito", "classificacao": "Advérbio", "explicacao": "Intensifica um adjetivo; é invariável."}
+    ],
+    "logica": {
+      "pseudocodigo": "SE a palavra remete a pessoa do discurso, situa ou indica posse/quantidade vaga\n    SE está ao lado de um substantivo\n        PRONOME ADJETIVO\n    SENÃO\n        PRONOME SUBSTANTIVO\nSE é muito/pouco/bastante\n    SE acompanha nome e concorda -> pronome indefinido\n    SE modifica verbo/adjetivo/advérbio e é invariável -> advérbio",
+      "python": "def investigar_pronome(palavra, frase):\n    if palavra.lower() in {'muito', 'pouco', 'bastante'}:\n        if acompanha_substantivo(palavra, frase):\n            return 'pronome indefinido adjetivo'\n        return 'investigar advérbio de intensidade'\n    if acompanha_substantivo(palavra, frase):\n        return 'pronome adjetivo'\n    if ocupa_lugar_de_nome(palavra, frase):\n        return 'pronome substantivo'\n    return 'analisar o contexto completo'",
+      "fluxograma": "digraph G { rankdir=TB; node [shape=box, style=rounded, fontname=Helvetica]; a [label=\"Palavra pronominal\"]; b [shape=diamond, label=\"Está ao lado de um nome?\"]; c [label=\"Pronome adjetivo\"]; d [shape=diamond, label=\"Ocupa o lugar de um nome?\"]; e [label=\"Pronome substantivo\"]; f [label=\"Rever: advérbio? conjunção?\"]; a -> b; b -> c [label=\"sim\"]; b -> d [label=\"não\"]; d -> e [label=\"sim\"]; d -> f [label=\"não\"]; }",
+      "limitacoes": [
+        "Palavras como 'que', 'muito', 'certo' e 'todo' mudam de classe conforme a construção.",
+        "A classificação de possessivos em frases como 'O livro é meu' varia entre autores."
+      ]
+    }
+  },
+  {
+    "id": "licao_numeral",
+    "area": "nomes",
+    "assunto": "numeral",
+    "titulo": "Numeral: quantificar e ordenar",
+    "nivel": "iniciante",
+    "classe_ou_expressao": "Classe gramatical",
+    "conceito": "Numeral é a palavra que indica quantidade exata, ordem, multiplicação ou fração de seres. Quando acompanha o substantivo, é numeral adjetivo ('duas meninas'); quando o substitui, é numeral substantivo ('Chegaram duas').",
+    "subtopicos": [
+      {"titulo": "Cardinal", "texto": "Indica quantidade exata: um, dois, três, cem, mil.", "exemplos": ["As duas meninas chegaram."]},
+      {"titulo": "Ordinal", "texto": "Indica ordem ou posição numa série: primeiro, segundo, décimo, centésimo.", "exemplos": ["Ela ficou em primeiro lugar."]},
+      {"titulo": "Multiplicativo", "texto": "Indica multiplicação: dobro, triplo, duplo, quádruplo.", "exemplos": ["Paguei o dobro."]},
+      {"titulo": "Fracionário", "texto": "Indica divisão: metade, meio, terço, quarto, décimo (em frações).", "exemplos": ["Comi um terço do bolo."]},
+      {"titulo": "Identificação contextual", "texto": "Numeral adjetivo acompanha o nome ('três livros', 'segundo andar'); numeral substantivo ocupa o lugar do nome ('Comprei três', 'O dobro é muito').", "exemplos": ["Quero dois.", "dois cafés"]}
+    ],
+    "regras": [
+      "Pergunta-chave: a palavra exprime quantidade exata, ordem, multiplicação ou fração?",
+      "Palavras de quantidade vaga (muitos, poucos, vários) não são numerais: são pronomes indefinidos.",
+      "'um/uma' pode ser numeral ou artigo indefinido; o contexto de contagem indica numeral.",
+      "'primeiro' pode ser advérbio quando significa 'antes': 'Primeiro, leia o texto.'"
+    ],
+    "exemplos": [
+      {"frase": "As duas meninas chegaram.", "destaque": "duas", "explicacao": "Numeral cardinal adjetivo: acompanha 'meninas' indicando quantidade exata."},
+      {"frase": "Moro no terceiro andar.", "destaque": "terceiro", "explicacao": "Numeral ordinal adjetivo: indica a posição do andar."},
+      {"frase": "Ele ganhou o dobro.", "destaque": "dobro", "explicacao": "Numeral multiplicativo substantivo: não acompanha nome."}
+    ],
+    "contraexemplos": [
+      {"frase": "Vários alunos chegaram.", "destaque": "Vários", "explicacao": "Quantidade imprecisa: pronome indefinido, não numeral."},
+      {"frase": "Primeiro, leia o enunciado.", "destaque": "Primeiro", "explicacao": "Indica 'antes de tudo', modificando o verbo: valor de advérbio."}
+    ],
+    "excecoes": [
+      "'Milhão', 'bilhão' e 'dezena' são frequentemente tratados como substantivos numéricos por exigirem 'de' ('um milhão de pessoas'); a classificação varia entre gramáticas.",
+      "'meio' é numeral fracionário em 'meio quilo', mas advérbio em 'ela está meio cansada' (invariável)."
+    ],
+    "comparacoes": [
+      {"frase": "As duas meninas chegaram.", "palavra": "duas", "classificacao": "Numeral adjetivo", "explicacao": "Acompanha o substantivo."},
+      {"frase": "Chegaram duas.", "palavra": "duas", "classificacao": "Numeral substantivo", "explicacao": "Ocupa o lugar do nome."},
+      {"frase": "Ela está meio cansada.", "palavra": "meio", "classificacao": "Advérbio", "explicacao": "Modifica o adjetivo e é invariável."}
+    ],
+    "logica": {
+      "pseudocodigo": "SE a palavra exprime quantidade EXATA, ordem, multiplicação ou fração\n    SE acompanha substantivo -> NUMERAL ADJETIVO\n    SENÃO -> NUMERAL SUBSTANTIVO\nSENÃO SE exprime quantidade vaga\n    investigar PRONOME INDEFINIDO",
+      "python": "def investigar_numeral(palavra, frase):\n    tipo = tipo_numerico(palavra)  # cardinal, ordinal, multiplicativo, fracionário ou None\n    if tipo is None:\n        if quantidade_vaga(palavra):\n            return 'investigar pronome indefinido'\n        return 'não é numeral'\n    if acompanha_substantivo(palavra, frase):\n        return f'numeral {tipo} adjetivo'\n    return f'numeral {tipo} substantivo'",
+      "fluxograma": "digraph G { rankdir=TB; node [shape=box, style=rounded, fontname=Helvetica]; a [label=\"Palavra\"]; b [shape=diamond, label=\"Quantidade exata, ordem, multiplicação ou fração?\"]; c [shape=diamond, label=\"Acompanha nome?\"]; d [label=\"Numeral adjetivo\"]; e [label=\"Numeral substantivo\"]; f [shape=diamond, label=\"Quantidade vaga?\"]; g [label=\"Pronome indefinido\"]; h [label=\"Analisar contexto\"]; a -> b; b -> c [label=\"sim\"]; c -> d [label=\"sim\"]; c -> e [label=\"não\"]; b -> f [label=\"não\"]; f -> g [label=\"sim\"]; f -> h [label=\"não\"]; }",
+      "limitacoes": [
+        "'um' exige decidir entre artigo e numeral, o que nem sempre é inequívoco.",
+        "Palavras como 'primeiro' e 'meio' migram para o valor adverbial."
+      ]
+    }
+  }
+]

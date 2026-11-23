@@ -1,0 +1,368 @@
+[
+  {
+    "id": "N01", "area": "nomes", "assunto": "substantivo", "dificuldade": "iniciante", "tipo": "identificar_classe",
+    "texto_base": "O jovem chegou.", "destaque": "jovem",
+    "enunciado": "Qual é a classe morfológica de 'jovem' nesta frase?",
+    "alternativas": [
+      {"letra": "A", "texto": "Substantivo", "comentario": null},
+      {"letra": "B", "texto": "Adjetivo", "comentario": "Você confundiu o emprego substantivo com o adjetivo. Não há outro nome na frase para 'jovem' caracterizar: ele próprio nomeia a pessoa."},
+      {"letra": "C", "texto": "Advérbio", "comentario": "'jovem' não modifica o verbo 'chegou'; ele é quem chega."},
+      {"letra": "D", "texto": "Verbo", "comentario": "'jovem' não flexiona em pessoa e tempo; o verbo da frase é 'chegou'."}
+    ],
+    "resposta": "A",
+    "justificativa": "Em 'O jovem chegou', 'jovem' nomeia a pessoa que chega e é o núcleo da expressão 'O jovem'. Não há outro substantivo a ser caracterizado.",
+    "regra": "A classe depende do contexto: palavras como 'jovem' são substantivo quando nomeiam o ser, e adjetivo quando caracterizam outro nome.",
+    "exemplos_relacionados": ["O professor jovem chegou. (adjetivo)", "Os velhos contam histórias. (substantivo)"],
+    "tags": ["contexto", "substantivo", "jovem"]
+  },
+  {
+    "id": "N02", "area": "nomes", "assunto": "adjetivo", "dificuldade": "iniciante", "tipo": "identificar_classe",
+    "texto_base": "O professor jovem chegou.", "destaque": "jovem",
+    "enunciado": "Qual é a classe morfológica de 'jovem' nesta frase?",
+    "alternativas": [
+      {"letra": "A", "texto": "Substantivo", "comentario": "O núcleo da expressão é 'professor'. 'jovem' não nomeia ninguém aqui; atribui uma característica ao professor."},
+      {"letra": "B", "texto": "Adjetivo", "comentario": null},
+      {"letra": "C", "texto": "Advérbio", "comentario": "Advérbios modificam verbos, adjetivos ou advérbios; 'jovem' se refere ao substantivo 'professor'."},
+      {"letra": "D", "texto": "Artigo", "comentario": "O artigo da frase é 'O', que determina 'professor'."}
+    ],
+    "resposta": "B",
+    "justificativa": "'jovem' caracteriza o substantivo 'professor', núcleo da expressão 'O professor jovem'.",
+    "regra": "Adjetivo é a palavra que caracteriza um substantivo presente no contexto.",
+    "exemplos_relacionados": ["A menina inteligente chegou.", "O aluno dedicado estudou."],
+    "tags": ["contexto", "adjetivo", "jovem"]
+  },
+  {
+    "id": "N03", "area": "nomes", "assunto": "adjetivo", "dificuldade": "iniciante", "tipo": "comparar",
+    "texto_base": "(I) O jovem chegou.\n(II) O professor jovem chegou.",
+    "enunciado": "Compare o emprego de 'jovem' nas frases I e II. Assinale a alternativa correta.",
+    "alternativas": [
+      {"letra": "A", "texto": "Nas duas frases, 'jovem' é adjetivo.", "comentario": "Em I não há substantivo para 'jovem' caracterizar; ele mesmo nomeia a pessoa."},
+      {"letra": "B", "texto": "Em I, 'jovem' é substantivo; em II, é adjetivo.", "comentario": null},
+      {"letra": "C", "texto": "Em I, 'jovem' é adjetivo; em II, é substantivo.", "comentario": "A relação está invertida: em II o núcleo é 'professor', e 'jovem' o caracteriza."},
+      {"letra": "D", "texto": "Nas duas frases, 'jovem' é substantivo.", "comentario": "Em II, 'jovem' caracteriza 'professor'."}
+    ],
+    "resposta": "B",
+    "justificativa": "Em I, 'jovem' é o núcleo nominal (nomeia quem chegou). Em II, o núcleo é 'professor' e 'jovem' é seu caracterizador.",
+    "regra": "Uma mesma palavra pode mudar de classe conforme sua relação com os demais termos.",
+    "exemplos_relacionados": ["O brasileiro venceu. / O atleta brasileiro venceu."],
+    "tags": ["comparar", "contexto", "substantivo", "adjetivo"]
+  },
+  {
+    "id": "N04", "area": "nomes", "assunto": "substantivo", "dificuldade": "intermediario", "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa que contém apenas substantivos abstratos.",
+    "alternativas": [
+      {"letra": "A", "texto": "mesa, fada, vento", "comentario": "Os três são concretos: nomeiam seres de existência própria (fada é imaginária, mas concreta)."},
+      {"letra": "B", "texto": "saudade, beleza, corrida", "comentario": null},
+      {"letra": "C", "texto": "Deus, amor, pedra", "comentario": "'Deus' e 'pedra' são concretos; só 'amor' é abstrato."},
+      {"letra": "D", "texto": "cardume, tristeza, livro", "comentario": "'cardume' e 'livro' são concretos."}
+    ],
+    "resposta": "B",
+    "justificativa": "Saudade (sentimento), beleza (qualidade) e corrida (ação) dependem de outro ser para existir: são abstratos.",
+    "regra": "Abstrato nomeia ação, estado, qualidade ou sentimento; concreto nomeia ser de existência própria, real ou imaginária.",
+    "exemplos_relacionados": ["O amor é essencial. (abstrato)", "A fada sumiu. (concreto)"],
+    "tags": ["concreto", "abstrato"]
+  },
+  {
+    "id": "N05", "area": "nomes", "assunto": "substantivo", "dificuldade": "iniciante", "tipo": "verdadeiro_falso",
+    "enunciado": "Julgue: 'Fada' é um substantivo abstrato, pois fadas não existem no mundo real.",
+    "alternativas": [
+      {"letra": "V", "texto": "Verdadeiro", "comentario": "O critério de abstrato não é existir no mundo real, e sim depender de outro ser. A fada é concebida como ser independente."},
+      {"letra": "F", "texto": "Falso", "comentario": null}
+    ],
+    "resposta": "F",
+    "justificativa": "'Fada' é substantivo concreto: nomeia um ser com existência própria, ainda que imaginária.",
+    "regra": "Concreto não significa 'tocável' ou 'real'; significa ser de existência independente.",
+    "exemplos_relacionados": ["saci, Deus, alma (concretos)", "coragem, medo (abstratos)"],
+    "tags": ["concreto", "abstrato", "pegadinha"]
+  },
+  {
+    "id": "N06", "area": "nomes", "assunto": "substantivo", "dificuldade": "iniciante", "tipo": "associacao",
+    "enunciado": "Associe cada substantivo coletivo ao conjunto que ele nomeia.",
+    "pares": [
+      {"item": "cardume", "resposta": "peixes"},
+      {"item": "alcateia", "resposta": "lobos"},
+      {"item": "arquipélago", "resposta": "ilhas"},
+      {"item": "enxame", "resposta": "abelhas"}
+    ],
+    "resposta": "cardume=peixes; alcateia=lobos; arquipélago=ilhas; enxame=abelhas",
+    "justificativa": "Coletivos nomeiam, no singular, conjuntos de seres da mesma espécie.",
+    "regra": "Substantivo coletivo: forma singular que designa um agrupamento.",
+    "exemplos_relacionados": ["constelação (estrelas)", "biblioteca (livros)"],
+    "tags": ["coletivo"]
+  },
+  {
+    "id": "N07", "area": "nomes", "assunto": "substantivo", "dificuldade": "intermediario", "tipo": "identificar_classe",
+    "texto_base": "O bom sempre vence.", "destaque": "bom",
+    "enunciado": "Nesta frase, como se classifica 'bom'?",
+    "alternativas": [
+      {"letra": "A", "texto": "Adjetivo, caracterizando o artigo 'O'", "comentario": "Adjetivos caracterizam substantivos, não artigos. Não há substantivo para 'bom' caracterizar."},
+      {"letra": "B", "texto": "Substantivo (adjetivo substantivado)", "comentario": null},
+      {"letra": "C", "texto": "Advérbio de modo", "comentario": "'bom' não modifica o verbo 'vence'; é quem vence."},
+      {"letra": "D", "texto": "Pronome indefinido", "comentario": "'bom' não tem valor pronominal; nomeia quem é bom."}
+    ],
+    "resposta": "B",
+    "justificativa": "Precedido de artigo e sem substantivo a caracterizar, 'bom' passa a nomear (a pessoa boa, o que é bom). É um adjetivo de origem em emprego substantivo.",
+    "regra": "Substantivação: palavras de outras classes podem funcionar como substantivo quando tomadas como nome, geralmente com um determinante.",
+    "exemplos_relacionados": ["O amanhã é incerto.", "Recebi um não."],
+    "tags": ["substantivação", "contexto"]
+  },
+  {
+    "id": "N08", "area": "nomes", "assunto": "adjetivo", "dificuldade": "iniciante", "tipo": "encontrar_erro",
+    "texto_base": "Análise de um estudante para 'A menina inteligente chegou.':\nA = artigo | menina = substantivo | inteligente = substantivo | chegou = verbo",
+    "enunciado": "Qual classificação está errada?",
+    "alternativas": [
+      {"letra": "A", "texto": "'A' como artigo", "comentario": "'A' determina 'menina': é artigo definido. Está correto."},
+      {"letra": "B", "texto": "'menina' como substantivo", "comentario": "'menina' é o núcleo nominal: substantivo. Está correto."},
+      {"letra": "C", "texto": "'inteligente' como substantivo", "comentario": null},
+      {"letra": "D", "texto": "'chegou' como verbo", "comentario": "'chegou' flexiona (chegaram, chegará): verbo. Está correto."}
+    ],
+    "resposta": "C",
+    "justificativa": "'inteligente' caracteriza 'menina' e, portanto, é adjetivo. O estudante a classificou como substantivo só por estar ao lado de um nome.",
+    "regra": "Estar perto de um substantivo não define a classe; o que define é a relação com ele (caracterizar = adjetivo).",
+    "exemplos_relacionados": ["A menina inteligente respondeu rapidamente à questão."],
+    "tags": ["encontrar_erro", "adjetivo"]
+  },
+  {
+    "id": "N09", "area": "nomes", "assunto": "adjetivo", "dificuldade": "intermediario", "tipo": "multipla_escolha",
+    "enunciado": "Em qual par a mudança de posição do adjetivo altera o sentido da expressão?",
+    "alternativas": [
+      {"letra": "A", "texto": "grande homem / homem grande", "comentario": null},
+      {"letra": "B", "texto": "casa bonita / bonita casa", "comentario": "A anteposição dá ênfase ou tom afetivo, mas a qualidade atribuída continua a mesma."},
+      {"letra": "C", "texto": "dia lindo / lindo dia", "comentario": "Diferença apenas estilística."},
+      {"letra": "D", "texto": "aluno dedicado / dedicado aluno", "comentario": "Diferença apenas estilística."}
+    ],
+    "resposta": "A",
+    "justificativa": "'grande homem' = homem notável, importante; 'homem grande' = homem de grande estatura.",
+    "regra": "Alguns adjetivos mudam de sentido conforme a posição: grande, pobre, velho, simples, certo.",
+    "exemplos_relacionados": ["pobre menino / menino pobre", "velho amigo / amigo velho"],
+    "tags": ["posição do adjetivo", "sentido"]
+  },
+  {
+    "id": "N10", "area": "nomes", "assunto": "adjetivo", "dificuldade": "iniciante", "tipo": "identificar_palavra",
+    "texto_base": "A prova estava difícil.",
+    "enunciado": "Qual palavra da frase é adjetivo?",
+    "alternativas": [
+      {"letra": "A", "texto": "A", "comentario": "'A' é artigo: determina 'prova'."},
+      {"letra": "B", "texto": "prova", "comentario": "'prova' é o substantivo caracterizado."},
+      {"letra": "C", "texto": "estava", "comentario": "'estava' é verbo de ligação."},
+      {"letra": "D", "texto": "difícil", "comentario": null}
+    ],
+    "resposta": "D",
+    "justificativa": "'difícil' caracteriza 'prova', mesmo separado dela pelo verbo de ligação 'estava'. Flexiona: 'as provas estavam difíceis'.",
+    "regra": "O adjetivo pode estar distante do substantivo, ligado a ele por verbo de ligação.",
+    "exemplos_relacionados": ["O amor é essencial.", "Ele estava muito feliz."],
+    "tags": ["adjetivo", "verbo de ligação"]
+  },
+  {
+    "id": "N11", "area": "nomes", "assunto": "locucao_adjetiva", "dificuldade": "iniciante", "tipo": "identificar_classe",
+    "texto_base": "A casa de madeira foi vendida.", "destaque": "de madeira",
+    "enunciado": "Como se classifica a expressão 'de madeira'?",
+    "alternativas": [
+      {"letra": "A", "texto": "Locução adverbial de lugar", "comentario": "A expressão não se refere ao verbo nem indica lugar; refere-se ao substantivo 'casa'."},
+      {"letra": "B", "texto": "Locução adjetiva", "comentario": null},
+      {"letra": "C", "texto": "Complemento exigido pelo verbo", "comentario": "O verbo 'foi vendida' não exige preposição 'de'."},
+      {"letra": "D", "texto": "Locução verbal", "comentario": "A locução verbal da frase é 'foi vendida'."}
+    ],
+    "resposta": "B",
+    "justificativa": "'de madeira' caracteriza 'casa' (que tipo de casa?), com valor de adjetivo. Internamente: 'de' (preposição) + 'madeira' (substantivo).",
+    "regra": "Locução adjetiva: expressão, geralmente preposição + substantivo, que caracteriza um substantivo.",
+    "exemplos_relacionados": ["anel de ouro", "amor de mãe"],
+    "tags": ["locução adjetiva"]
+  },
+  {
+    "id": "N12", "area": "nomes", "assunto": "locucao_adjetiva", "dificuldade": "iniciante", "tipo": "completar",
+    "texto_base": "amor de mãe = amor ____",
+    "enunciado": "Complete com o adjetivo equivalente à locução adjetiva.",
+    "alternativas": [
+      {"letra": "A", "texto": "materno", "comentario": null},
+      {"letra": "B", "texto": "paterno", "comentario": "'paterno' corresponde a 'de pai'."},
+      {"letra": "C", "texto": "fraterno", "comentario": "'fraterno' corresponde a 'de irmão'."},
+      {"letra": "D", "texto": "filial", "comentario": "'filial' corresponde a 'de filho'."}
+    ],
+    "resposta": "A",
+    "justificativa": "'de mãe' equivale a 'materno'.",
+    "regra": "Muitas locuções adjetivas têm adjetivo correspondente: de pai = paterno, de mãe = materno, da chuva = pluvial.",
+    "exemplos_relacionados": ["água da chuva = água pluvial", "vida do campo = vida rural"],
+    "tags": ["locução adjetiva", "equivalência"]
+  },
+  {
+    "id": "N13", "area": "nomes", "assunto": "locucao_adjetiva", "dificuldade": "intermediario", "tipo": "comparar",
+    "enunciado": "Em qual frase 'de madrugada' funciona como locução adjetiva?",
+    "alternativas": [
+      {"letra": "A", "texto": "João chegou de madrugada.", "comentario": "Aqui a expressão indica quando ocorreu a chegada: locução adverbial de tempo."},
+      {"letra": "B", "texto": "A festa de madrugada foi animada.", "comentario": null},
+      {"letra": "C", "texto": "Saí de madrugada.", "comentario": "Indica o tempo da ação 'saí': valor adverbial."},
+      {"letra": "D", "texto": "Estudei de madrugada.", "comentario": "Indica o tempo da ação 'estudei': valor adverbial."}
+    ],
+    "resposta": "B",
+    "justificativa": "Em B, 'de madrugada' caracteriza o substantivo 'festa' (que festa?). Nas demais, liga-se ao verbo indicando tempo.",
+    "regra": "A mesma expressão pode ter valor adjetivo (ligada a um nome) ou adverbial (ligada a um verbo).",
+    "exemplos_relacionados": ["A casa de madeira foi vendida."],
+    "tags": ["comparar", "locução adjetiva", "locução adverbial"]
+  },
+  {
+    "id": "N14", "area": "nomes", "assunto": "artigo", "dificuldade": "intermediario", "tipo": "identificar_classe",
+    "texto_base": "Entreguei a carta a Maria.",
+    "enunciado": "Classifique, respectivamente, o primeiro 'a' (antes de 'carta') e o segundo 'a' (antes de 'Maria').",
+    "alternativas": [
+      {"letra": "A", "texto": "artigo e artigo", "comentario": "O segundo 'a' é exigido pelo verbo 'entregar' (entregar algo a alguém); é preposição."},
+      {"letra": "B", "texto": "artigo e preposição", "comentario": null},
+      {"letra": "C", "texto": "preposição e artigo", "comentario": "Ordem invertida: o primeiro determina 'carta'; o segundo é exigido pelo verbo."},
+      {"letra": "D", "texto": "pronome e preposição", "comentario": "O primeiro 'a' acompanha o substantivo 'carta'; pronome oblíquo substituiria um nome."}
+    ],
+    "resposta": "B",
+    "justificativa": "O primeiro 'a' determina 'carta' (artigo). O segundo liga o verbo ao termo 'Maria', por exigência de 'entregar' (preposição). Sem acento grave, não há artigo junto dele.",
+    "regra": "'a' pode ser artigo, preposição ou pronome: identifique sua relação com os termos vizinhos.",
+    "exemplos_relacionados": ["Entreguei a carta à professora. (preposição + artigo)", "Eu a vi. (pronome)"],
+    "tags": ["artigo", "preposição", "a"]
+  },
+  {
+    "id": "N15", "area": "nomes", "assunto": "artigo", "dificuldade": "intermediario", "tipo": "identificar_classe",
+    "texto_base": "Eu a vi ontem.", "destaque": "a",
+    "enunciado": "Qual é a classe de 'a' nesta frase?",
+    "alternativas": [
+      {"letra": "A", "texto": "Artigo definido", "comentario": "O artigo antecede um substantivo; aqui 'a' está junto do verbo 'vi' e não há nome depois dele."},
+      {"letra": "B", "texto": "Preposição", "comentario": "'a' não liga dois termos aqui; ele é o próprio complemento do verbo."},
+      {"letra": "C", "texto": "Pronome pessoal oblíquo", "comentario": null},
+      {"letra": "D", "texto": "Numeral", "comentario": "Não há ideia de quantidade."}
+    ],
+    "resposta": "C",
+    "justificativa": "'a' substitui um nome feminino (vi a menina → a vi): pronome pessoal oblíquo átono, complemento de 'vi'.",
+    "regra": "Quando 'o/a' substitui um nome junto a um verbo, é pronome oblíquo, não artigo.",
+    "exemplos_relacionados": ["Comprei o livro e o li.", "A professora? Eu a encontrei."],
+    "tags": ["artigo", "pronome", "a"]
+  },
+  {
+    "id": "N16", "area": "nomes", "assunto": "numeral", "dificuldade": "intermediario", "tipo": "identificar_classe",
+    "texto_base": "Comprei um livro, e não dois.", "destaque": "um",
+    "enunciado": "Nesta frase, 'um' é:",
+    "alternativas": [
+      {"letra": "A", "texto": "Artigo indefinido", "comentario": "O contexto opõe 'um' a 'dois': a ideia é de quantidade exata, não de indeterminação."},
+      {"letra": "B", "texto": "Numeral cardinal", "comentario": null},
+      {"letra": "C", "texto": "Pronome indefinido", "comentario": "Pronome indefinido indica quantidade vaga; aqui a quantidade é exata."},
+      {"letra": "D", "texto": "Substantivo", "comentario": "'um' acompanha o substantivo 'livro'."}
+    ],
+    "resposta": "B",
+    "justificativa": "A oposição 'um... e não dois' revela contagem: 'um' indica quantidade exata.",
+    "regra": "'um' é numeral quando o contexto destaca a quantidade; é artigo quando apenas indetermina o ser.",
+    "exemplos_relacionados": ["Comprei um livro. (artigo)", "Só tenho um irmão. (numeral)"],
+    "tags": ["numeral", "artigo", "um"]
+  },
+  {
+    "id": "N17", "area": "nomes", "assunto": "artigo", "dificuldade": "intermediario", "tipo": "verdadeiro_falso",
+    "enunciado": "Julgue: a presença de um artigo antes de uma palavra prova que ela é, por natureza, um substantivo.",
+    "alternativas": [
+      {"letra": "V", "texto": "Verdadeiro", "comentario": "O artigo indica emprego substantivo naquele contexto, mas a palavra pode ser de outra classe de origem: 'o bom', 'o não', 'o amanhã'."},
+      {"letra": "F", "texto": "Falso", "comentario": null}
+    ],
+    "resposta": "F",
+    "justificativa": "O artigo pode substantivar palavras de outras classes. Ele revela o uso, não a classe original.",
+    "regra": "Não pressupor que o artigo determina, sozinho, a classe lexical original da palavra seguinte.",
+    "exemplos_relacionados": ["O bom sempre vence.", "Não entendi o porquê."],
+    "tags": ["artigo", "substantivação", "pegadinha"]
+  },
+  {
+    "id": "N18", "area": "nomes", "assunto": "pronome", "dificuldade": "intermediario", "tipo": "identificar_classe",
+    "texto_base": "Este livro é ótimo, mas aquele é melhor.",
+    "enunciado": "Classifique, respectivamente, 'Este' e 'aquele'.",
+    "alternativas": [
+      {"letra": "A", "texto": "Ambos são pronomes adjetivos.", "comentario": "'aquele' não acompanha substantivo; ocupa o lugar de 'aquele livro'."},
+      {"letra": "B", "texto": "'Este' é pronome adjetivo; 'aquele' é pronome substantivo.", "comentario": null},
+      {"letra": "C", "texto": "'Este' é pronome substantivo; 'aquele' é pronome adjetivo.", "comentario": "Invertido: 'Este' acompanha 'livro'."},
+      {"letra": "D", "texto": "Ambos são pronomes substantivos.", "comentario": "'Este' acompanha o substantivo 'livro'."}
+    ],
+    "resposta": "B",
+    "justificativa": "'Este' acompanha 'livro' (pronome adjetivo); 'aquele' substitui 'aquele livro' (pronome substantivo).",
+    "regra": "Pronome ao lado do nome = adjetivo; no lugar do nome = substantivo.",
+    "exemplos_relacionados": ["Meu caderno sumiu. (adjetivo)", "O caderno é meu. (substantivo)"],
+    "tags": ["pronome adjetivo", "pronome substantivo", "demonstrativo"]
+  },
+  {
+    "id": "N19", "area": "nomes", "assunto": "pronome", "dificuldade": "intermediario", "tipo": "multipla_escolha",
+    "enunciado": "Em qual alternativa a palavra destacada entre aspas é pronome indefinido?",
+    "alternativas": [
+      {"letra": "A", "texto": "Ele estava 'muito' feliz.", "comentario": "'muito' intensifica o adjetivo 'feliz' e é invariável: advérbio."},
+      {"letra": "B", "texto": "Ela estuda 'muito'.", "comentario": "'muito' modifica o verbo 'estuda' (intensidade): advérbio."},
+      {"letra": "C", "texto": "Tenho 'muitos' livros.", "comentario": null},
+      {"letra": "D", "texto": "Chegou 'muito' cedo.", "comentario": "'muito' intensifica o advérbio 'cedo': advérbio."}
+    ],
+    "resposta": "C",
+    "justificativa": "'muitos' acompanha o substantivo 'livros' e concorda com ele (masculino plural): pronome indefinido adjetivo.",
+    "regra": "'muito' é pronome quando acompanha e concorda com um nome; é advérbio quando modifica verbo, adjetivo ou advérbio e fica invariável.",
+    "exemplos_relacionados": ["Poucas pessoas vieram. (pronome)", "Dormi pouco. (advérbio)"],
+    "tags": ["pronome indefinido", "advérbio", "muito"]
+  },
+  {
+    "id": "N20", "area": "nomes", "assunto": "pronome", "dificuldade": "iniciante", "tipo": "identificar_classe",
+    "texto_base": "Ele respondeu rapidamente.", "destaque": "Ele",
+    "enunciado": "Qual é a classificação de 'Ele'?",
+    "alternativas": [
+      {"letra": "A", "texto": "Pronome pessoal do caso reto (pronome substantivo)", "comentario": null},
+      {"letra": "B", "texto": "Pronome adjetivo", "comentario": "Não há substantivo ao lado de 'Ele'; ele ocupa o lugar do nome."},
+      {"letra": "C", "texto": "Artigo", "comentario": "'Ele' não determina um substantivo seguinte."},
+      {"letra": "D", "texto": "Substantivo próprio", "comentario": "'Ele' não nomeia um ser específico; refere-se a alguém já conhecido no discurso (3ª pessoa)."}
+    ],
+    "resposta": "A",
+    "justificativa": "'Ele' representa a 3ª pessoa do discurso e ocupa o lugar de um nome: pronome pessoal reto, com valor de pronome substantivo.",
+    "regra": "Pronomes pessoais retos (eu, tu, ele, nós, vós, eles) substituem nomes.",
+    "exemplos_relacionados": ["Nós chegamos cedo.", "Elas estudaram."],
+    "tags": ["pronome pessoal"]
+  },
+  {
+    "id": "N21", "area": "nomes", "assunto": "numeral", "dificuldade": "iniciante", "tipo": "identificar_classe",
+    "texto_base": "As duas meninas chegaram.", "destaque": "duas",
+    "enunciado": "Classifique 'duas'.",
+    "alternativas": [
+      {"letra": "A", "texto": "Numeral cardinal adjetivo", "comentario": null},
+      {"letra": "B", "texto": "Numeral ordinal", "comentario": "Ordinais indicam posição (primeira, segunda); 'duas' indica quantidade."},
+      {"letra": "C", "texto": "Pronome indefinido", "comentario": "A quantidade é exata, não vaga."},
+      {"letra": "D", "texto": "Artigo indefinido", "comentario": "O artigo da frase é 'As'."}
+    ],
+    "resposta": "A",
+    "justificativa": "'duas' indica quantidade exata e acompanha o substantivo 'meninas': numeral cardinal com valor adjetivo.",
+    "regra": "Numeral que acompanha substantivo é numeral adjetivo; o cardinal indica quantidade exata.",
+    "exemplos_relacionados": ["Comprei três livros.", "Chegaram duas. (numeral substantivo)"],
+    "tags": ["numeral", "cardinal"]
+  },
+  {
+    "id": "N22", "area": "nomes", "assunto": "numeral", "dificuldade": "iniciante", "tipo": "associacao",
+    "enunciado": "Associe cada numeral ao seu tipo.",
+    "pares": [
+      {"item": "terceiro", "resposta": "ordinal"},
+      {"item": "dobro", "resposta": "multiplicativo"},
+      {"item": "metade", "resposta": "fracionário"},
+      {"item": "cinco", "resposta": "cardinal"}
+    ],
+    "resposta": "terceiro=ordinal; dobro=multiplicativo; metade=fracionário; cinco=cardinal",
+    "justificativa": "Ordinal indica ordem; multiplicativo, multiplicação; fracionário, divisão; cardinal, quantidade.",
+    "regra": "Tipos de numeral: cardinal, ordinal, multiplicativo e fracionário.",
+    "exemplos_relacionados": ["Moro no terceiro andar.", "Paguei o dobro."],
+    "tags": ["numeral"]
+  },
+  {
+    "id": "N23", "area": "nomes", "assunto": "numeral", "dificuldade": "intermediario", "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa em que a palavra entre aspas NÃO é numeral.",
+    "alternativas": [
+      {"letra": "A", "texto": "Moro no 'terceiro' andar.", "comentario": "'terceiro' é numeral ordinal."},
+      {"letra": "B", "texto": "Ganhei o 'dobro'.", "comentario": "'dobro' é numeral multiplicativo."},
+      {"letra": "C", "texto": "'Vários' alunos faltaram.", "comentario": null},
+      {"letra": "D", "texto": "Comi 'metade' do bolo.", "comentario": "'metade' é numeral fracionário."}
+    ],
+    "resposta": "C",
+    "justificativa": "'Vários' indica quantidade imprecisa: é pronome indefinido. Numerais indicam quantidade exata, ordem, multiplicação ou fração.",
+    "regra": "Quantidade vaga → pronome indefinido; quantidade exata → numeral.",
+    "exemplos_relacionados": ["Poucos vieram.", "Muitos alunos estudam."],
+    "tags": ["numeral", "pronome indefinido"]
+  },
+  {
+    "id": "N24", "area": "nomes", "assunto": "adjetivo", "dificuldade": "intermediario", "tipo": "justificativa",
+    "texto_base": "O jovem estudante chegou cedo.", "destaque": "jovem",
+    "enunciado": "Explique, com suas palavras, por que 'jovem' é adjetivo nesta frase.",
+    "resposta": "'jovem' caracteriza o substantivo 'estudante', que é o núcleo da expressão nominal 'O jovem estudante'. Como atribui uma característica a um nome presente na frase, funciona como adjetivo.",
+    "justificativa": "A justificativa precisa mencionar a relação de caracterização entre 'jovem' e o substantivo 'estudante'.",
+    "regra": "Adjetivo caracteriza um substantivo presente no contexto.",
+    "palavras_chave": ["caracteriza", "estudante", "substantivo"],
+    "exemplos_relacionados": ["O professor jovem chegou."],
+    "tags": ["justificativa", "adjetivo", "jovem"]
+  }
+]

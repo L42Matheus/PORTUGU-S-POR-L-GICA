@@ -1,0 +1,102 @@
+[
+  {
+    "id": "licao_preposicao",
+    "area": "conectivos",
+    "assunto": "preposicao",
+    "titulo": "Preposição: o conector que subordina um termo a outro",
+    "nivel": "iniciante",
+    "classe_ou_expressao": "Classe gramatical (invariável)",
+    "conceito": "Preposição é a palavra invariável que liga dois termos, subordinando o segundo (regido) ao primeiro (regente) e estabelecendo entre eles uma relação de sentido (posse, matéria, lugar, causa, finalidade...). Em 'Gosto de música', 'de' liga o verbo 'gosto' ao termo 'música'.",
+    "subtopicos": [
+      {"titulo": "Preposições essenciais", "texto": "Palavras que só funcionam como preposição: a, ante, após, até, com, contra, de, desde, em, entre, para, perante, por (per), sem, sob, sobre, trás.", "exemplos": ["Saí com meus amigos.", "Estudo para o concurso."]},
+      {"titulo": "Preposições acidentais", "texto": "Palavras de outras classes que eventualmente funcionam como preposição: conforme, segundo, durante, mediante, como, exceto, salvo, consoante, visto.", "exemplos": ["Agi conforme as regras.", "Dormi durante a aula."]},
+      {"titulo": "Locuções prepositivas", "texto": "Conjuntos de palavras terminados em preposição que funcionam como preposição: abaixo de, acerca de, a fim de, apesar de, de acordo com, em vez de, junto a, por causa de.", "exemplos": ["Saiu por causa da chuva.", "Falou acerca do tema."]},
+      {"titulo": "Combinação e contração", "texto": "Combinação: a preposição se une a outra palavra sem perder fonema (a + o = ao; a + onde = aonde). Contração: há perda de fonema (de + o = do; em + a = na; por + o = pelo; de + este = deste). A crase é a fusão de a (preposição) + a (artigo ou início de 'aquele'): à, às, àquele.", "exemplos": ["Fui ao mercado.", "Respondeu à questão."]},
+      {"titulo": "Relações de sentido", "texto": "A mesma preposição pode expressar relações diferentes: 'de' indica posse (livro de Pedro), matéria (casa de madeira), origem (vim de Natal), causa (chorou de medo).", "exemplos": ["livro de Pedro (posse)", "chorou de medo (causa)"]},
+      {"titulo": "Introdução à regência", "texto": "Alguns verbos e nomes exigem determinada preposição: gostar de, precisar de, obedecer a, responder a, confiança em, apto para. Esse é o campo da regência verbal e nominal.", "exemplos": ["Gosto de música.", "Tenho confiança em você."]}
+    ],
+    "regras": [
+      "Pergunta-chave: a palavra liga dois termos e subordina um ao outro?",
+      "Preposição normalmente liga termos (palavras ou expressões), não orações completas com verbo flexionado — essa é tarefa típica da conjunção.",
+      "Contrações (do, na, pelo, à) contêm duas classes: preposição + artigo (ou pronome). Analise as duas.",
+      "A relação de sentido depende dos termos ligados, não apenas da preposição."
+    ],
+    "exemplos": [
+      {"frase": "Gosto de música.", "destaque": "de", "explicacao": "Preposição exigida pelo verbo 'gostar' (regência); liga 'gosto' a 'música'."},
+      {"frase": "A casa de madeira foi vendida.", "destaque": "de", "explicacao": "Preposição com sentido de matéria, formando a locução adjetiva 'de madeira'."},
+      {"frase": "A menina respondeu à questão.", "destaque": "à", "explicacao": "Contração de a (preposição exigida por 'responder') + a (artigo que determina 'questão')."}
+    ],
+    "contraexemplos": [
+      {"frase": "Estudei, mas não aprendi.", "destaque": "mas", "explicacao": "Liga duas orações com ideia de oposição: conjunção, não preposição."},
+      {"frase": "A menina chegou.", "destaque": "A", "explicacao": "'A' determina o substantivo: artigo, não preposição."}
+    ],
+    "excecoes": [
+      "'a' pode ser preposição, artigo ou pronome; 'como' pode ser preposição acidental, conjunção ou advérbio.",
+      "Em 'Ele saiu sem falar', a preposição 'sem' introduz uma oração reduzida de infinitivo: preposições podem introduzir orações reduzidas."
+    ],
+    "comparacoes": [
+      {"frase": "Gosto de música.", "palavra": "de", "classificacao": "Preposição (exigida pelo verbo)", "explicacao": "Relação de regência."},
+      {"frase": "O menino chorou de medo.", "palavra": "de", "classificacao": "Preposição (sentido de causa)", "explicacao": "Introduz expressão de valor adverbial."},
+      {"frase": "Vim de Natal.", "palavra": "de", "classificacao": "Preposição (sentido de origem)", "explicacao": "Relação de procedência."}
+    ],
+    "logica": {
+      "pseudocodigo": "SE a palavra liga dois TERMOS e subordina o segundo ao primeiro\n    PREPOSIÇÃO\n    SE está fundida a artigo/pronome -> CONTRAÇÃO (analisar as duas partes)\n    identificar a RELAÇÃO de sentido (posse, matéria, causa, lugar...)\n    verificar se é EXIGIDA pelo termo regente (regência)\nSENÃO SE liga ORAÇÕES\n    investigar CONJUNÇÃO",
+      "python": "CONTRACOES = {'do': ('de', 'o'), 'na': ('em', 'a'), 'pelo': ('por', 'o'), 'à': ('a', 'a')}\n\ndef investigar_preposicao(palavra, frase):\n    if palavra.lower() in CONTRACOES:\n        prep, art = CONTRACOES[palavra.lower()]\n        return f'contração: preposição {prep} + artigo {art}'\n    if liga_oracoes(palavra, frase):\n        return 'investigar conjunção'\n    regente, regido = termos_ligados(palavra, frase)\n    return f'preposição ligando {regente} a {regido}'",
+      "fluxograma": "digraph G { rankdir=TB; node [shape=box, style=rounded, fontname=Helvetica]; a [label=\"Conectivo\"]; b [shape=diamond, label=\"Liga orações?\"]; c [label=\"Investigar conjunção\"]; d [shape=diamond, label=\"Fundido a artigo ou pronome?\"]; e [label=\"Contração: analisar as partes\"]; f [label=\"Preposição\"]; g [label=\"Relação de sentido e regência\"]; a -> b; b -> c [label=\"sim\"]; b -> d [label=\"não\"]; d -> e [label=\"sim\"]; d -> f [label=\"não\"]; e -> g; f -> g; }",
+      "limitacoes": [
+        "Preposições podem introduzir orações reduzidas (sem falar, para aprender), o que relativiza a regra 'liga termos'.",
+        "A relação de sentido é interpretativa e pode variar com o contexto."
+      ]
+    }
+  },
+  {
+    "id": "licao_conjuncao",
+    "area": "conectivos",
+    "assunto": "conjuncao",
+    "titulo": "Conjunção: o conector de orações e termos equivalentes",
+    "nivel": "intermediario",
+    "classe_ou_expressao": "Classe gramatical (invariável)",
+    "conceito": "Conjunção é a palavra invariável que liga orações (ou termos de mesma função), estabelecendo entre elas uma relação lógico-semântica: adição, oposição, causa, condição, concessão, finalidade, tempo etc. Trocar a conjunção pode trocar o sentido de toda a frase.",
+    "subtopicos": [
+      {"titulo": "Coordenativas", "texto": "Ligam elementos sintaticamente independentes. Aditivas (e, nem, mas também), adversativas (mas, porém, contudo, todavia, entretanto), alternativas (ou, ora... ora), conclusivas (logo, portanto, por isso, pois posposto ao verbo), explicativas (porque, pois, que, porquanto — com valor de justificativa).", "exemplos": ["Estudei, mas não aprendi. (adversativa)", "Estudei, logo passei. (conclusiva)"]},
+      {"titulo": "Subordinativas", "texto": "Introduzem oração dependente de outra. Integrantes (que, se: 'Sei que virá'), causais (porque, como, já que, visto que), concessivas (embora, ainda que, mesmo que), condicionais (se, caso, desde que), finais (para que, a fim de que), temporais (quando, enquanto, assim que), comparativas, consecutivas, conformativas (conforme, segundo, como) e proporcionais (à medida que, à proporção que).", "exemplos": ["Estudei porque precisava aprender. (causal)", "Embora cansado, estudou. (concessiva)"]},
+      {"titulo": "Locuções conjuntivas", "texto": "Conjuntos de palavras com valor de conjunção: visto que, já que, ainda que, a fim de que, à medida que, desde que, assim que, por conseguinte.", "exemplos": ["Saí cedo, visto que estava cansado."]},
+      {"titulo": "Relações semânticas", "texto": "Causa explica o porquê do fato; oposição (adversativa) contraria uma expectativa; concessão admite um obstáculo que não impede o fato; condição apresenta hipótese.", "exemplos": ["Estudei porque precisava aprender. (causa)", "Estudei, mas não aprendi. (oposição)", "Estudei, embora estivesse cansado. (concessão)", "Passarei se estudar. (condição)"]},
+      {"titulo": "Identificação entre orações", "texto": "Conte os verbos: cada verbo (ou locução verbal) costuma corresponder a uma oração. A conjunção fica na fronteira entre elas.", "exemplos": ["[Estudei] porque [precisava aprender]"]}
+    ],
+    "regras": [
+      "Pergunta-chave: a palavra liga orações (ou termos de mesma função) e estabelece uma relação lógica entre eles?",
+      "Identifique a relação de sentido substituindo a conjunção por outra do mesmo grupo: 'mas' ↔ 'porém' (oposição); 'porque' ↔ 'visto que' (causa).",
+      "Nem toda palavra que liga orações é conjunção: o pronome relativo 'que' também liga orações, mas retoma um termo anterior ('O livro que li').",
+      "'porque' causal (subordinativa) × explicativa (coordenativa): a distinção depende do sentido e é tema de divergência; em geral, causal apresenta a causa de um fato; explicativa justifica uma afirmação ou ordem ('Volte, porque está tarde')."
+    ],
+    "exemplos": [
+      {"frase": "Estudei porque precisava aprender.", "destaque": "porque", "explicacao": "Conjunção subordinativa causal: introduz a causa do fato 'estudei'."},
+      {"frase": "Estudei, mas não aprendi.", "destaque": "mas", "explicacao": "Conjunção coordenativa adversativa: o resultado contraria a expectativa."},
+      {"frase": "Saio quando a chuva parar.", "destaque": "quando", "explicacao": "Conjunção subordinativa temporal."}
+    ],
+    "contraexemplos": [
+      {"frase": "O livro que li é ótimo.", "destaque": "que", "explicacao": "Retoma 'livro' (li o livro): pronome relativo, não conjunção."},
+      {"frase": "Gosto de música.", "destaque": "de", "explicacao": "Liga termos, não orações: preposição."}
+    ],
+    "excecoes": [
+      "'como' pode ser conjunção causal ('Como chovia, fiquei'), conformativa ('Fiz como pediu'), comparativa ('forte como um touro'), além de advérbio interrogativo ('Como vai?').",
+      "'pois' anteposto ao verbo da sua oração costuma ser explicativo; posposto ('Estudou; passou, pois') é conclusivo.",
+      "'e' pode ter valor adversativo em certos contextos: 'Estudou muito e não passou.'"
+    ],
+    "comparacoes": [
+      {"frase": "Estudei porque precisava aprender.", "palavra": "porque", "classificacao": "Conjunção subordinativa causal", "explicacao": "Causa: explica por que estudei."},
+      {"frase": "Estudei, mas não aprendi.", "palavra": "mas", "classificacao": "Conjunção coordenativa adversativa", "explicacao": "Oposição: o resultado contraria a expectativa."},
+      {"frase": "Estudei, embora estivesse cansado.", "palavra": "embora", "classificacao": "Conjunção subordinativa concessiva", "explicacao": "Concessão: o obstáculo não impediu o fato."}
+    ],
+    "logica": {
+      "pseudocodigo": "SE a palavra liga ORAÇÕES ou termos de mesma função\n    SE retoma um termo anterior -> PRONOME RELATIVO\n    SENÃO -> CONJUNÇÃO\n        SE as orações são independentes -> COORDENATIVA\n        SENÃO -> SUBORDINATIVA\n        identificar a RELAÇÃO (adição, oposição, causa, condição...)\n        testar troca por conjunção do mesmo grupo",
+      "python": "RELACOES = {\n    'mas': 'oposição', 'porém': 'oposição', 'e': 'adição',\n    'porque': 'causa (ou explicação)', 'embora': 'concessão', 'se': 'condição (ou integrante)'\n}\n\ndef investigar_conjuncao(palavra, frase):\n    if retoma_termo_anterior(palavra, frase):\n        return 'pronome relativo'\n    if not liga_oracoes_ou_termos_equivalentes(palavra, frase):\n        return 'investigar preposição ou advérbio'\n    relacao = RELACOES.get(palavra.lower(), 'analisar o sentido')\n    return f'conjunção com relação de {relacao} (confirmar no contexto)'",
+      "fluxograma": "digraph G { rankdir=TB; node [shape=box, style=rounded, fontname=Helvetica]; a [label=\"Conectivo\"]; b [shape=diamond, label=\"Liga orações ou termos equivalentes?\"]; c [shape=diamond, label=\"Retoma termo anterior?\"]; d [label=\"Pronome relativo\"]; e [label=\"Conjunção\"]; f [shape=diamond, label=\"Orações independentes?\"]; g [label=\"Coordenativa\"]; h [label=\"Subordinativa\"]; i [label=\"Identificar relação de sentido\"]; j [label=\"Investigar preposição\"]; a -> b; b -> c [label=\"sim\"]; b -> j [label=\"não\"]; c -> d [label=\"sim\"]; c -> e [label=\"não\"]; e -> f; f -> g [label=\"sim\"]; f -> h [label=\"não\"]; g -> i; h -> i; }",
+      "limitacoes": [
+        "Um dicionário palavra → relação é só um ponto de partida: 'se', 'como', 'que' e 'porque' têm vários valores.",
+        "A fronteira entre causal e explicativa é tratada de forma diferente por gramáticos e bancas."
+      ]
+    }
+  }
+]

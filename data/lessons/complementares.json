@@ -1,0 +1,47 @@
+[
+  {
+    "id": "licao_interjeicao",
+    "area": "complementares",
+    "assunto": "interjeicao",
+    "titulo": "Interjeição: emoção condensada em uma palavra",
+    "nivel": "iniciante",
+    "classe_ou_expressao": "Classe gramatical (invariável)",
+    "conceito": "Interjeição é a palavra (ou expressão) invariável que exprime emoção, sensação, apelo ou reação, geralmente equivalendo a uma frase inteira. Não se liga sintaticamente aos demais termos: costuma vir isolada por pontuação (vírgula ou exclamação).",
+    "subtopicos": [
+      {"titulo": "Sentidos", "texto": "Alegria (oba!, viva!), dor (ai!, ui!), alívio (ufa!), espanto (oh!, nossa!), apelo (ei!, psiu!, socorro!), saudação (olá!, oi!), desejo (tomara!, oxalá!), aplauso (bravo!, bis!).", "exemplos": ["Ufa! Terminei a prova.", "Psiu! Silêncio."]},
+      {"titulo": "Locuções interjetivas", "texto": "Expressões com valor de interjeição: 'Ai de mim!', 'Puxa vida!', 'Ora bolas!', 'Valha-me Deus!'.", "exemplos": ["Puxa vida! Perdi o ônibus."]},
+      {"titulo": "Palavras de outras classes como interjeição", "texto": "Substantivos, verbos e adjetivos podem funcionar como interjeição: 'Socorro!', 'Viva!', 'Bravo!', 'Silêncio!'. O sentido emotivo e o isolamento indicam o uso interjetivo.", "exemplos": ["Socorro!", "Bravo!"]}
+    ],
+    "regras": [
+      "Pergunta-chave: a palavra expressa emoção ou apelo e funciona sozinha como uma frase?",
+      "A interjeição não exerce função sintática dentro da oração (não é sujeito, complemento ou adjunto).",
+      "O sentido depende da entonação e do contexto: 'Ah!' pode indicar alegria, decepção ou compreensão."
+    ],
+    "exemplos": [
+      {"frase": "Ufa! Terminei a prova.", "destaque": "Ufa", "explicacao": "Exprime alívio e equivale a uma frase."},
+      {"frase": "Ai! Bati o pé na mesa.", "destaque": "Ai", "explicacao": "Exprime dor."},
+      {"frase": "Socorro!", "destaque": "Socorro", "explicacao": "Substantivo usado como interjeição de apelo."}
+    ],
+    "contraexemplos": [
+      {"frase": "Pedi socorro ao vizinho.", "destaque": "socorro", "explicacao": "Aqui nomeia algo pedido (complemento de 'pedi'): substantivo, não interjeição."},
+      {"frase": "Viva a vida intensamente.", "destaque": "Viva", "explicacao": "Verbo no imperativo com complemento ('a vida'), não interjeição isolada."}
+    ],
+    "excecoes": [
+      "A mesma interjeição pode exprimir emoções opostas conforme a entonação ('Oh!').",
+      "Algumas gramáticas não consideram a interjeição uma classe de palavras propriamente dita, por equivaler a uma frase."
+    ],
+    "comparacoes": [
+      {"frase": "Socorro!", "palavra": "Socorro", "classificacao": "Interjeição", "explicacao": "Isolada, exprime apelo."},
+      {"frase": "Pedi socorro ao vizinho.", "palavra": "socorro", "classificacao": "Substantivo", "explicacao": "Integra a oração como complemento."}
+    ],
+    "logica": {
+      "pseudocodigo": "SE a palavra exprime emoção/apelo\n    E está isolada (seguida de ! ou vírgula)\n    E não exerce função na oração\n        INTERJEIÇÃO\nSENÃO\n    analisar a classe de origem (substantivo, verbo...)",
+      "python": "def investigar_interjeicao(palavra, frase):\n    if exprime_emocao_ou_apelo(palavra, frase) and esta_isolada(palavra, frase):\n        if not exerce_funcao_na_oracao(palavra, frase):\n            return 'interjeição'\n    return 'analisar a classe de origem no contexto'",
+      "fluxograma": "digraph G { rankdir=TB; node [shape=box, style=rounded, fontname=Helvetica]; a [label=\"Palavra\"]; b [shape=diamond, label=\"Exprime emoção ou apelo?\"]; c [shape=diamond, label=\"Está isolada, sem função na oração?\"]; d [label=\"Interjeição\"]; e [label=\"Analisar classe de origem\"]; a -> b; b -> c [label=\"sim\"]; b -> e [label=\"não\"]; c -> d [label=\"sim\"]; c -> e [label=\"não\"]; }",
+      "limitacoes": [
+        "Entonação não aparece no texto escrito; a pontuação é apenas um indício.",
+        "Há divergência teórica sobre o estatuto da interjeição como classe."
+      ]
+    }
+  }
+]

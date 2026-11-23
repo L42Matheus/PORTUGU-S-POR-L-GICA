@@ -1,0 +1,50 @@
+[
+  {
+    "id": "nomes",
+    "nome": "Área dos Nomes",
+    "descricao": "Substantivo como núcleo das estruturas nominais e os elementos que o acompanham, determinam, quantificam ou caracterizam.",
+    "conceito_central": "O substantivo é o núcleo de uma estrutura nominal. Artigos, pronomes adjetivos, numerais adjetivos, adjetivos e locuções adjetivas giram em torno dele: determinam, quantificam ou caracterizam esse núcleo.",
+    "ordem": 1,
+    "assuntos": [
+      {"id": "substantivo", "nome": "Substantivo", "nivel": "iniciante"},
+      {"id": "adjetivo", "nome": "Adjetivo", "nivel": "iniciante"},
+      {"id": "locucao_adjetiva", "nome": "Locução adjetiva", "nivel": "intermediario"},
+      {"id": "artigo", "nome": "Artigo", "nivel": "iniciante"},
+      {"id": "pronome", "nome": "Pronome", "nivel": "intermediario"},
+      {"id": "numeral", "nome": "Numeral", "nivel": "iniciante"}
+    ]
+  },
+  {
+    "id": "verbos",
+    "nome": "Área dos Verbos",
+    "descricao": "O verbo como núcleo de ação, estado ou fenômeno, e os advérbios e locuções adverbiais que acrescentam circunstâncias.",
+    "conceito_central": "O verbo pode indicar ação, estado, ocorrência ou fenômeno da natureza. Advérbios e locuções adverbiais acrescentam circunstâncias (tempo, lugar, modo, causa, intensidade...) ou modificam o sentido de verbos, adjetivos e outros advérbios.",
+    "ordem": 2,
+    "assuntos": [
+      {"id": "verbo", "nome": "Verbo", "nivel": "iniciante"},
+      {"id": "adverbio", "nome": "Advérbio", "nivel": "iniciante"},
+      {"id": "locucao_adverbial", "nome": "Locução adverbial", "nivel": "intermediario"}
+    ]
+  },
+  {
+    "id": "conectivos",
+    "nome": "Área dos Conectivos",
+    "descricao": "Preposições e conjunções: palavras que estabelecem relações entre palavras, termos ou orações.",
+    "conceito_central": "Conectivos ligam elementos. A preposição costuma relacionar dois termos, subordinando um ao outro; a conjunção pode ligar orações ou termos de mesma função. Trocar o conectivo pode trocar a relação de sentido (causa, oposição, condição...).",
+    "ordem": 3,
+    "assuntos": [
+      {"id": "preposicao", "nome": "Preposição", "nivel": "iniciante"},
+      {"id": "conjuncao", "nome": "Conjunção", "nivel": "intermediario"}
+    ]
+  },
+  {
+    "id": "complementares",
+    "nome": "Classes complementares",
+    "descricao": "Classes que não se encaixam integralmente nas três áreas, como a interjeição.",
+    "conceito_central": "A interjeição exprime emoção, apelo ou reação de forma condensada, muitas vezes equivalendo a uma frase inteira.",
+    "ordem": 4,
+    "assuntos": [
+      {"id": "interjeicao", "nome": "Interjeição", "nivel": "iniciante"}
+    ]
+  }
+]

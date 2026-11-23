@@ -1,0 +1,265 @@
+[
+  {
+    "texto": "O jovem chegou.",
+    "area_principal": "nomes", "assunto_principal": "substantivo",
+    "explicacao": "Sem outro nome para caracterizar, 'jovem' é o núcleo da expressão nominal e nomeia quem chegou: emprego substantivo. O artigo 'O' reforça esse uso, mas não é ele, sozinho, que prova a classe.",
+    "elementos": [
+      {"id": "e1", "texto": "O", "classe": "artigo", "subtipo": "definido", "relacionado_a": "e2", "relacao": "determina 'jovem'", "justificativa": "Antecede e determina o núcleo nominal, concordando com ele (masculino, singular).", "confianca": "alta"},
+      {"id": "e2", "texto": "jovem", "classe": "substantivo", "subtipo": "comum (emprego substantivo)", "funcao_sintatica": "núcleo do sujeito", "justificativa": "Nomeia a pessoa que chegou; não há outro substantivo para ser caracterizado.", "confianca": "alta",
+        "classificacoes_alternativas": [{"classe": "adjetivo", "condicao": "se acompanhasse outro nome, como em 'O professor jovem chegou'"}]},
+      {"id": "e3", "texto": "chegou", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo, 3ª p. singular", "relacionado_a": "e2", "relacao": "ação atribuída a 'jovem'", "funcao_sintatica": "núcleo do predicado (verbo intransitivo)", "justificativa": "Flexiona em pessoa e tempo (chegaram, chegará).", "confianca": "alta"}
+    ],
+    "nivel_sintatico": ["Sujeito: 'O jovem' (núcleo: 'jovem').", "Predicado verbal: 'chegou' (verbo intransitivo)."],
+    "comparacoes": [{"frase": "O professor jovem chegou.", "explicacao": "Com 'professor' na frase, 'jovem' passa a caracterizá-lo e se torna adjetivo."}]
+  },
+  {
+    "texto": "O professor jovem chegou.",
+    "area_principal": "nomes", "assunto_principal": "adjetivo",
+    "explicacao": "O núcleo nominal é 'professor'; 'jovem' atribui a ele uma característica, sendo adjetivo. Compare com 'O jovem chegou', em que 'jovem' é o próprio núcleo.",
+    "elementos": [
+      {"id": "e1", "texto": "O", "classe": "artigo", "subtipo": "definido", "relacionado_a": "e2", "relacao": "determina 'professor'", "justificativa": "Determina o substantivo 'professor'.", "confianca": "alta"},
+      {"id": "e2", "texto": "professor", "classe": "substantivo", "subtipo": "comum", "funcao_sintatica": "núcleo do sujeito", "justificativa": "Nomeia a pessoa; é o núcleo da expressão nominal.", "confianca": "alta"},
+      {"id": "e3", "texto": "jovem", "classe": "adjetivo", "relacionado_a": "e2", "relacao": "caracteriza 'professor'", "funcao_sintatica": "adjunto adnominal", "justificativa": "Atribui uma característica ao substantivo 'professor'.", "confianca": "alta",
+        "classificacoes_alternativas": [{"classe": "substantivo", "condicao": "se nomeasse a pessoa sozinho, como em 'O jovem chegou'"}]},
+      {"id": "e4", "texto": "chegou", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo, 3ª p. singular", "relacionado_a": "e2", "relacao": "ação atribuída a 'professor'", "funcao_sintatica": "núcleo do predicado", "justificativa": "Forma verbal de 'chegar'.", "confianca": "alta"}
+    ],
+    "nivel_sintatico": ["Sujeito: 'O professor jovem' (núcleo: 'professor'; adjuntos: 'O', 'jovem')."],
+    "comparacoes": [{"frase": "O jovem chegou.", "explicacao": "Sem 'professor', 'jovem' assume o papel de núcleo e é substantivo."}]
+  },
+  {
+    "texto": "O bom sempre vence.",
+    "area_principal": "nomes", "assunto_principal": "substantivo",
+    "explicacao": "'bom' é, de origem, um adjetivo; aqui, sem substantivo a caracterizar e precedido de artigo, nomeia 'quem é bom' ou 'o que é bom': adjetivo substantivado. 'sempre' é advérbio de tempo modificando 'vence'.",
+    "elementos": [
+      {"id": "e1", "texto": "O", "classe": "artigo", "subtipo": "definido (efeito substantivador)", "relacionado_a": "e2", "relacao": "determina e substantiva 'bom'", "justificativa": "Antecede 'bom' e contribui para seu emprego como nome.", "confianca": "alta"},
+      {"id": "e2", "texto": "bom", "classe": "substantivo", "subtipo": "adjetivo substantivado", "funcao_sintatica": "núcleo do sujeito", "justificativa": "Não caracteriza nenhum substantivo presente; nomeia quem/o que é bom.", "confianca": "alta",
+        "classificacoes_alternativas": [{"classe": "adjetivo", "condicao": "classe de origem; seria adjetivo em 'O homem bom sempre vence'"}]},
+      {"id": "e3", "texto": "sempre", "classe": "adverbio", "subtipo": "tempo", "relacionado_a": "e4", "relacao": "modifica 'vence' (circunstância de tempo/frequência)", "funcao_sintatica": "adjunto adverbial de tempo", "justificativa": "Invariável; indica quando/com que frequência ocorre a ação.", "confianca": "alta"},
+      {"id": "e4", "texto": "vence", "classe": "verbo", "subtipo": "presente do indicativo, 3ª p. singular", "relacionado_a": "e2", "relacao": "ação atribuída a 'bom'", "funcao_sintatica": "núcleo do predicado", "justificativa": "Forma do verbo 'vencer'.", "confianca": "alta"}
+    ],
+    "ambiguidades": ["'O bom' pode ser lido como 'a pessoa boa' ou 'aquilo que é bom'; nas duas leituras o emprego é substantivo."],
+    "comparacoes": [{"frase": "O homem bom sempre vence.", "explicacao": "Com 'homem' presente, 'bom' volta a ser adjetivo."}]
+  },
+  {
+    "texto": "O amor é essencial.",
+    "area_principal": "nomes", "assunto_principal": "substantivo",
+    "explicacao": "'amor' é substantivo abstrato (sentimento que depende de quem o sente). 'é' é verbo de ligação e 'essencial' é adjetivo que caracteriza 'amor', ainda que separado dele pelo verbo.",
+    "elementos": [
+      {"id": "e1", "texto": "O", "classe": "artigo", "subtipo": "definido", "relacionado_a": "e2", "relacao": "determina 'amor'", "justificativa": "Determina o substantivo.", "confianca": "alta"},
+      {"id": "e2", "texto": "amor", "classe": "substantivo", "subtipo": "comum, abstrato", "funcao_sintatica": "núcleo do sujeito", "justificativa": "Nomeia um sentimento, que depende de outro ser para existir.", "confianca": "alta"},
+      {"id": "e3", "texto": "é", "classe": "verbo", "subtipo": "de ligação (ser), presente do indicativo", "relacionado_a": "e2", "relacao": "liga o sujeito 'amor' à característica 'essencial'", "justificativa": "Forma do verbo 'ser'; não indica ação, e sim relação entre sujeito e qualidade.", "confianca": "alta"},
+      {"id": "e4", "texto": "essencial", "classe": "adjetivo", "relacionado_a": "e2", "relacao": "caracteriza 'amor'", "funcao_sintatica": "predicativo do sujeito", "justificativa": "Atribui qualidade ao substantivo 'amor' (flexiona: os amores são essenciais).", "confianca": "alta"}
+    ],
+    "nivel_sintatico": ["Predicado nominal: 'é essencial' — verbo de ligação + predicativo do sujeito.", "Classe (adjetivo) ≠ função (predicativo)."]
+  },
+  {
+    "texto": "João chegou cedo.",
+    "area_principal": "verbos", "assunto_principal": "adverbio",
+    "explicacao": "'cedo' modifica o verbo 'chegou' indicando quando a ação ocorreu: advérbio de tempo. Ele não é exigido pelo verbo (que tem sentido completo); é um modificador.",
+    "elementos": [
+      {"id": "e1", "texto": "João", "classe": "substantivo", "subtipo": "próprio", "funcao_sintatica": "sujeito", "justificativa": "Nomeia um ser específico; inicial maiúscula.", "confianca": "alta"},
+      {"id": "e2", "texto": "chegou", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo, 3ª p. singular", "relacionado_a": "e1", "relacao": "ação de 'João'", "funcao_sintatica": "núcleo do predicado (intransitivo)", "justificativa": "Forma do verbo 'chegar'.", "confianca": "alta"},
+      {"id": "e3", "texto": "cedo", "classe": "adverbio", "subtipo": "tempo", "relacionado_a": "e2", "relacao": "modifica 'chegou' (quando?)", "funcao_sintatica": "adjunto adverbial de tempo", "justificativa": "Invariável; acrescenta circunstância temporal à ação.", "confianca": "alta"}
+    ],
+    "nivel_sintatico": ["Classe: advérbio | Circunstância: tempo | Função: adjunto adverbial de tempo."],
+    "comparacoes": [{"frase": "João chegou de madrugada.", "explicacao": "Mesma circunstância (tempo), mas expressa por locução adverbial."}]
+  },
+  {
+    "texto": "João chegou de madrugada.",
+    "area_principal": "verbos", "assunto_principal": "locucao_adverbial",
+    "explicacao": "'de madrugada' é locução adverbial de tempo: duas palavras com valor de advérbio, ligadas ao verbo 'chegou'. Internamente, 'de' é preposição e 'madrugada' é substantivo.",
+    "elementos": [
+      {"id": "e1", "texto": "João", "classe": "substantivo", "subtipo": "próprio", "funcao_sintatica": "sujeito", "justificativa": "Nome próprio de pessoa.", "confianca": "alta"},
+      {"id": "e2", "texto": "chegou", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo, 3ª p. singular", "relacionado_a": "e1", "relacao": "ação de 'João'", "justificativa": "Forma do verbo 'chegar'.", "confianca": "alta"},
+      {"id": "e3", "texto": "de", "classe": "preposicao", "relacionado_a": "e4", "relacao": "introduz 'madrugada' na locução", "justificativa": "Preposição essencial que forma a locução.", "confianca": "alta"},
+      {"id": "e4", "texto": "madrugada", "classe": "substantivo", "subtipo": "comum", "justificativa": "Internamente à locução, nomeia um período do dia.", "confianca": "alta"}
+    ],
+    "expressoes": [
+      {"id": "x1", "texto": "de madrugada", "tipo": "locucao_adverbial", "subtipo": "tempo", "elementos": ["e3", "e4"], "relacionado_a": "e2", "justificativa": "Responde 'quando João chegou?'; refere-se ao verbo."}
+    ],
+    "nivel_sintatico": ["'de madrugada' exerce a função de adjunto adverbial de tempo."],
+    "comparacoes": [{"frase": "João chegou ontem.", "explicacao": "'ontem' expressa a mesma circunstância com uma única palavra: advérbio."}, {"frase": "A festa de madrugada foi animada.", "explicacao": "Ligada ao substantivo 'festa', a mesma expressão tem valor adjetivo."}]
+  },
+  {
+    "texto": "Ele respondeu rapidamente.",
+    "area_principal": "verbos", "assunto_principal": "adverbio",
+    "explicacao": "'Ele' é pronome pessoal do caso reto, ocupando o lugar de um nome. 'rapidamente' modifica o verbo indicando o modo da resposta.",
+    "elementos": [
+      {"id": "e1", "texto": "Ele", "classe": "pronome", "subtipo": "pessoal do caso reto, 3ª p. singular (pronome substantivo)", "funcao_sintatica": "sujeito", "justificativa": "Substitui um nome já conhecido no discurso.", "confianca": "alta"},
+      {"id": "e2", "texto": "respondeu", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo, 3ª p. singular", "relacionado_a": "e1", "relacao": "ação de 'Ele'", "justificativa": "Forma do verbo 'responder'.", "confianca": "alta"},
+      {"id": "e3", "texto": "rapidamente", "classe": "adverbio", "subtipo": "modo", "relacionado_a": "e2", "relacao": "modifica 'respondeu' (como?)", "funcao_sintatica": "adjunto adverbial de modo", "justificativa": "Invariável, formado com -mente, indica a maneira da ação.", "confianca": "alta"}
+    ]
+  },
+  {
+    "texto": "Ele estava muito feliz.",
+    "area_principal": "verbos", "assunto_principal": "adverbio",
+    "explicacao": "'muito' intensifica o adjetivo 'feliz' e é invariável: advérbio de intensidade. 'estava' é verbo de ligação, e 'feliz' caracteriza o sujeito 'Ele'.",
+    "elementos": [
+      {"id": "e1", "texto": "Ele", "classe": "pronome", "subtipo": "pessoal do caso reto", "funcao_sintatica": "sujeito", "justificativa": "Substitui um nome.", "confianca": "alta"},
+      {"id": "e2", "texto": "estava", "classe": "verbo", "subtipo": "de ligação (estar), pretérito imperfeito do indicativo", "relacionado_a": "e1", "relacao": "liga 'Ele' ao estado 'feliz'", "justificativa": "Indica estado, não ação.", "confianca": "alta"},
+      {"id": "e3", "texto": "muito", "classe": "adverbio", "subtipo": "intensidade", "relacionado_a": "e4", "relacao": "intensifica 'feliz'", "funcao_sintatica": "adjunto adverbial de intensidade", "justificativa": "Invariável (elas estavam muito felizes); modifica um adjetivo.", "confianca": "alta",
+        "classificacoes_alternativas": [{"classe": "pronome", "condicao": "se acompanhasse e concordasse com um nome, como em 'muitos amigos'"}]},
+      {"id": "e4", "texto": "feliz", "classe": "adjetivo", "relacionado_a": "e1", "relacao": "caracteriza 'Ele'", "funcao_sintatica": "predicativo do sujeito", "justificativa": "Atribui estado ao sujeito.", "confianca": "alta"}
+    ]
+  },
+  {
+    "texto": "Gosto de música.",
+    "area_principal": "conectivos", "assunto_principal": "preposicao",
+    "explicacao": "'Gosto' é verbo (eu gosto). O verbo 'gostar' exige a preposição 'de', que liga o verbo ao termo 'música'. Aqui a preposição não forma locução adjetiva nem adverbial: introduz um complemento exigido pelo verbo (regência).",
+    "elementos": [
+      {"id": "e1", "texto": "Gosto", "classe": "verbo", "subtipo": "presente do indicativo, 1ª p. singular", "funcao_sintatica": "núcleo do predicado (transitivo indireto); sujeito oculto 'eu'", "justificativa": "Flexiona (gostamos, gostei) e pede complemento com 'de'.", "confianca": "alta",
+        "classificacoes_alternativas": [{"classe": "substantivo", "condicao": "em 'O gosto do café é forte', com artigo e nomeando uma sensação"}]},
+      {"id": "e2", "texto": "de", "classe": "preposicao", "subtipo": "essencial, exigida pelo verbo", "relacionado_a": "e1", "relacao": "liga 'Gosto' a 'música' (regência)", "justificativa": "Liga dois termos, subordinando 'música' ao verbo.", "confianca": "alta"},
+      {"id": "e3", "texto": "música", "classe": "substantivo", "subtipo": "comum", "relacionado_a": "e1", "relacao": "complementa 'Gosto'", "funcao_sintatica": "núcleo do objeto indireto", "justificativa": "Nomeia aquilo de que se gosta.", "confianca": "alta"}
+    ],
+    "nivel_sintatico": ["Sujeito oculto: eu.", "'de música' = objeto indireto (complemento exigido)."],
+    "comparacoes": [{"frase": "O gosto do café é forte.", "explicacao": "'gosto' é substantivo: tem artigo e nomeia uma sensação."}]
+  },
+  {
+    "texto": "Estudei porque precisava aprender.",
+    "area_principal": "conectivos", "assunto_principal": "conjuncao",
+    "explicacao": "Há duas orações: [Estudei] e [porque precisava aprender]. 'porque' as liga e introduz a causa do fato 'estudei': conjunção subordinativa causal.",
+    "elementos": [
+      {"id": "e1", "texto": "Estudei", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo, 1ª p. singular", "funcao_sintatica": "núcleo da oração principal", "justificativa": "Forma do verbo 'estudar'; sujeito oculto 'eu'.", "confianca": "alta"},
+      {"id": "e2", "texto": "porque", "classe": "conjuncao", "subtipo": "subordinativa causal", "relacionado_a": "e1", "relacao": "introduz a causa de 'Estudei'", "justificativa": "Liga orações e expressa relação de causa; equivale a 'visto que'.", "confianca": "media",
+        "classificacoes_alternativas": [{"classe": "conjuncao", "condicao": "coordenativa explicativa, para autores que leem a segunda oração como justificativa da afirmação"}]},
+      {"id": "e3", "texto": "precisava", "classe": "verbo", "subtipo": "pretérito imperfeito do indicativo, 1ª p. singular", "justificativa": "Forma do verbo 'precisar'.", "confianca": "alta"},
+      {"id": "e4", "texto": "aprender", "classe": "verbo", "subtipo": "infinitivo (forma nominal)", "relacionado_a": "e3", "relacao": "completa o sentido de 'precisava'", "justificativa": "Forma nominal do verbo 'aprender'.", "confianca": "alta"}
+    ],
+    "nivel_sintatico": ["Oração principal: 'Estudei'.", "Oração subordinada adverbial causal: 'porque precisava aprender'."],
+    "ambiguidades": ["A distinção entre 'porque' causal e explicativo varia entre gramáticos e bancas.", "'precisava aprender' é tratada por alguns como locução verbal e por outros como verbo + oração reduzida de infinitivo (objeto)."],
+    "comparacoes": [{"frase": "Estudei, mas não aprendi.", "explicacao": "Com 'mas', a relação passa a ser de oposição."}]
+  },
+  {
+    "texto": "As duas meninas chegaram.",
+    "area_principal": "nomes", "assunto_principal": "numeral",
+    "explicacao": "O núcleo é 'meninas'. 'As' o determina e 'duas' o quantifica com precisão: numeral cardinal adjetivo.",
+    "elementos": [
+      {"id": "e1", "texto": "As", "classe": "artigo", "subtipo": "definido, feminino plural", "relacionado_a": "e3", "relacao": "determina 'meninas'", "justificativa": "Concorda com o núcleo em gênero e número.", "confianca": "alta"},
+      {"id": "e2", "texto": "duas", "classe": "numeral", "subtipo": "cardinal (numeral adjetivo)", "relacionado_a": "e3", "relacao": "quantifica 'meninas'", "funcao_sintatica": "adjunto adnominal", "justificativa": "Indica quantidade exata e acompanha o substantivo.", "confianca": "alta"},
+      {"id": "e3", "texto": "meninas", "classe": "substantivo", "subtipo": "comum, feminino plural", "funcao_sintatica": "núcleo do sujeito", "justificativa": "Nomeia os seres; é o núcleo da expressão nominal.", "confianca": "alta"},
+      {"id": "e4", "texto": "chegaram", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo, 3ª p. plural", "relacionado_a": "e3", "relacao": "concorda com 'meninas'", "justificativa": "Forma do verbo 'chegar'.", "confianca": "alta"}
+    ]
+  },
+  {
+    "texto": "A casa de madeira foi vendida.",
+    "area_principal": "nomes", "assunto_principal": "locucao_adjetiva",
+    "explicacao": "'de madeira' caracteriza 'casa' (locução adjetiva). 'foi vendida' é locução verbal na voz passiva: auxiliar 'ser' + particípio 'vendida'.",
+    "elementos": [
+      {"id": "e1", "texto": "A", "classe": "artigo", "subtipo": "definido", "relacionado_a": "e2", "relacao": "determina 'casa'", "justificativa": "Determina o substantivo.", "confianca": "alta"},
+      {"id": "e2", "texto": "casa", "classe": "substantivo", "subtipo": "comum", "funcao_sintatica": "núcleo do sujeito", "justificativa": "Núcleo da expressão nominal.", "confianca": "alta"},
+      {"id": "e3", "texto": "de", "classe": "preposicao", "subtipo": "essencial (sentido de matéria)", "relacionado_a": "e4", "relacao": "introduz 'madeira'", "justificativa": "Forma a locução adjetiva.", "confianca": "alta"},
+      {"id": "e4", "texto": "madeira", "classe": "substantivo", "subtipo": "comum", "justificativa": "Internamente à locução, nomeia a matéria.", "confianca": "alta"},
+      {"id": "e5", "texto": "foi", "classe": "verbo", "subtipo": "auxiliar (ser), pretérito perfeito do indicativo", "justificativa": "Auxiliar da voz passiva analítica.", "confianca": "alta"},
+      {"id": "e6", "texto": "vendida", "classe": "verbo", "subtipo": "particípio (verbo principal)", "relacionado_a": "e2", "relacao": "concorda com 'casa'", "justificativa": "Particípio de 'vender', concordando com o sujeito.", "confianca": "alta"}
+    ],
+    "expressoes": [
+      {"id": "x1", "texto": "de madeira", "tipo": "locucao_adjetiva", "subtipo": "matéria", "elementos": ["e3", "e4"], "relacionado_a": "e2", "justificativa": "Caracteriza 'casa' (que tipo de casa?)."},
+      {"id": "x2", "texto": "foi vendida", "tipo": "locucao_verbal", "subtipo": "voz passiva analítica", "elementos": ["e5", "e6"], "relacionado_a": "e2", "justificativa": "Auxiliar 'ser' + particípio."}
+    ],
+    "nivel_sintatico": ["Sujeito paciente: 'A casa de madeira'.", "'de madeira' = adjunto adnominal."]
+  },
+  {
+    "texto": "A menina inteligente respondeu rapidamente à questão.",
+    "area_principal": "nomes", "assunto_principal": "adjetivo",
+    "explicacao": "Duas estruturas nominais: 'A menina inteligente' (núcleo 'menina') e 'à questão' (núcleo 'questão'). O verbo 'respondeu' é modificado por 'rapidamente' (modo) e exige a preposição 'a', que se funde ao artigo de 'questão' formando 'à'.",
+    "elementos": [
+      {"id": "e1", "texto": "A", "classe": "artigo", "subtipo": "definido", "relacionado_a": "e2", "relacao": "determina 'menina'", "justificativa": "Determina o substantivo.", "confianca": "alta"},
+      {"id": "e2", "texto": "menina", "classe": "substantivo", "subtipo": "comum", "funcao_sintatica": "núcleo do sujeito", "justificativa": "Nomeia quem respondeu.", "confianca": "alta"},
+      {"id": "e3", "texto": "inteligente", "classe": "adjetivo", "relacionado_a": "e2", "relacao": "caracteriza 'menina'", "funcao_sintatica": "adjunto adnominal", "justificativa": "Atribui qualidade ao substantivo.", "confianca": "alta"},
+      {"id": "e4", "texto": "respondeu", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo, 3ª p. singular", "relacionado_a": "e2", "relacao": "núcleo verbal; ação de 'menina'", "funcao_sintatica": "núcleo do predicado (transitivo indireto)", "justificativa": "Forma de 'responder'.", "confianca": "alta"},
+      {"id": "e5", "texto": "rapidamente", "classe": "adverbio", "subtipo": "modo", "relacionado_a": "e4", "relacao": "indica o modo de 'respondeu'", "funcao_sintatica": "adjunto adverbial de modo", "justificativa": "Invariável; modifica o verbo.", "confianca": "alta"},
+      {"id": "e6", "texto": "à", "classe": "contracao", "subtipo": "crase", "componentes": [{"texto": "a", "classe": "preposicao", "subtipo": "exigida por 'responder'"}, {"texto": "a", "classe": "artigo", "subtipo": "definido, determina 'questão'"}], "relacionado_a": "e7", "relacao": "introduz e determina o complemento", "justificativa": "'responder' exige a preposição 'a'; 'questão' admite o artigo 'a'.", "confianca": "alta"},
+      {"id": "e7", "texto": "questão", "classe": "substantivo", "subtipo": "comum", "relacionado_a": "e4", "relacao": "núcleo do complemento de 'respondeu'", "funcao_sintatica": "núcleo do objeto indireto", "justificativa": "Nomeia aquilo a que se respondeu.", "confianca": "alta"}
+    ],
+    "nivel_sintatico": ["Sujeito: 'A menina inteligente'.", "Objeto indireto: 'à questão'.", "Adjunto adverbial de modo: 'rapidamente'."]
+  },
+  {
+    "texto": "A rosa hereditária.",
+    "area_principal": "nomes", "assunto_principal": "substantivo",
+    "explicacao": "Expressão nominal sem verbo: o núcleo é 'rosa', determinado por 'A' e caracterizado por 'hereditária'.",
+    "elementos": [
+      {"id": "e1", "texto": "A", "classe": "artigo", "subtipo": "definido", "relacionado_a": "e2", "relacao": "determina 'rosa'", "justificativa": "Determina o substantivo.", "confianca": "alta"},
+      {"id": "e2", "texto": "rosa", "classe": "substantivo", "subtipo": "comum, concreto", "justificativa": "Núcleo da expressão nominal.", "confianca": "alta",
+        "classificacoes_alternativas": [{"classe": "adjetivo", "condicao": "como nome de cor, em 'vestido rosa'"}]},
+      {"id": "e3", "texto": "hereditária", "classe": "adjetivo", "relacionado_a": "e2", "relacao": "caracteriza 'rosa'", "justificativa": "Atribui qualidade e concorda com 'rosa' (feminino, singular).", "confianca": "alta"}
+    ],
+    "nivel_sintatico": ["Não há oração (frase nominal); a análise sintática se limita à estrutura do sintagma nominal."]
+  },
+  {
+    "texto": "O menino corre rapidamente.",
+    "area_principal": "verbos", "assunto_principal": "adverbio",
+    "explicacao": "'corre' é o núcleo verbal (ação); 'rapidamente' indica o modo da ação.",
+    "elementos": [
+      {"id": "e1", "texto": "O", "classe": "artigo", "subtipo": "definido", "relacionado_a": "e2", "relacao": "determina 'menino'", "justificativa": "Determina o substantivo.", "confianca": "alta"},
+      {"id": "e2", "texto": "menino", "classe": "substantivo", "subtipo": "comum", "funcao_sintatica": "núcleo do sujeito", "justificativa": "Nomeia quem corre.", "confianca": "alta"},
+      {"id": "e3", "texto": "corre", "classe": "verbo", "subtipo": "de ação, presente do indicativo, 3ª p. singular", "relacionado_a": "e2", "relacao": "ação de 'menino'", "justificativa": "Forma de 'correr'.", "confianca": "alta"},
+      {"id": "e4", "texto": "rapidamente", "classe": "adverbio", "subtipo": "modo", "relacionado_a": "e3", "relacao": "modifica 'corre' (como?)", "funcao_sintatica": "adjunto adverbial de modo", "justificativa": "Invariável; indica a maneira da ação.", "confianca": "alta"}
+    ]
+  },
+  {
+    "texto": "João chegou ontem.",
+    "area_principal": "verbos", "assunto_principal": "adverbio",
+    "explicacao": "'ontem' modifica 'chegou' indicando tempo. Em representação lógica: {verbo: 'chegou', modificador: {expressao: 'ontem', classe: 'advérbio', circunstancia: 'tempo'}}.",
+    "elementos": [
+      {"id": "e1", "texto": "João", "classe": "substantivo", "subtipo": "próprio", "funcao_sintatica": "sujeito", "justificativa": "Nome próprio.", "confianca": "alta"},
+      {"id": "e2", "texto": "chegou", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo", "relacionado_a": "e1", "relacao": "ação de 'João'", "justificativa": "Forma de 'chegar'.", "confianca": "alta"},
+      {"id": "e3", "texto": "ontem", "classe": "adverbio", "subtipo": "tempo", "relacionado_a": "e2", "relacao": "modifica 'chegou' (quando?)", "funcao_sintatica": "adjunto adverbial de tempo", "justificativa": "Invariável; circunstância temporal.", "confianca": "alta"}
+    ],
+    "comparacoes": [{"frase": "João chegou de madrugada.", "explicacao": "Locução adverbial de tempo: mesma circunstância, mais de uma palavra."}]
+  },
+  {
+    "texto": "O menino chorou de medo.",
+    "area_principal": "verbos", "assunto_principal": "locucao_adverbial",
+    "explicacao": "'de medo' indica a causa do choro. Muitos autores a tratam como expressão de valor adverbial (adjunto adverbial de causa), e não como locução adverbial cristalizada.",
+    "elementos": [
+      {"id": "e1", "texto": "O", "classe": "artigo", "subtipo": "definido", "relacionado_a": "e2", "relacao": "determina 'menino'", "justificativa": "Determina o substantivo.", "confianca": "alta"},
+      {"id": "e2", "texto": "menino", "classe": "substantivo", "subtipo": "comum", "funcao_sintatica": "núcleo do sujeito", "justificativa": "Nomeia quem chorou.", "confianca": "alta"},
+      {"id": "e3", "texto": "chorou", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo", "relacionado_a": "e2", "relacao": "ação de 'menino'", "justificativa": "Forma de 'chorar'.", "confianca": "alta"},
+      {"id": "e4", "texto": "de", "classe": "preposicao", "subtipo": "sentido de causa", "relacionado_a": "e5", "relacao": "introduz 'medo'", "justificativa": "Preposição essencial.", "confianca": "alta"},
+      {"id": "e5", "texto": "medo", "classe": "substantivo", "subtipo": "comum, abstrato", "justificativa": "Nomeia um sentimento.", "confianca": "alta"}
+    ],
+    "expressoes": [
+      {"id": "x1", "texto": "de medo", "tipo": "expressao_adverbial", "subtipo": "causa", "elementos": ["e4", "e5"], "relacionado_a": "e3", "justificativa": "Responde 'por que chorou?'."}
+    ],
+    "ambiguidades": ["Há variação terminológica: 'locução adverbial de causa' ou 'expressão de valor adverbial / adjunto adverbial de causa'."]
+  },
+  {
+    "texto": "Estudei, mas não aprendi.",
+    "area_principal": "conectivos", "assunto_principal": "conjuncao",
+    "explicacao": "'mas' liga duas orações coordenadas e estabelece oposição: o resultado (não aprender) contraria a expectativa criada por 'estudei'.",
+    "elementos": [
+      {"id": "e1", "texto": "Estudei", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo, 1ª p. singular", "justificativa": "Forma de 'estudar'.", "confianca": "alta"},
+      {"id": "e2", "texto": "mas", "classe": "conjuncao", "subtipo": "coordenativa adversativa", "relacionado_a": "e1", "relacao": "liga 'Estudei' a 'não aprendi' com ideia de oposição", "justificativa": "Pode ser trocada por 'porém', 'contudo'.", "confianca": "alta"},
+      {"id": "e3", "texto": "não", "classe": "adverbio", "subtipo": "negação", "relacionado_a": "e4", "relacao": "nega 'aprendi'", "justificativa": "Invariável; modifica o verbo negando-o.", "confianca": "alta"},
+      {"id": "e4", "texto": "aprendi", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo, 1ª p. singular", "justificativa": "Forma de 'aprender'.", "confianca": "alta"}
+    ],
+    "nivel_sintatico": ["Oração coordenada assindética: 'Estudei'.", "Oração coordenada sindética adversativa: 'mas não aprendi'."],
+    "comparacoes": [{"frase": "Estudei porque precisava aprender.", "explicacao": "Com 'porque', a relação é de causa."}]
+  },
+  {
+    "texto": "O jovem estudante chegou cedo.",
+    "area_principal": "nomes", "assunto_principal": "adjetivo",
+    "explicacao": "O núcleo nominal é 'estudante'; 'jovem' o caracteriza (adjetivo, anteposto). 'cedo' é advérbio de tempo modificando 'chegou'.",
+    "elementos": [
+      {"id": "e1", "texto": "O", "classe": "artigo", "subtipo": "definido", "relacionado_a": "e3", "relacao": "determina 'estudante'", "justificativa": "Determina o núcleo e indica o gênero (o estudante / a estudante).", "confianca": "alta"},
+      {"id": "e2", "texto": "jovem", "classe": "adjetivo", "relacionado_a": "e3", "relacao": "caracteriza 'estudante'", "funcao_sintatica": "adjunto adnominal", "justificativa": "Atribui característica ao substantivo 'estudante'.", "confianca": "alta",
+        "classificacoes_alternativas": [{"classe": "substantivo", "condicao": "se 'estudante' fosse lido como caracterizador ('o jovem estudante' = o jovem que estuda); leitura menos natural"}]},
+      {"id": "e3", "texto": "estudante", "classe": "substantivo", "subtipo": "comum de dois gêneros", "funcao_sintatica": "núcleo do sujeito", "justificativa": "Nomeia a pessoa.", "confianca": "alta"},
+      {"id": "e4", "texto": "chegou", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo", "relacionado_a": "e3", "relacao": "ação de 'estudante'", "justificativa": "Forma de 'chegar'.", "confianca": "alta"},
+      {"id": "e5", "texto": "cedo", "classe": "adverbio", "subtipo": "tempo", "relacionado_a": "e4", "relacao": "modifica 'chegou' (quando?)", "justificativa": "Invariável; circunstância de tempo.", "confianca": "alta"}
+    ],
+    "ambiguidades": ["Em 'jovem estudante', ambas as palavras podem ser substantivo ou adjetivo; a leitura mais natural toma 'estudante' como núcleo."]
+  },
+  {
+    "texto": "Ufa! Terminei a prova.",
+    "area_principal": "complementares", "assunto_principal": "interjeicao",
+    "explicacao": "'Ufa' exprime alívio e funciona sozinha como frase. Segue-se uma oração com verbo 'Terminei' e complemento 'a prova'.",
+    "elementos": [
+      {"id": "e1", "texto": "Ufa", "classe": "interjeicao", "subtipo": "alívio", "justificativa": "Isolada pela exclamação, exprime emoção; não exerce função na oração.", "confianca": "alta"},
+      {"id": "e2", "texto": "Terminei", "classe": "verbo", "subtipo": "pretérito perfeito do indicativo, 1ª p. singular", "justificativa": "Forma de 'terminar'.", "confianca": "alta"},
+      {"id": "e3", "texto": "a", "classe": "artigo", "subtipo": "definido", "relacionado_a": "e4", "relacao": "determina 'prova'", "justificativa": "Determina o substantivo.", "confianca": "alta"},
+      {"id": "e4", "texto": "prova", "classe": "substantivo", "subtipo": "comum", "relacionado_a": "e2", "relacao": "complementa 'Terminei'", "funcao_sintatica": "núcleo do objeto direto", "justificativa": "Nomeia o que foi terminado.", "confianca": "alta"}
+    ]
+  }
+]

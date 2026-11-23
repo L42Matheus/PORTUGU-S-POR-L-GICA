@@ -1,0 +1,149 @@
+[
+  {
+    "id": "licao_verbo",
+    "area": "verbos",
+    "assunto": "verbo",
+    "titulo": "Verbo: ação, estado e fenômeno situados no tempo",
+    "nivel": "iniciante",
+    "classe_ou_expressao": "Classe gramatical (variável)",
+    "conceito": "Verbo é a palavra que exprime ação, estado, mudança de estado ou fenômeno da natureza, situando-o no tempo. É a classe com mais flexões: pessoa, número, tempo, modo e voz. Em geral, é o núcleo da oração — sem verbo (ou locução verbal), normalmente não há oração.",
+    "subtopicos": [
+      {"titulo": "Ação, estado e fenômeno", "texto": "Ação: correr, estudar, responder. Estado ou mudança de estado: ser, estar, ficar, permanecer, parecer. Fenômeno da natureza: chover, ventar, amanhecer.", "exemplos": ["O menino corre.", "Ele estava feliz.", "Choveu ontem."]},
+      {"titulo": "Pessoa e número", "texto": "Três pessoas (1ª: quem fala; 2ª: com quem se fala; 3ª: de quem se fala), no singular e no plural: eu estudo, tu estudas, ele estuda, nós estudamos, vós estudais, eles estudam.", "exemplos": ["Nós chegamos.", "Elas chegaram."]},
+      {"titulo": "Tempos e modos", "texto": "Modo indicativo (certeza: estudo, estudei, estudarei), subjuntivo (hipótese: que eu estude, se eu estudasse, quando eu estudar) e imperativo (ordem, pedido: estude!). Os tempos situam o fato no presente, passado (pretérito perfeito, imperfeito, mais-que-perfeito) ou futuro (do presente, do pretérito).", "exemplos": ["Estudei ontem. (pretérito perfeito do indicativo)", "Se eu estudasse... (pretérito imperfeito do subjuntivo)"]},
+      {"titulo": "Formas nominais", "texto": "Infinitivo (estudar), gerúndio (estudando) e particípio (estudado). Não exprimem tempo e modo por si, e podem atuar como nomes: 'Estudar é preciso' (infinitivo com valor de substantivo), 'questão resolvida' (particípio com valor de adjetivo).", "exemplos": ["Estudar é preciso.", "A questão foi resolvida."]},
+      {"titulo": "Locuções verbais", "texto": "Verbo auxiliar + forma nominal do verbo principal, funcionando como uma unidade: 'vou estudar', 'estava estudando', 'foi vendida', 'tinha saído'. O auxiliar carrega pessoa, número, tempo e modo; o principal carrega o sentido.", "exemplos": ["A casa foi vendida.", "Estou estudando morfologia."]},
+      {"titulo": "Introdução à transitividade", "texto": "Alguns verbos têm sentido completo (intransitivos: 'O jovem chegou'); outros pedem complemento, sem preposição (transitivos diretos: 'Comprei um livro') ou com preposição (transitivos indiretos: 'Gosto de música'). Verbos de ligação (ser, estar, parecer...) ligam o sujeito a uma característica ('O amor é essencial').", "exemplos": ["Gosto de música. (gostar de)", "Respondeu à questão. (responder a)"]}
+    ],
+    "regras": [
+      "Teste da flexão: se a palavra pode variar em pessoa e tempo mantendo o sentido (chegou → chegamos → chegará), é forte indício de verbo.",
+      "Atenção às palavras homônimas: 'gosto' é verbo em 'Gosto de música' e substantivo em 'O gosto é amargo'.",
+      "Em locução verbal, classifique o conjunto (locução verbal) e cada parte (auxiliar + principal).",
+      "Transitividade é análise do verbo no contexto, não do verbo isolado: 'Ele come' (intransitivo) × 'Ele come pão' (transitivo direto)."
+    ],
+    "exemplos": [
+      {"frase": "O menino corre rapidamente.", "destaque": "corre", "explicacao": "Verbo de ação (correr), 3ª pessoa do singular, presente do indicativo."},
+      {"frase": "O amor é essencial.", "destaque": "é", "explicacao": "Verbo de ligação (ser): liga o sujeito 'O amor' à característica 'essencial'."},
+      {"frase": "Choveu muito ontem.", "destaque": "Choveu", "explicacao": "Verbo de fenômeno da natureza; normalmente impessoal (sem sujeito)."}
+    ],
+    "contraexemplos": [
+      {"frase": "O gosto do café é forte.", "destaque": "gosto", "explicacao": "Precedido de artigo e nomeando uma sensação: substantivo, não verbo."},
+      {"frase": "O jantar está pronto.", "destaque": "jantar", "explicacao": "Infinitivo substantivado: nomeia a refeição."}
+    ],
+    "excecoes": [
+      "Verbos impessoais (haver no sentido de existir, fazer indicando tempo, verbos de fenômeno) ficam na 3ª pessoa do singular: 'Havia muitos alunos', 'Faz dois anos'.",
+      "A mesma forma pode ser verbo ou outra classe: 'canto' (eu canto / o canto do pássaro)."
+    ],
+    "comparacoes": [
+      {"frase": "Gosto de música.", "palavra": "Gosto", "classificacao": "Verbo", "explicacao": "Flexiona (gostamos, gostei) e exige complemento com 'de'."},
+      {"frase": "O gosto é amargo.", "palavra": "gosto", "classificacao": "Substantivo", "explicacao": "Nomeia uma sensação; tem artigo e é núcleo do sujeito."}
+    ],
+    "logica": {
+      "pseudocodigo": "SE a palavra pode flexionar em pessoa/tempo mantendo o sentido\n    investigar VERBO\n    SE vem com auxiliar (ser, estar, ter, ir...) + forma nominal\n        analisar como LOCUÇÃO VERBAL\n    verificar se exige complemento (transitividade)\nSENÃO SE é nome de ação com determinante\n    investigar SUBSTANTIVO",
+      "python": "def investigar_verbo(palavra, frase):\n    if not flexiona_em_pessoa_e_tempo(palavra, frase):\n        return 'investigar outra classe (ex.: substantivo homônimo)'\n    analise = {'classe': 'verbo'}\n    aux = auxiliar_anterior(palavra, frase)\n    if aux:\n        analise['locucao_verbal'] = f'{aux} {palavra}'\n    analise['transitividade'] = transitividade_no_contexto(palavra, frase)\n    return analise",
+      "fluxograma": "digraph G { rankdir=TB; node [shape=box, style=rounded, fontname=Helvetica]; a [label=\"Palavra\"]; b [shape=diamond, label=\"Flexiona em pessoa e tempo?\"]; c [label=\"Hipótese: verbo\"]; d [shape=diamond, label=\"Há auxiliar + forma nominal?\"]; e [label=\"Locução verbal\"]; f [label=\"Analisar transitividade\"]; g [label=\"Investigar outra classe\"]; a -> b; b -> c [label=\"sim\"]; b -> g [label=\"não\"]; c -> d; d -> e [label=\"sim\"]; d -> f [label=\"não\"]; e -> f; }",
+      "limitacoes": [
+        "Formas nominais (infinitivo, particípio) podem atuar como substantivo ou adjetivo.",
+        "Classificar 'precisar + infinitivo' ou 'querer + infinitivo' como locução verbal é tema com divergência entre gramáticos."
+      ]
+    }
+  },
+  {
+    "id": "licao_adverbio",
+    "area": "verbos",
+    "assunto": "adverbio",
+    "titulo": "Advérbio: o modificador que acrescenta circunstâncias",
+    "nivel": "iniciante",
+    "classe_ou_expressao": "Classe gramatical (invariável)",
+    "conceito": "Advérbio é a palavra invariável que modifica o verbo (acrescentando circunstância de tempo, lugar, modo etc.), o adjetivo ou outro advérbio (geralmente intensificando-os), e às vezes a oração inteira. Atenção: o advérbio modifica, mas não é exigido pelo verbo como um complemento regido — modificação é diferente de regência.",
+    "subtopicos": [
+      {"titulo": "Modificação de verbos", "texto": "Acrescenta circunstância à ação ou ao estado: 'chegou cedo' (tempo), 'mora aqui' (lugar), 'respondeu rapidamente' (modo).", "exemplos": ["João chegou cedo.", "Ele respondeu rapidamente."]},
+      {"titulo": "Modificação de adjetivos", "texto": "Em geral intensifica a qualidade: 'muito feliz', 'bastante difícil', 'tão bonito'.", "exemplos": ["Ele estava muito feliz."]},
+      {"titulo": "Modificação de outros advérbios", "texto": "'muito cedo', 'bem devagar', 'tão longe'.", "exemplos": ["Chegou muito cedo."]},
+      {"titulo": "Classificação semântica", "texto": "Tempo (ontem, hoje, cedo, sempre, nunca, já), lugar (aqui, ali, lá, longe, perto), modo (bem, mal, assim, devagar e muitos em -mente), intensidade (muito, pouco, bastante, tão, demais), afirmação (sim, certamente), negação (não, nunca, jamais), dúvida (talvez, provavelmente, acaso).", "exemplos": ["Talvez ele venha.", "Não saí."]},
+      {"titulo": "Advérbios de oração", "texto": "Alguns advérbios modificam a oração inteira, expressando avaliação: 'Felizmente, ninguém se feriu.'", "exemplos": ["Infelizmente, perdemos o prazo."]}
+    ],
+    "regras": [
+      "Pergunta-chave: a palavra modifica um verbo, um adjetivo ou um advérbio, sem variar?",
+      "Advérbio é invariável: 'Elas estavam muito felizes' (e não 'muitas felizes'). Se a palavra concorda com um nome, desconfie: pode ser pronome ou adjetivo.",
+      "O sufixo -mente é forte indício de advérbio de modo, mas a circunstância depende do sentido: 'finalmente' (tempo/ordem), 'certamente' (afirmação), 'provavelmente' (dúvida).",
+      "Distinga três níveis: classe (advérbio), circunstância (tempo, modo...) e função sintática (adjunto adverbial).",
+      "Advérbio não é complemento regido pelo verbo: em 'Gosto de música', 'de música' é complemento exigido; em 'chegou cedo', 'cedo' é modificador que acrescenta circunstância."
+    ],
+    "exemplos": [
+      {"frase": "João chegou cedo.", "destaque": "cedo", "explicacao": "Modifica 'chegou', indicando tempo."},
+      {"frase": "Ele respondeu rapidamente.", "destaque": "rapidamente", "explicacao": "Modifica 'respondeu', indicando modo."},
+      {"frase": "Ele estava muito feliz.", "destaque": "muito", "explicacao": "Intensifica o adjetivo 'feliz'."}
+    ],
+    "contraexemplos": [
+      {"frase": "Muitos alunos chegaram.", "destaque": "Muitos", "explicacao": "Acompanha e concorda com 'alunos': pronome indefinido, não advérbio."},
+      {"frase": "A prova estava difícil.", "destaque": "difícil", "explicacao": "Caracteriza 'prova' e flexiona (provas difíceis): adjetivo."}
+    ],
+    "excecoes": [
+      "Adjetivos podem ser usados como advérbios, ficando invariáveis: 'falar alto', 'custar caro', 'vender barato'.",
+      "Para alguns autores, palavras como 'só', 'até', 'inclusive', 'também' são 'palavras denotativas' (inclusão, exclusão), não advérbios propriamente ditos (NGB)."
+    ],
+    "comparacoes": [
+      {"frase": "Ele estava muito feliz.", "palavra": "muito", "classificacao": "Advérbio de intensidade", "explicacao": "Modifica o adjetivo; invariável."},
+      {"frase": "Ele tem muitos amigos.", "palavra": "muitos", "classificacao": "Pronome indefinido adjetivo", "explicacao": "Acompanha 'amigos' e concorda com ele."},
+      {"frase": "Ela fala alto.", "palavra": "alto", "classificacao": "Advérbio de modo (adjetivo adverbializado)", "explicacao": "Modifica 'fala' e fica invariável."}
+    ],
+    "logica": {
+      "pseudocodigo": "SE a palavra é invariável\n    SE modifica um VERBO\n        ADVÉRBIO -> descobrir a circunstância (quando? onde? como? por quê?)\n    SENÃO SE modifica ADJETIVO ou ADVÉRBIO\n        ADVÉRBIO (geralmente de intensidade)\nSENÃO SE concorda com um substantivo\n    investigar PRONOME INDEFINIDO ou ADJETIVO",
+      "python": "analise = {\n    'verbo': 'chegou',\n    'modificador': {\n        'expressao': 'ontem',\n        'classe': 'advérbio',\n        'circunstancia': 'tempo'\n    }\n}\n\ndef investigar_adverbio(palavra, frase):\n    alvo = termo_modificado(palavra, frase)\n    if concorda_com_nome(palavra, frase):\n        return 'investigar pronome indefinido ou adjetivo'\n    if eh_verbo(alvo):\n        return f'advérbio de {circunstancia(palavra, frase)} modificando {alvo}'\n    if eh_adjetivo(alvo) or eh_adverbio(alvo):\n        return f'advérbio (intensidade) modificando {alvo}'\n    return 'analisar o contexto completo'",
+      "fluxograma": "digraph G { rankdir=TB; node [shape=box, style=rounded, fontname=Helvetica]; a [label=\"Palavra\"]; b [shape=diamond, label=\"Concorda com um nome?\"]; c [label=\"Investigar pronome ou adjetivo\"]; d [shape=diamond, label=\"Modifica verbo?\"]; e [label=\"Advérbio: qual circunstância?\"]; f [shape=diamond, label=\"Modifica adjetivo ou advérbio?\"]; g [label=\"Advérbio de intensidade\"]; h [label=\"Analisar contexto\"]; a -> b; b -> c [label=\"sim\"]; b -> d [label=\"não\"]; d -> e [label=\"sim\"]; d -> f [label=\"não\"]; f -> g [label=\"sim\"]; f -> h [label=\"não\"]; }",
+      "limitacoes": [
+        "A circunstância é semântica e pode admitir mais de uma leitura.",
+        "Palavras denotativas (só, até, também) são classificadas de modos diferentes conforme a gramática adotada."
+      ]
+    }
+  },
+  {
+    "id": "licao_locucao_adverbial",
+    "area": "verbos",
+    "assunto": "locucao_adverbial",
+    "titulo": "Locução adverbial: circunstância expressa por mais de uma palavra",
+    "nivel": "intermediario",
+    "classe_ou_expressao": "Expressão de valor adverbial (não é classe gramatical independente)",
+    "conceito": "Locução adverbial é um conjunto de duas ou mais palavras que funciona como advérbio, geralmente acrescentando uma circunstância ao verbo. A estrutura mais comum é preposição + substantivo, adjetivo ou advérbio: 'de madrugada', 'às pressas', 'de repente', 'por ali'. Cada palavra mantém sua classe morfológica; o conjunto tem valor adverbial.",
+    "subtopicos": [
+      {"titulo": "Estrutura", "texto": "preposição + substantivo (de madrugada, com cuidado, à noite); preposição + adjetivo (de novo, às claras); preposição + advérbio (por ali, de longe); outras combinações (de vez em quando, passo a passo).", "exemplos": ["Saiu às pressas.", "Volto de vez em quando."]},
+      {"titulo": "Diferença entre advérbio e locução adverbial", "texto": "O advérbio é uma palavra só ('ontem', 'cedo'); a locução tem mais de uma ('de madrugada', 'à noite'). Ambos podem indicar a mesma circunstância.", "exemplos": ["João chegou ontem. (advérbio de tempo)", "João chegou de madrugada. (locução adverbial de tempo)"]},
+      {"titulo": "Circunstâncias", "texto": "Tempo (à noite, de manhã), lugar (por ali, de perto), modo (às pressas, com calma), causa (de medo, de fome), instrumento (a faca), companhia (com os amigos), finalidade (para o concurso), entre outras.", "exemplos": ["O menino chorou de medo. (causa)"]}
+    ],
+    "regras": [
+      "Verifique se a expressão de várias palavras se refere ao verbo (ou à oração) acrescentando circunstância.",
+      "Pergunte ao verbo: quando? onde? como? por quê? com quem? com quê? para quê?",
+      "Se a expressão caracteriza um substantivo, é locução adjetiva, não adverbial.",
+      "Se a preposição é exigida pelo verbo para completar seu sentido (gostar de, precisar de), trata-se de complemento, e não de circunstância.",
+      "A tradição chama de 'locução adverbial' sobretudo expressões cristalizadas (de repente, às pressas). Expressões livres como 'de medo' ou 'com os amigos' são tratadas por muitos autores como expressões de valor adverbial ou adjuntos adverbiais."
+    ],
+    "exemplos": [
+      {"frase": "João chegou de madrugada.", "destaque": "de madrugada", "explicacao": "Locução adverbial de tempo: indica quando ele chegou."},
+      {"frase": "O menino chorou de medo.", "destaque": "de medo", "explicacao": "Expressão de valor adverbial de causa: por que chorou?"},
+      {"frase": "Saiu às pressas.", "destaque": "às pressas", "explicacao": "Locução adverbial de modo: como saiu?"}
+    ],
+    "contraexemplos": [
+      {"frase": "A casa de madeira foi vendida.", "destaque": "de madeira", "explicacao": "Caracteriza 'casa': locução adjetiva."},
+      {"frase": "Preciso de ajuda.", "destaque": "de ajuda", "explicacao": "'precisar' exige a preposição 'de': complemento verbal (objeto indireto), não circunstância."}
+    ],
+    "excecoes": [
+      "Algumas locuções aceitam mais de uma leitura de circunstância conforme o contexto ('de propósito' = modo ou intenção).",
+      "Em 'Moro em Recife', 'em Recife' indica lugar, mas há gramáticos que o tratam como complemento exigido pelo verbo 'morar' (adjunto adverbial × complemento circunstancial)."
+    ],
+    "comparacoes": [
+      {"frase": "João chegou ontem.", "palavra": "ontem", "classificacao": "Advérbio de tempo", "explicacao": "Uma palavra só."},
+      {"frase": "João chegou de madrugada.", "palavra": "de madrugada", "classificacao": "Locução adverbial de tempo", "explicacao": "Duas palavras com valor de advérbio."},
+      {"frase": "A festa de madrugada foi animada.", "palavra": "de madrugada", "classificacao": "Locução adjetiva", "explicacao": "Aqui caracteriza 'festa' (que festa?), não o verbo."}
+    ],
+    "logica": {
+      "pseudocodigo": "SE a expressão tem 2+ palavras E se refere ao verbo\n    SE responde quando/onde/como/por quê...\n        LOCUÇÃO (ou expressão) ADVERBIAL de <circunstância>\n    SE a preposição é exigida pelo verbo\n        COMPLEMENTO VERBAL\nSENÃO SE caracteriza um substantivo\n    LOCUÇÃO ADJETIVA",
+      "python": "def investigar_locucao_adverbial(expr, frase):\n    alvo = termo_modificado(expr, frase)\n    if eh_substantivo(alvo):\n        return 'investigar locução adjetiva'\n    if eh_verbo(alvo):\n        if verbo_exige_preposicao(alvo, expr):\n            return 'complemento verbal (regência)'\n        return f'locução adverbial de {circunstancia(expr, frase)}'\n    return 'analisar o contexto completo'",
+      "fluxograma": "digraph G { rankdir=TB; node [shape=box, style=rounded, fontname=Helvetica]; a [label=\"Expressão de 2+ palavras\"]; b [shape=diamond, label=\"Refere-se ao verbo?\"]; c [shape=diamond, label=\"Verbo exige a preposição?\"]; d [label=\"Complemento verbal\"]; e [label=\"Locução adverbial: qual circunstância?\"]; f [shape=diamond, label=\"Caracteriza substantivo?\"]; g [label=\"Locução adjetiva\"]; h [label=\"Analisar contexto\"]; a -> b; b -> c [label=\"sim\"]; c -> d [label=\"sim\"]; c -> e [label=\"não\"]; b -> f [label=\"não\"]; f -> g [label=\"sim\"]; f -> h [label=\"não\"]; }",
+      "limitacoes": [
+        "A mesma expressão ('de madrugada') pode ter valor adverbial ou adjetivo conforme o termo a que se liga.",
+        "A fronteira entre adjunto adverbial e complemento exigido pelo verbo (morar em, ir a) é objeto de divergência teórica."
+      ]
+    }
+  }
+]

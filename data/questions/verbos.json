@@ -1,0 +1,889 @@
+[
+  {
+    "id": "V01",
+    "area": "verbos",
+    "assunto": "verbo",
+    "dificuldade": "iniciante",
+    "tipo": "identificar_classe",
+    "texto_base": "Gosto de música.",
+    "destaque": "Gosto",
+    "enunciado": "Qual é a classe de 'Gosto' nesta frase?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Verbo",
+        "comentario": null
+      },
+      {
+        "letra": "B",
+        "texto": "Substantivo",
+        "comentario": "'gosto' é substantivo em 'O gosto é amargo'. Aqui ele flexiona (gostamos, gostei) e indica um sentimento atribuído a 'eu'."
+      },
+      {
+        "letra": "C",
+        "texto": "Adjetivo",
+        "comentario": "Não há substantivo sendo caracterizado."
+      },
+      {
+        "letra": "D",
+        "texto": "Advérbio",
+        "comentario": "'Gosto' não modifica outro termo; é o núcleo da oração."
+      }
+    ],
+    "resposta": "A",
+    "justificativa": "'Gosto' é a forma do verbo 'gostar' na 1ª pessoa do singular do presente do indicativo (eu gosto). Flexiona e exige o complemento 'de música'.",
+    "regra": "Teste da flexão: se a palavra varia em pessoa e tempo mantendo o sentido, é verbo.",
+    "exemplos_relacionados": [
+      "O gosto do café é forte. (substantivo)"
+    ],
+    "tags": [
+      "verbo",
+      "homônimo",
+      "gosto"
+    ]
+  },
+  {
+    "id": "V02",
+    "area": "verbos",
+    "assunto": "verbo",
+    "dificuldade": "iniciante",
+    "tipo": "comparar",
+    "texto_base": "(I) Gosto de música.\n(II) O gosto do café é forte.",
+    "enunciado": "Compare a palavra 'gosto' nas duas frases. Assinale a correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "É verbo nas duas frases.",
+        "comentario": "Em II, 'gosto' tem artigo, é caracterizado por 'do café' e nomeia uma sensação: substantivo."
+      },
+      {
+        "letra": "B",
+        "texto": "É verbo em I e substantivo em II.",
+        "comentario": null
+      },
+      {
+        "letra": "C",
+        "texto": "É substantivo em I e verbo em II.",
+        "comentario": "Invertido: o verbo de II é 'é'."
+      },
+      {
+        "letra": "D",
+        "texto": "É substantivo nas duas frases.",
+        "comentario": "Em I, 'Gosto' flexiona (gostamos) e é núcleo da oração."
+      }
+    ],
+    "resposta": "B",
+    "justificativa": "Em I, 'Gosto' é verbo (eu gosto). Em II, 'gosto' é substantivo, núcleo da expressão 'O gosto do café'.",
+    "regra": "Palavras de mesma forma podem pertencer a classes diferentes; a relação com os outros termos decide.",
+    "exemplos_relacionados": [
+      "Eu canto. / O canto do pássaro."
+    ],
+    "tags": [
+      "comparar",
+      "verbo",
+      "substantivo"
+    ]
+  },
+  {
+    "id": "V03",
+    "area": "verbos",
+    "assunto": "verbo",
+    "dificuldade": "iniciante",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa em que o verbo indica fenômeno da natureza.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ventou forte ontem.",
+        "comentario": null
+      },
+      {
+        "letra": "B",
+        "texto": "Ele estava cansado.",
+        "comentario": "'estava' indica estado."
+      },
+      {
+        "letra": "C",
+        "texto": "O menino corre.",
+        "comentario": "'corre' indica ação."
+      },
+      {
+        "letra": "D",
+        "texto": "Ela parece feliz.",
+        "comentario": "'parece' é verbo de ligação, indica estado aparente."
+      }
+    ],
+    "resposta": "A",
+    "justificativa": "'Ventou' (ventar) exprime fenômeno da natureza; em geral é impessoal, sem sujeito.",
+    "regra": "Verbos podem indicar ação, estado ou fenômeno da natureza.",
+    "exemplos_relacionados": [
+      "Choveu muito.",
+      "Amanheceu cedo."
+    ],
+    "tags": [
+      "verbo",
+      "fenômeno"
+    ]
+  },
+  {
+    "id": "V04",
+    "area": "verbos",
+    "assunto": "verbo",
+    "dificuldade": "iniciante",
+    "tipo": "identificar_classe",
+    "texto_base": "O amor é essencial.",
+    "destaque": "é",
+    "enunciado": "Que tipo de verbo é 'é' nesta frase?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Verbo de ação",
+        "comentario": "'ser' aqui não expressa ação praticada pelo sujeito."
+      },
+      {
+        "letra": "B",
+        "texto": "Verbo de ligação",
+        "comentario": null
+      },
+      {
+        "letra": "C",
+        "texto": "Verbo de fenômeno da natureza",
+        "comentario": "Não há fenômeno natural."
+      },
+      {
+        "letra": "D",
+        "texto": "Não é verbo; é conjunção",
+        "comentario": "'e' (sem acento) é conjunção; 'é' (com acento) é forma do verbo 'ser'."
+      }
+    ],
+    "resposta": "B",
+    "justificativa": "'é' liga o sujeito 'O amor' à característica 'essencial' (predicativo). Verbos como ser, estar, parecer, ficar e permanecer costumam ser de ligação.",
+    "regra": "Verbo de ligação conecta o sujeito a uma qualidade ou estado.",
+    "exemplos_relacionados": [
+      "A prova estava difícil.",
+      "Ela parece feliz."
+    ],
+    "tags": [
+      "verbo de ligação"
+    ]
+  },
+  {
+    "id": "V05",
+    "area": "verbos",
+    "assunto": "verbo",
+    "dificuldade": "iniciante",
+    "tipo": "multipla_escolha",
+    "texto_base": "Estudar é preciso.",
+    "enunciado": "A forma 'Estudar' está no:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "gerúndio",
+        "comentario": "Gerúndio termina em -ndo (estudando)."
+      },
+      {
+        "letra": "B",
+        "texto": "particípio",
+        "comentario": "Particípio regular termina em -ado/-ido (estudado)."
+      },
+      {
+        "letra": "C",
+        "texto": "infinitivo",
+        "comentario": null
+      },
+      {
+        "letra": "D",
+        "texto": "presente do indicativo",
+        "comentario": "O presente do indicativo seria 'estudo', 'estuda'..."
+      }
+    ],
+    "resposta": "C",
+    "justificativa": "'Estudar' é o infinitivo, forma nominal que aqui funciona como sujeito, com valor de substantivo.",
+    "regra": "Formas nominais: infinitivo (-r), gerúndio (-ndo) e particípio (-ado/-ido).",
+    "exemplos_relacionados": [
+      "Estou estudando. (gerúndio)",
+      "A questão foi resolvida. (particípio)"
+    ],
+    "tags": [
+      "formas nominais"
+    ]
+  },
+  {
+    "id": "V06",
+    "area": "verbos",
+    "assunto": "verbo",
+    "dificuldade": "intermediario",
+    "tipo": "identificar_relacao",
+    "texto_base": "A casa de madeira foi vendida.",
+    "enunciado": "Qual expressão forma uma locução verbal?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A casa",
+        "comentario": "Artigo + substantivo: estrutura nominal."
+      },
+      {
+        "letra": "B",
+        "texto": "foi vendida",
+        "comentario": null
+      },
+      {
+        "letra": "C",
+        "texto": "de madeira",
+        "comentario": "Locução adjetiva."
+      },
+      {
+        "letra": "D",
+        "texto": "Não há locução verbal.",
+        "comentario": "'foi' (auxiliar) + 'vendida' (particípio) formam locução verbal."
+      }
+    ],
+    "resposta": "B",
+    "justificativa": "'foi' (auxiliar ser) + 'vendida' (particípio de vender) funcionam como unidade verbal, formando a voz passiva analítica.",
+    "regra": "Locução verbal = verbo auxiliar + forma nominal do verbo principal.",
+    "exemplos_relacionados": [
+      "Vou estudar.",
+      "Estava chovendo."
+    ],
+    "tags": [
+      "locução verbal",
+      "voz passiva"
+    ]
+  },
+  {
+    "id": "V07",
+    "area": "verbos",
+    "assunto": "verbo",
+    "dificuldade": "iniciante",
+    "tipo": "multipla_escolha",
+    "texto_base": "Nós chegamos cedo.",
+    "enunciado": "O verbo 'chegamos' está na:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1ª pessoa do plural",
+        "comentario": null
+      },
+      {
+        "letra": "B",
+        "texto": "3ª pessoa do plural",
+        "comentario": "A 3ª do plural seria 'chegaram'."
+      },
+      {
+        "letra": "C",
+        "texto": "1ª pessoa do singular",
+        "comentario": "A 1ª do singular seria 'cheguei'."
+      },
+      {
+        "letra": "D",
+        "texto": "2ª pessoa do plural",
+        "comentario": "A 2ª do plural seria 'chegastes'."
+      }
+    ],
+    "resposta": "A",
+    "justificativa": "'chegamos' concorda com 'Nós': 1ª pessoa do plural.",
+    "regra": "O verbo flexiona em pessoa (1ª, 2ª, 3ª) e número (singular, plural).",
+    "exemplos_relacionados": [
+      "Eu cheguei.",
+      "Elas chegaram."
+    ],
+    "tags": [
+      "flexão verbal",
+      "pessoa e número"
+    ]
+  },
+  {
+    "id": "V08",
+    "area": "verbos",
+    "assunto": "verbo",
+    "dificuldade": "intermediario",
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Obedeça às regras do jogo.",
+    "enunciado": "Julgue: nesta frase, o verbo 'obedecer' exige a preposição 'a' (fundida ao artigo em 'às') para completar seu sentido.",
+    "alternativas": [
+      {
+        "letra": "V",
+        "texto": "Verdadeiro",
+        "comentario": null
+      },
+      {
+        "letra": "F",
+        "texto": "Falso",
+        "comentario": "Quem obedece, obedece 'a' algo: a preposição é exigida pelo verbo (regência). Em 'às', ela se funde ao artigo 'as'."
+      }
+    ],
+    "resposta": "V",
+    "justificativa": "'obedecer' é transitivo indireto na norma-padrão: pede complemento introduzido pela preposição 'a'. Como 'regras' admite o artigo 'as', ocorre a crase: 'às regras'.",
+    "regra": "Introdução à transitividade: alguns verbos exigem complemento com preposição.",
+    "exemplos_relacionados": [
+      "Gosto de música.",
+      "Preciso de ajuda."
+    ],
+    "tags": [
+      "transitividade",
+      "regência"
+    ]
+  },
+  {
+    "id": "V09",
+    "area": "verbos",
+    "assunto": "adverbio",
+    "dificuldade": "iniciante",
+    "tipo": "identificar_classe",
+    "texto_base": "João chegou cedo.",
+    "destaque": "cedo",
+    "enunciado": "Classifique 'cedo'.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Adjetivo",
+        "comentario": "'cedo' não caracteriza 'João'; refere-se ao momento da chegada."
+      },
+      {
+        "letra": "B",
+        "texto": "Advérbio de tempo",
+        "comentario": null
+      },
+      {
+        "letra": "C",
+        "texto": "Advérbio de modo",
+        "comentario": "'cedo' responde 'quando?', não 'como?'."
+      },
+      {
+        "letra": "D",
+        "texto": "Substantivo",
+        "comentario": "'cedo' não nomeia nada aqui."
+      }
+    ],
+    "resposta": "B",
+    "justificativa": "'cedo' modifica 'chegou' indicando quando a ação ocorreu.",
+    "regra": "Advérbio de tempo responde à pergunta 'quando?' feita ao verbo.",
+    "exemplos_relacionados": [
+      "João chegou ontem.",
+      "Sempre estudo."
+    ],
+    "tags": [
+      "advérbio",
+      "tempo"
+    ]
+  },
+  {
+    "id": "V10",
+    "area": "verbos",
+    "assunto": "adverbio",
+    "dificuldade": "iniciante",
+    "tipo": "identificar_classe",
+    "texto_base": "Ele respondeu rapidamente.",
+    "destaque": "rapidamente",
+    "enunciado": "Classifique 'rapidamente'.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Advérbio de modo",
+        "comentario": null
+      },
+      {
+        "letra": "B",
+        "texto": "Advérbio de tempo",
+        "comentario": "'rapidamente' indica como, não quando."
+      },
+      {
+        "letra": "C",
+        "texto": "Adjetivo",
+        "comentario": "Adjetivos caracterizam nomes; 'rapidamente' modifica o verbo 'respondeu'."
+      },
+      {
+        "letra": "D",
+        "texto": "Advérbio de intensidade",
+        "comentario": "Não intensifica; descreve a maneira."
+      }
+    ],
+    "resposta": "A",
+    "justificativa": "'rapidamente' modifica 'respondeu', indicando a maneira da resposta.",
+    "regra": "Advérbio de modo responde a 'como?'. O sufixo -mente é indício, não garantia, de modo.",
+    "exemplos_relacionados": [
+      "O menino corre rapidamente.",
+      "Falou calmamente."
+    ],
+    "tags": [
+      "advérbio",
+      "modo",
+      "-mente"
+    ]
+  },
+  {
+    "id": "V11",
+    "area": "verbos",
+    "assunto": "adverbio",
+    "dificuldade": "iniciante",
+    "tipo": "identificar_relacao",
+    "texto_base": "Ele estava muito feliz.",
+    "enunciado": "A palavra 'muito' modifica:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o pronome 'Ele'",
+        "comentario": "Se modificasse 'Ele', teríamos ideia de quantidade de pessoas; 'muito' intensifica a felicidade."
+      },
+      {
+        "letra": "B",
+        "texto": "o verbo 'estava'",
+        "comentario": "'estava' é verbo de ligação; o que é intensificado é a qualidade 'feliz'."
+      },
+      {
+        "letra": "C",
+        "texto": "o adjetivo 'feliz'",
+        "comentario": null
+      },
+      {
+        "letra": "D",
+        "texto": "a frase inteira",
+        "comentario": "'muito' tem alcance local, sobre 'feliz'."
+      }
+    ],
+    "resposta": "C",
+    "justificativa": "'muito' intensifica o adjetivo 'feliz': advérbio de intensidade.",
+    "regra": "O advérbio pode modificar verbo, adjetivo ou outro advérbio.",
+    "exemplos_relacionados": [
+      "Chegou muito cedo. (modifica advérbio)",
+      "Estudou muito. (modifica verbo)"
+    ],
+    "tags": [
+      "advérbio",
+      "intensidade",
+      "relação"
+    ]
+  },
+  {
+    "id": "V12",
+    "area": "verbos",
+    "assunto": "adverbio",
+    "dificuldade": "intermediario",
+    "tipo": "comparar",
+    "texto_base": "(I) Ele estava muito feliz.\n(II) Ele tem muitos amigos.",
+    "enunciado": "Compare 'muito' (I) e 'muitos' (II). Assinale a correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Advérbio nas duas frases.",
+        "comentario": "Em II, 'muitos' acompanha e concorda com 'amigos': pronome indefinido."
+      },
+      {
+        "letra": "B",
+        "texto": "Advérbio em I; pronome indefinido em II.",
+        "comentario": null
+      },
+      {
+        "letra": "C",
+        "texto": "Pronome indefinido em I; advérbio em II.",
+        "comentario": "Invertido."
+      },
+      {
+        "letra": "D",
+        "texto": "Pronome indefinido nas duas frases.",
+        "comentario": "Em I, 'muito' é invariável e intensifica o adjetivo."
+      }
+    ],
+    "resposta": "B",
+    "justificativa": "Em I, 'muito' intensifica 'feliz' e é invariável (advérbio). Em II, 'muitos' acompanha 'amigos' e flexiona (pronome indefinido adjetivo).",
+    "regra": "Concordância com um nome indica pronome; invariabilidade e modificação de verbo/adjetivo/advérbio indicam advérbio.",
+    "exemplos_relacionados": [
+      "Ela estava bastante cansada. / Havia bastantes pessoas."
+    ],
+    "tags": [
+      "comparar",
+      "advérbio",
+      "pronome indefinido"
+    ]
+  },
+  {
+    "id": "V13",
+    "area": "verbos",
+    "assunto": "adverbio",
+    "dificuldade": "iniciante",
+    "tipo": "multipla_escolha",
+    "texto_base": "Talvez ele venha amanhã.",
+    "enunciado": "'Talvez' e 'amanhã' expressam, respectivamente, circunstância de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "dúvida e tempo",
+        "comentario": null
+      },
+      {
+        "letra": "B",
+        "texto": "afirmação e tempo",
+        "comentario": "'Talvez' não afirma; exprime incerteza."
+      },
+      {
+        "letra": "C",
+        "texto": "dúvida e lugar",
+        "comentario": "'amanhã' responde 'quando?'."
+      },
+      {
+        "letra": "D",
+        "texto": "negação e tempo",
+        "comentario": "Não há negação."
+      }
+    ],
+    "resposta": "A",
+    "justificativa": "'Talvez' é advérbio de dúvida; 'amanhã', advérbio de tempo.",
+    "regra": "Classificação semântica dos advérbios: tempo, lugar, modo, intensidade, afirmação, negação, dúvida.",
+    "exemplos_relacionados": [
+      "Provavelmente choverá.",
+      "Certamente virei."
+    ],
+    "tags": [
+      "advérbio",
+      "dúvida",
+      "tempo"
+    ]
+  },
+  {
+    "id": "V14",
+    "area": "verbos",
+    "assunto": "adverbio",
+    "dificuldade": "iniciante",
+    "tipo": "encontrar_erro",
+    "texto_base": "Análise de um estudante para 'O menino corre rapidamente.':\nO = artigo | menino = substantivo | corre = verbo | rapidamente = adjetivo de modo",
+    "enunciado": "Qual classificação está errada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "'O' como artigo",
+        "comentario": "Está correto: determina 'menino'."
+      },
+      {
+        "letra": "B",
+        "texto": "'menino' como substantivo",
+        "comentario": "Está correto: núcleo nominal."
+      },
+      {
+        "letra": "C",
+        "texto": "'corre' como verbo",
+        "comentario": "Está correto: verbo correr."
+      },
+      {
+        "letra": "D",
+        "texto": "'rapidamente' como adjetivo de modo",
+        "comentario": null
+      }
+    ],
+    "resposta": "D",
+    "justificativa": "'rapidamente' modifica o verbo 'corre': é advérbio de modo. Adjetivos caracterizam substantivos, não verbos.",
+    "regra": "Quem modifica verbo é advérbio; quem caracteriza substantivo é adjetivo.",
+    "exemplos_relacionados": [
+      "Ele respondeu rapidamente."
+    ],
+    "tags": [
+      "encontrar_erro",
+      "advérbio"
+    ]
+  },
+  {
+    "id": "V15",
+    "area": "verbos",
+    "assunto": "adverbio",
+    "dificuldade": "intermediario",
+    "tipo": "verdadeiro_falso",
+    "enunciado": "Julgue: todo advérbio é um termo exigido (regido) pelo verbo para completar seu sentido.",
+    "alternativas": [
+      {
+        "letra": "V",
+        "texto": "Verdadeiro",
+        "comentario": "Você confundiu modificação com regência. Em 'João chegou cedo', 'chegou' tem sentido completo; 'cedo' apenas acrescenta circunstância."
+      },
+      {
+        "letra": "F",
+        "texto": "Falso",
+        "comentario": null
+      }
+    ],
+    "resposta": "F",
+    "justificativa": "O advérbio modifica, acrescentando circunstância; ele não é, em regra, um complemento exigido pelo verbo. Regência é a relação de exigência (gostar de, precisar de).",
+    "regra": "Modificação (advérbio) ≠ regência (complemento exigido).",
+    "exemplos_relacionados": [
+      "Gosto de música. (complemento exigido)",
+      "Chegou cedo. (circunstância)"
+    ],
+    "tags": [
+      "advérbio",
+      "regência",
+      "pegadinha"
+    ]
+  },
+  {
+    "id": "V16",
+    "area": "verbos",
+    "assunto": "adverbio",
+    "dificuldade": "intermediario",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa em que a palavra terminada em -mente NÃO indica modo.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ele falou calmamente.",
+        "comentario": "'calmamente' indica como ele falou: modo."
+      },
+      {
+        "letra": "B",
+        "texto": "Certamente ele virá.",
+        "comentario": null
+      },
+      {
+        "letra": "C",
+        "texto": "Ela dirigiu cuidadosamente.",
+        "comentario": "Indica como ela dirigiu: modo."
+      },
+      {
+        "letra": "D",
+        "texto": "Respondeu educadamente.",
+        "comentario": "Indica como respondeu: modo."
+      }
+    ],
+    "resposta": "B",
+    "justificativa": "'Certamente' expressa afirmação (certeza), e não a maneira como a ação ocorre.",
+    "regra": "O sufixo -mente indica advérbio, mas a circunstância depende do sentido.",
+    "exemplos_relacionados": [
+      "Provavelmente choverá. (dúvida)",
+      "Finalmente chegou. (tempo)"
+    ],
+    "tags": [
+      "advérbio",
+      "-mente",
+      "afirmação"
+    ]
+  },
+  {
+    "id": "V17",
+    "area": "verbos",
+    "assunto": "locucao_adverbial",
+    "dificuldade": "iniciante",
+    "tipo": "identificar_classe",
+    "texto_base": "João chegou de madrugada.",
+    "destaque": "de madrugada",
+    "enunciado": "Classifique 'de madrugada'.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Locução adjetiva",
+        "comentario": "A expressão não caracteriza um substantivo; refere-se ao verbo 'chegou'."
+      },
+      {
+        "letra": "B",
+        "texto": "Locução adverbial de tempo",
+        "comentario": null
+      },
+      {
+        "letra": "C",
+        "texto": "Advérbio de tempo",
+        "comentario": "Você confundiu advérbio de tempo com locução adverbial de tempo. Ambos indicam circunstância temporal, mas a locução tem mais de uma palavra."
+      },
+      {
+        "letra": "D",
+        "texto": "Complemento exigido pelo verbo",
+        "comentario": "'chegar' não exige 'de madrugada'; a expressão só acrescenta quando."
+      }
+    ],
+    "resposta": "B",
+    "justificativa": "'de madrugada' (preposição + substantivo) indica quando ocorreu a chegada: locução adverbial de tempo.",
+    "regra": "Locução adverbial: duas ou mais palavras com valor de advérbio.",
+    "exemplos_relacionados": [
+      "Saiu à noite.",
+      "Volto de vez em quando."
+    ],
+    "tags": [
+      "locução adverbial",
+      "tempo"
+    ]
+  },
+  {
+    "id": "V18",
+    "area": "verbos",
+    "assunto": "locucao_adverbial",
+    "dificuldade": "intermediario",
+    "tipo": "multipla_escolha",
+    "texto_base": "O menino chorou de medo.",
+    "enunciado": "A expressão 'de medo' indica circunstância de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tempo",
+        "comentario": "Não responde 'quando?'."
+      },
+      {
+        "letra": "B",
+        "texto": "lugar",
+        "comentario": "Não responde 'onde?'."
+      },
+      {
+        "letra": "C",
+        "texto": "causa",
+        "comentario": null
+      },
+      {
+        "letra": "D",
+        "texto": "modo",
+        "comentario": "Pergunte 'por que chorou?' — de medo. A expressão aponta o motivo."
+      }
+    ],
+    "resposta": "C",
+    "justificativa": "'de medo' responde 'por que o menino chorou?': expressão de valor adverbial de causa.",
+    "regra": "Para achar a circunstância, faça a pergunta adequada ao verbo: quando, onde, como, por quê.",
+    "exemplos_relacionados": [
+      "Tremia de frio.",
+      "Morreu de fome."
+    ],
+    "tags": [
+      "locução adverbial",
+      "causa"
+    ]
+  },
+  {
+    "id": "V19",
+    "area": "verbos",
+    "assunto": "locucao_adverbial",
+    "dificuldade": "iniciante",
+    "tipo": "comparar",
+    "texto_base": "(I) João chegou ontem.\n(II) João chegou de madrugada.",
+    "enunciado": "Compare as expressões de tempo das frases I e II.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Nas duas frases há advérbio de tempo de uma só palavra.",
+        "comentario": "Em II, 'de madrugada' tem duas palavras: é locução adverbial."
+      },
+      {
+        "letra": "B",
+        "texto": "Em I há advérbio de tempo; em II, locução adverbial de tempo.",
+        "comentario": null
+      },
+      {
+        "letra": "C",
+        "texto": "Em I há locução adverbial; em II, advérbio.",
+        "comentario": "Invertido: 'ontem' é uma palavra só."
+      },
+      {
+        "letra": "D",
+        "texto": "Nas duas frases há locução adjetiva.",
+        "comentario": "As expressões se referem ao verbo e indicam tempo."
+      }
+    ],
+    "resposta": "B",
+    "justificativa": "Ambas indicam tempo, mas 'ontem' é um advérbio (uma palavra) e 'de madrugada' é locução adverbial (preposição + substantivo).",
+    "regra": "Mesma circunstância, estruturas diferentes: advérbio (uma palavra) × locução adverbial (mais de uma).",
+    "exemplos_relacionados": [
+      "Saí cedo. / Saí de manhã."
+    ],
+    "tags": [
+      "comparar",
+      "advérbio",
+      "locução adverbial"
+    ]
+  },
+  {
+    "id": "V20",
+    "area": "verbos",
+    "assunto": "locucao_adverbial",
+    "dificuldade": "intermediario",
+    "tipo": "associacao",
+    "enunciado": "Associe cada locução (ou expressão) adverbial à circunstância que expressa.",
+    "pares": [
+      {
+        "item": "Saiu às pressas.",
+        "resposta": "modo"
+      },
+      {
+        "item": "Estudo à noite.",
+        "resposta": "tempo"
+      },
+      {
+        "item": "Passou por ali.",
+        "resposta": "lugar"
+      },
+      {
+        "item": "Desmaiou de fome.",
+        "resposta": "causa"
+      }
+    ],
+    "resposta": "às pressas=modo; à noite=tempo; por ali=lugar; de fome=causa",
+    "justificativa": "Cada expressão responde a uma pergunta diferente feita ao verbo: como, quando, onde, por quê.",
+    "regra": "Circunstâncias adverbiais: tempo, lugar, modo, causa, entre outras.",
+    "exemplos_relacionados": [
+      "Chorou de medo.",
+      "Chegou de madrugada."
+    ],
+    "tags": [
+      "locução adverbial",
+      "circunstâncias"
+    ]
+  },
+  {
+    "id": "V21",
+    "area": "verbos",
+    "assunto": "locucao_adverbial",
+    "dificuldade": "avancado",
+    "tipo": "encontrar_erro",
+    "texto_base": "Um estudante afirmou: em 'Preciso de ajuda.', a expressão 'de ajuda' é locução adverbial de modo.",
+    "enunciado": "Qual é a correção adequada para a afirmação do estudante?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A afirmação está correta.",
+        "comentario": "'de ajuda' não indica como; completa o sentido de 'preciso'."
+      },
+      {
+        "letra": "B",
+        "texto": "'de ajuda' é locução adjetiva.",
+        "comentario": "Não há substantivo sendo caracterizado."
+      },
+      {
+        "letra": "C",
+        "texto": "'de ajuda' é complemento exigido pelo verbo 'precisar'.",
+        "comentario": null
+      },
+      {
+        "letra": "D",
+        "texto": "'de ajuda' é locução verbal.",
+        "comentario": "Locução verbal exige verbo auxiliar + forma nominal."
+      }
+    ],
+    "resposta": "C",
+    "justificativa": "Quem precisa, precisa 'de' algo: a preposição é exigida pelo verbo, e 'de ajuda' é seu complemento (objeto indireto). Não é circunstância.",
+    "regra": "Nem toda expressão com preposição é locução adverbial ou adjetiva: verifique se ela é exigida pelo verbo.",
+    "exemplos_relacionados": [
+      "Gosto de música.",
+      "Chegou de madrugada. (circunstância)"
+    ],
+    "tags": [
+      "encontrar_erro",
+      "regência",
+      "locução adverbial"
+    ]
+  },
+  {
+    "id": "V22",
+    "area": "verbos",
+    "assunto": "adverbio",
+    "dificuldade": "intermediario",
+    "tipo": "justificativa",
+    "texto_base": "João chegou cedo.",
+    "destaque": "cedo",
+    "enunciado": "Explique a classe morfológica de 'cedo' e a circunstância que ele expressa, mostrando a que termo se relaciona.",
+    "resposta": "'cedo' é advérbio, porque é invariável e modifica o verbo 'chegou'. A circunstância expressa é de tempo: indica quando João chegou.",
+    "justificativa": "Uma boa resposta separa a classe (advérbio), a circunstância (tempo) e o termo modificado (o verbo 'chegou').",
+    "regra": "Classe morfológica, circunstância semântica e função sintática são níveis diferentes de análise.",
+    "palavras_chave": [
+      "advérbio",
+      "tempo",
+      "chegou"
+    ],
+    "exemplos_relacionados": [
+      "Ele respondeu rapidamente. (advérbio de modo)"
+    ],
+    "tags": [
+      "justificativa",
+      "advérbio"
+    ]
+  }
+]

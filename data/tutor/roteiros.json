@@ -1,0 +1,151 @@
+[
+  {
+    "id": "T01", "assunto": "adjetivo",
+    "frase": "O jovem estudante chegou cedo.", "alvo": "jovem",
+    "pergunta_inicial": "Qual é a classe morfológica de 'jovem' nesta frase?",
+    "classe_correta": "adjetivo",
+    "justificativas": [
+      {"texto": "Porque caracteriza o substantivo 'estudante'.", "correta": true, "retorno": "Exato: a justificativa se apoia na relação entre 'jovem' e o núcleo nominal."},
+      {"texto": "Porque está logo depois do artigo 'O'.", "correta": false, "retorno": "A posição depois do artigo não prova nada: em 'O jovem chegou', 'jovem' vem depois do artigo e é substantivo."},
+      {"texto": "Porque 'jovem' é sempre adjetivo.", "correta": false, "retorno": "'jovem' não é sempre adjetivo: a classe depende do contexto. Em 'O jovem chegou', é substantivo."}
+    ],
+    "passos": [
+      {"pergunta": "Qual palavra nomeia a pessoa que chegou?", "opcoes": [
+        {"texto": "estudante", "correta": true, "retorno": "Isso: 'estudante' é o núcleo da expressão nominal."},
+        {"texto": "jovem", "correta": false, "retorno": "Se 'jovem' nomeasse a pessoa, qual seria o papel de 'estudante'? Na leitura mais natural, 'estudante' é quem chegou."},
+        {"texto": "cedo", "correta": false, "retorno": "'cedo' indica quando a pessoa chegou; não nomeia ninguém."}
+      ]},
+      {"pergunta": "A palavra 'jovem' está nomeando alguém ou caracterizando alguém?", "opcoes": [
+        {"texto": "Caracterizando", "correta": true, "retorno": "Isso: 'jovem' diz como é o estudante."},
+        {"texto": "Nomeando", "correta": false, "retorno": "Quem é nomeado já é 'estudante'. 'jovem' acrescenta uma característica a ele."}
+      ]},
+      {"pergunta": "Qual palavra está sendo caracterizada?", "opcoes": [
+        {"texto": "estudante", "correta": true, "retorno": "Correto."},
+        {"texto": "chegou", "correta": false, "retorno": "Quem modifica verbo é advérbio. 'jovem' se refere a um nome, não à ação."},
+        {"texto": "O", "correta": false, "retorno": "Artigos não são caracterizados; eles determinam o substantivo."}
+      ]},
+      {"pergunta": "Que classe gramatical exerce o papel de caracterizar um substantivo?", "opcoes": [
+        {"texto": "Adjetivo", "correta": true, "retorno": "Isso mesmo."},
+        {"texto": "Advérbio", "correta": false, "retorno": "O advérbio modifica verbos, adjetivos e advérbios, não substantivos."},
+        {"texto": "Artigo", "correta": false, "retorno": "O artigo determina o substantivo (definido/indefinido), mas não atribui qualidade."}
+      ]}
+    ],
+    "conclusao": "'jovem' é adjetivo porque caracteriza o substantivo 'estudante'.",
+    "contraexemplo": "Em 'O jovem chegou', não há outro nome para caracterizar: 'jovem' nomeia a pessoa e é substantivo."
+  },
+  {
+    "id": "T02", "assunto": "adverbio",
+    "frase": "Ele estava muito feliz.", "alvo": "muito",
+    "pergunta_inicial": "Qual é a classe morfológica de 'muito' nesta frase?",
+    "classe_correta": "adverbio",
+    "justificativas": [
+      {"texto": "Porque intensifica o adjetivo 'feliz' e é invariável.", "correta": true, "retorno": "Exato: modificação de adjetivo + invariabilidade."},
+      {"texto": "Porque indica quantidade de pessoas.", "correta": false, "retorno": "Não há quantidade de pessoas: o que aumenta é o grau de felicidade."},
+      {"texto": "Porque 'muito' é sempre advérbio.", "correta": false, "retorno": "Em 'muitos amigos', 'muitos' é pronome indefinido. A classe depende do contexto."}
+    ],
+    "passos": [
+      {"pergunta": "Que termo da frase 'muito' está afetando?", "opcoes": [
+        {"texto": "feliz", "correta": true, "retorno": "Isso: 'muito' intensifica 'feliz'."},
+        {"texto": "Ele", "correta": false, "retorno": "Se afetasse 'Ele', falaríamos de quantas pessoas; não é o caso."},
+        {"texto": "estava", "correta": false, "retorno": "'estava' é verbo de ligação; o que varia em grau é a felicidade."}
+      ]},
+      {"pergunta": "Qual é a classe de 'feliz'?", "opcoes": [
+        {"texto": "Adjetivo", "correta": true, "retorno": "Correto: caracteriza o sujeito."},
+        {"texto": "Substantivo", "correta": false, "retorno": "'feliz' não nomeia; atribui um estado a 'Ele'."}
+      ]},
+      {"pergunta": "Se o sujeito fosse 'Elas', a palavra 'muito' mudaria de forma?", "opcoes": [
+        {"texto": "Não: 'Elas estavam muito felizes'.", "correta": true, "retorno": "Isso: invariabilidade é traço do advérbio."},
+        {"texto": "Sim: 'Elas estavam muitas felizes'.", "correta": false, "retorno": "Essa forma não é usada. Quando 'muito' modifica adjetivo, não varia."}
+      ]},
+      {"pergunta": "Que classe invariável modifica adjetivos?", "opcoes": [
+        {"texto": "Advérbio", "correta": true, "retorno": "Isso mesmo: advérbio de intensidade."},
+        {"texto": "Pronome indefinido", "correta": false, "retorno": "Pronome indefinido acompanha substantivo e concorda com ele."}
+      ]}
+    ],
+    "conclusao": "'muito' é advérbio de intensidade porque modifica o adjetivo 'feliz' e é invariável.",
+    "contraexemplo": "Em 'Ele tem muitos amigos', 'muitos' acompanha e concorda com 'amigos': pronome indefinido."
+  },
+  {
+    "id": "T03", "assunto": "locucao_adverbial",
+    "frase": "João chegou de madrugada.", "alvo": "de madrugada",
+    "pergunta_inicial": "Como se classifica 'de madrugada' nesta frase?",
+    "classe_correta": "adverbio",
+    "opcoes_iniciais": ["Locução adverbial de tempo", "Locução adjetiva", "Advérbio de tempo (uma palavra)", "Complemento exigido pelo verbo"],
+    "justificativas": [
+      {"texto": "É locução adverbial de tempo: tem mais de uma palavra e indica quando a ação ocorreu.", "correta": true, "retorno": "Perfeito: estrutura (mais de uma palavra) + relação (circunstância do verbo)."},
+      {"texto": "É advérbio porque começa com preposição.", "correta": false, "retorno": "Começar com preposição não define o valor: 'casa de madeira' começa com preposição e é locução adjetiva."},
+      {"texto": "É locução adjetiva porque contém um substantivo.", "correta": false, "retorno": "Conter substantivo não basta: o que importa é a que termo a expressão se liga. Aqui, ao verbo."}
+    ],
+    "passos": [
+      {"pergunta": "A expressão 'de madrugada' se liga a qual termo?", "opcoes": [
+        {"texto": "Ao verbo 'chegou'", "correta": true, "retorno": "Isso: diz quando a chegada ocorreu."},
+        {"texto": "Ao substantivo 'João'", "correta": false, "retorno": "'de madrugada' não diz como é João; diz quando ele chegou."}
+      ]},
+      {"pergunta": "Que pergunta ao verbo a expressão responde?", "opcoes": [
+        {"texto": "Quando?", "correta": true, "retorno": "Correto: circunstância de tempo."},
+        {"texto": "Como?", "correta": false, "retorno": "Chegou de madrugada responde quando, não de que maneira."},
+        {"texto": "Onde?", "correta": false, "retorno": "Madrugada é período do dia, não lugar."}
+      ]},
+      {"pergunta": "Quantas palavras formam a expressão?", "opcoes": [
+        {"texto": "Duas (preposição + substantivo)", "correta": true, "retorno": "Isso: por isso é locução, e não advérbio simples."},
+        {"texto": "Uma", "correta": false, "retorno": "'de' e 'madrugada' são duas palavras."}
+      ]}
+    ],
+    "conclusao": "'de madrugada' é locução adverbial de tempo: duas palavras com valor de advérbio, indicando quando João chegou. Internamente: 'de' (preposição) + 'madrugada' (substantivo).",
+    "contraexemplo": "Em 'A festa de madrugada foi animada', a expressão caracteriza 'festa' e tem valor adjetivo."
+  },
+  {
+    "id": "T04", "assunto": "preposicao",
+    "frase": "Gosto de música.", "alvo": "de",
+    "pergunta_inicial": "Qual é a classe de 'de' nesta frase?",
+    "classe_correta": "preposicao",
+    "justificativas": [
+      {"texto": "Liga o verbo 'gosto' ao termo 'música', sendo exigida pelo verbo.", "correta": true, "retorno": "Exato: liga termos e é exigida pela regência de 'gostar'."},
+      {"texto": "Liga duas orações.", "correta": false, "retorno": "Há um só verbo ('Gosto'), logo uma só oração. Quem liga orações é a conjunção."},
+      {"texto": "Porque toda palavra 'de' forma locução adjetiva.", "correta": false, "retorno": "Nem toda expressão com 'de' é locução adjetiva; aqui, 'de música' completa o verbo."}
+    ],
+    "passos": [
+      {"pergunta": "Quantos verbos (e, portanto, orações) há na frase?", "opcoes": [
+        {"texto": "Um: 'Gosto'", "correta": true, "retorno": "Isso: uma oração só."},
+        {"texto": "Dois", "correta": false, "retorno": "'música' é substantivo; o único verbo é 'Gosto'."}
+      ]},
+      {"pergunta": "Quem gosta, gosta ___ algo. O verbo exige uma preposição?", "opcoes": [
+        {"texto": "Sim, exige 'de'.", "correta": true, "retorno": "Correto: é a regência de 'gostar'."},
+        {"texto": "Não exige.", "correta": false, "retorno": "Tente sem a preposição: 'Gosto música' soa incompleto na norma-padrão."}
+      ]},
+      {"pergunta": "Que classe liga dois termos, subordinando um ao outro?", "opcoes": [
+        {"texto": "Preposição", "correta": true, "retorno": "Isso mesmo."},
+        {"texto": "Conjunção", "correta": false, "retorno": "A conjunção liga orações ou termos de mesma função."}
+      ]}
+    ],
+    "conclusao": "'de' é preposição: liga o verbo 'gosto' ao substantivo 'música' e é exigida pela regência de 'gostar'.",
+    "contraexemplo": "Em 'Estudei, mas não aprendi', o conector 'mas' liga duas orações: é conjunção."
+  },
+  {
+    "id": "T05", "assunto": "substantivo",
+    "frase": "O bom sempre vence.", "alvo": "bom",
+    "pergunta_inicial": "Qual é a classe de 'bom' nesta frase?",
+    "classe_correta": "substantivo",
+    "justificativas": [
+      {"texto": "Não há substantivo para 'bom' caracterizar; ele nomeia quem é bom (adjetivo substantivado).", "correta": true, "retorno": "Exato: emprego substantivo de palavra que, de origem, é adjetivo."},
+      {"texto": "Porque está depois do artigo, e o artigo sempre indica substantivo de origem.", "correta": false, "retorno": "O artigo revela o uso substantivo, mas não a classe de origem: 'bom' é adjetivo no dicionário."},
+      {"texto": "Porque caracteriza o artigo 'O'.", "correta": false, "retorno": "Adjetivos caracterizam substantivos, não artigos."}
+    ],
+    "passos": [
+      {"pergunta": "Existe na frase algum substantivo que 'bom' caracterize?", "opcoes": [
+        {"texto": "Não", "correta": true, "retorno": "Isso: não há 'homem', 'aluno' etc."},
+        {"texto": "Sim, 'O'", "correta": false, "retorno": "'O' é artigo, não substantivo."}
+      ]},
+      {"pergunta": "Então, o que 'bom' está fazendo na frase?", "opcoes": [
+        {"texto": "Nomeando quem (ou o que) é bom", "correta": true, "retorno": "Correto: é o núcleo do sujeito."},
+        {"texto": "Modificando o verbo 'vence'", "correta": false, "retorno": "'bom' é quem vence, não o modo de vencer."}
+      ]},
+      {"pergunta": "Uma palavra que nomeia e é núcleo do sujeito funciona como:", "opcoes": [
+        {"texto": "Substantivo", "correta": true, "retorno": "Isso: emprego substantivo (substantivação)."},
+        {"texto": "Advérbio", "correta": false, "retorno": "Advérbios modificam; não são núcleo do sujeito."}
+      ]}
+    ],
+    "conclusao": "'bom' funciona como substantivo (adjetivo substantivado): sem nome a caracterizar, passa a nomear quem é bom.",
+    "contraexemplo": "Em 'O homem bom sempre vence', 'bom' caracteriza 'homem' e é adjetivo."
+  }
+]

@@ -1,0 +1,277 @@
+[
+  {
+    "id": "C01", "area": "conectivos", "assunto": "preposicao", "dificuldade": "iniciante", "tipo": "identificar_classe",
+    "texto_base": "Gosto de música.", "destaque": "de",
+    "enunciado": "Classifique 'de'.",
+    "alternativas": [
+      {"letra": "A", "texto": "Preposição", "comentario": null},
+      {"letra": "B", "texto": "Conjunção", "comentario": "Conjunções costumam ligar orações; 'de' liga o verbo 'gosto' ao termo 'música'."},
+      {"letra": "C", "texto": "Artigo", "comentario": "Não determina substantivo; 'de' sozinho não é artigo."},
+      {"letra": "D", "texto": "Advérbio", "comentario": "Não modifica; conecta."}
+    ],
+    "resposta": "A",
+    "justificativa": "'de' liga 'gosto' a 'música', subordinando o segundo termo ao primeiro. É exigida pelo verbo 'gostar'.",
+    "regra": "Preposição liga dois termos, subordinando um ao outro.",
+    "exemplos_relacionados": ["Preciso de ajuda.", "Confio em você."],
+    "tags": ["preposição", "regência"]
+  },
+  {
+    "id": "C02", "area": "conectivos", "assunto": "preposicao", "dificuldade": "iniciante", "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa que contém apenas preposições essenciais.",
+    "alternativas": [
+      {"letra": "A", "texto": "de, com, sem, para", "comentario": null},
+      {"letra": "B", "texto": "conforme, durante, segundo", "comentario": "São preposições acidentais: palavras de outras classes que eventualmente funcionam como preposição."},
+      {"letra": "C", "texto": "mas, porém, contudo", "comentario": "São conjunções adversativas."},
+      {"letra": "D", "texto": "de, conforme, mas", "comentario": "'conforme' é acidental e 'mas' é conjunção."}
+    ],
+    "resposta": "A",
+    "justificativa": "de, com, sem e para só funcionam como preposições: são essenciais.",
+    "regra": "Essenciais: a, ante, após, até, com, contra, de, desde, em, entre, para, perante, por, sem, sob, sobre, trás.",
+    "exemplos_relacionados": ["Dormi durante a aula. (acidental)"],
+    "tags": ["preposição essencial", "preposição acidental"]
+  },
+  {
+    "id": "C03", "area": "conectivos", "assunto": "preposicao", "dificuldade": "intermediario", "tipo": "identificar_classe",
+    "texto_base": "Dormi durante a aula.", "destaque": "durante",
+    "enunciado": "Classifique 'durante'.",
+    "alternativas": [
+      {"letra": "A", "texto": "Preposição essencial", "comentario": "'durante' tem origem em outra classe (particípio presente de 'durar'); por isso é acidental."},
+      {"letra": "B", "texto": "Preposição acidental", "comentario": null},
+      {"letra": "C", "texto": "Advérbio de tempo", "comentario": "'durante' não funciona sozinho como modificador; liga 'dormi' a 'a aula'."},
+      {"letra": "D", "texto": "Conjunção temporal", "comentario": "Não introduz oração com verbo flexionado."}
+    ],
+    "resposta": "B",
+    "justificativa": "'durante' liga 'Dormi' a 'a aula', funcionando como preposição, mas não pertence ao grupo das essenciais.",
+    "regra": "Preposições acidentais: conforme, segundo, durante, mediante, como, exceto, salvo.",
+    "exemplos_relacionados": ["Agi conforme as regras."],
+    "tags": ["preposição acidental"]
+  },
+  {
+    "id": "C04", "area": "conectivos", "assunto": "preposicao", "dificuldade": "intermediario", "tipo": "multipla_escolha",
+    "texto_base": "A menina inteligente respondeu rapidamente à questão.",
+    "enunciado": "A forma 'à' resulta da fusão de:",
+    "alternativas": [
+      {"letra": "A", "texto": "preposição a + artigo a", "comentario": null},
+      {"letra": "B", "texto": "artigo a + artigo a", "comentario": "Não há dois artigos: o primeiro 'a' é exigido pelo verbo 'responder' (responder a algo)."},
+      {"letra": "C", "texto": "preposição a + pronome a", "comentario": "O segundo 'a' determina 'questão': é artigo."},
+      {"letra": "D", "texto": "apenas um artigo com acento", "comentario": "O acento grave marca a fusão de dois 'a' (crase)."}
+    ],
+    "resposta": "A",
+    "justificativa": "'responder' exige a preposição 'a', e 'questão' admite o artigo 'a'. A fusão das duas vogais é a crase, marcada pelo acento grave.",
+    "regra": "Crase: fusão da preposição 'a' com o artigo 'a' (ou com o 'a' inicial de aquele/aquela/aquilo).",
+    "exemplos_relacionados": ["Fui à escola.", "Refiro-me àquele livro."],
+    "tags": ["contração", "crase"]
+  },
+  {
+    "id": "C05", "area": "conectivos", "assunto": "preposicao", "dificuldade": "iniciante", "tipo": "associacao",
+    "enunciado": "Associe cada contração aos elementos que a formam.",
+    "pares": [
+      {"item": "do", "resposta": "de + o"},
+      {"item": "na", "resposta": "em + a"},
+      {"item": "pelo", "resposta": "por + o"},
+      {"item": "deste", "resposta": "de + este"}
+    ],
+    "resposta": "do=de + o; na=em + a; pelo=por + o; deste=de + este",
+    "justificativa": "Contrações unem preposição e artigo ou pronome, com perda de fonema.",
+    "regra": "Contrações contêm duas classes: analise a preposição e o artigo/pronome separadamente.",
+    "exemplos_relacionados": ["Saí do prédio.", "Moro nesta rua."],
+    "tags": ["contração"]
+  },
+  {
+    "id": "C06", "area": "conectivos", "assunto": "preposicao", "dificuldade": "iniciante", "tipo": "multipla_escolha",
+    "enunciado": "Em qual alternativa a preposição 'de' indica matéria?",
+    "alternativas": [
+      {"letra": "A", "texto": "O livro de Pedro.", "comentario": "Indica posse."},
+      {"letra": "B", "texto": "Vim de Natal.", "comentario": "Indica origem."},
+      {"letra": "C", "texto": "A casa de madeira.", "comentario": null},
+      {"letra": "D", "texto": "Chorou de medo.", "comentario": "Indica causa."}
+    ],
+    "resposta": "C",
+    "justificativa": "'de madeira' indica de que matéria a casa é feita.",
+    "regra": "A mesma preposição pode estabelecer relações de sentido diferentes conforme os termos ligados.",
+    "exemplos_relacionados": ["anel de ouro (matéria)", "carta de Ana (posse/autoria)"],
+    "tags": ["preposição", "relação de sentido"]
+  },
+  {
+    "id": "C07", "area": "conectivos", "assunto": "preposicao", "dificuldade": "avancado", "tipo": "identificar_classe",
+    "texto_base": "Saiu por causa da chuva.",
+    "enunciado": "Considerando apenas a sequência 'por causa de' (presente em 'por causa da'), como ela se classifica?",
+    "alternativas": [
+      {"letra": "A", "texto": "Locução prepositiva", "comentario": null},
+      {"letra": "B", "texto": "Locução conjuntiva", "comentario": "Locução conjuntiva introduz oração com verbo ('visto que chovia'); aqui segue um substantivo."},
+      {"letra": "C", "texto": "Locução adverbial de causa", "comentario": "O conjunto 'por causa da chuva' tem valor adverbial de causa, mas a sequência 'por causa de', sozinha, funciona como preposição."},
+      {"letra": "D", "texto": "Preposição essencial", "comentario": "É um conjunto de palavras terminado em preposição, não uma preposição simples."}
+    ],
+    "resposta": "A",
+    "justificativa": "'por causa de' é um conjunto de palavras terminado em preposição que funciona como preposição. O conjunto maior 'por causa da chuva' exprime causa com valor adverbial.",
+    "regra": "Locução prepositiva: grupo de palavras terminado em preposição (abaixo de, acerca de, por causa de, apesar de).",
+    "exemplos_relacionados": ["Apesar do frio, saiu.", "Falou acerca do tema."],
+    "tags": ["locução prepositiva", "níveis de análise"]
+  },
+  {
+    "id": "C08", "area": "conectivos", "assunto": "conjuncao", "dificuldade": "iniciante", "tipo": "verdadeiro_falso",
+    "texto_base": "Estudei, mas não aprendi.",
+    "enunciado": "Julgue: nesta frase, 'mas' é uma preposição, pois liga duas partes da frase.",
+    "alternativas": [
+      {"letra": "V", "texto": "Verdadeiro", "comentario": "Ligar partes não basta para ser preposição. 'mas' liga duas orações e estabelece oposição: é conjunção."},
+      {"letra": "F", "texto": "Falso", "comentario": null}
+    ],
+    "resposta": "F",
+    "justificativa": "'mas' liga as orações 'Estudei' e 'não aprendi', indicando oposição: conjunção coordenativa adversativa.",
+    "regra": "Evite tratar todos os conectivos como iguais: preposição liga termos; conjunção liga orações ou termos equivalentes.",
+    "exemplos_relacionados": ["Gosto de música. (preposição)"],
+    "tags": ["conjunção", "preposição", "pegadinha"]
+  },
+  {
+    "id": "C09", "area": "conectivos", "assunto": "conjuncao", "dificuldade": "intermediario", "tipo": "identificar_classe",
+    "texto_base": "Estudei porque precisava aprender.", "destaque": "porque",
+    "enunciado": "Classifique 'porque' nesta frase.",
+    "alternativas": [
+      {"letra": "A", "texto": "Conjunção subordinativa causal", "comentario": null},
+      {"letra": "B", "texto": "Preposição", "comentario": "'porque' introduz uma oração com verbo ('precisava aprender'), não um termo."},
+      {"letra": "C", "texto": "Pronome relativo", "comentario": "Não retoma termo anterior."},
+      {"letra": "D", "texto": "Advérbio de causa", "comentario": "'porque' não modifica o verbo; liga orações."}
+    ],
+    "resposta": "A",
+    "justificativa": "'porque' introduz a oração que expressa a causa de 'Estudei'. Observação: algumas análises veem aqui uma coordenada explicativa; a leitura mais comum, com a causa de um fato, é a subordinativa causal.",
+    "regra": "Conjunção subordinativa causal introduz oração que indica a causa do fato principal.",
+    "exemplos_relacionados": ["Fiquei em casa porque chovia.", "Como chovia, fiquei em casa."],
+    "tags": ["conjunção", "causa"]
+  },
+  {
+    "id": "C10", "area": "conectivos", "assunto": "conjuncao", "dificuldade": "iniciante", "tipo": "comparar",
+    "texto_base": "(I) Estudei porque precisava aprender.\n(II) Estudei, mas não aprendi.",
+    "enunciado": "As relações de sentido estabelecidas pelas conjunções de I e II são, respectivamente:",
+    "alternativas": [
+      {"letra": "A", "texto": "causa e oposição", "comentario": null},
+      {"letra": "B", "texto": "oposição e causa", "comentario": "Invertido."},
+      {"letra": "C", "texto": "causa e conclusão", "comentario": "'mas' não conclui; contraria a expectativa."},
+      {"letra": "D", "texto": "concessão e adição", "comentario": "'porque' indica causa e 'mas', oposição."}
+    ],
+    "resposta": "A",
+    "justificativa": "Em I, 'porque' explica o motivo de estudar (causa). Em II, 'mas' introduz um resultado contrário ao esperado (oposição).",
+    "regra": "A troca da conjunção altera a relação lógica entre as orações.",
+    "exemplos_relacionados": ["Estudei, logo aprendi. (conclusão)", "Estudei, embora estivesse cansado. (concessão)"],
+    "tags": ["comparar", "conjunção", "sentido"]
+  },
+  {
+    "id": "C11", "area": "conectivos", "assunto": "conjuncao", "dificuldade": "iniciante", "tipo": "multipla_escolha",
+    "texto_base": "Estudei, mas não aprendi.",
+    "enunciado": "Qual substituição de 'mas' MANTÉM o sentido da frase?",
+    "alternativas": [
+      {"letra": "A", "texto": "porque", "comentario": "Mudaria a relação para causa."},
+      {"letra": "B", "texto": "porém", "comentario": null},
+      {"letra": "C", "texto": "portanto", "comentario": "Mudaria a relação para conclusão."},
+      {"letra": "D", "texto": "se", "comentario": "Mudaria para condição (e exigiria ajuste do verbo)."}
+    ],
+    "resposta": "B",
+    "justificativa": "'porém' é adversativa como 'mas'; a relação de oposição se mantém.",
+    "regra": "Teste de substituição: conjunções do mesmo grupo preservam a relação de sentido.",
+    "exemplos_relacionados": ["Estudei; contudo, não aprendi."],
+    "tags": ["conjunção", "substituição"]
+  },
+  {
+    "id": "C12", "area": "conectivos", "assunto": "conjuncao", "dificuldade": "intermediario", "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa em que a conjunção expressa concessão.",
+    "alternativas": [
+      {"letra": "A", "texto": "Saí porque chovia.", "comentario": "Causa."},
+      {"letra": "B", "texto": "Embora chovesse, saí.", "comentario": null},
+      {"letra": "C", "texto": "Se chover, não saio.", "comentario": "Condição."},
+      {"letra": "D", "texto": "Choveu, logo fiquei.", "comentario": "Conclusão."}
+    ],
+    "resposta": "B",
+    "justificativa": "'Embora' admite um obstáculo (a chuva) que não impede o fato (sair): concessão.",
+    "regra": "Concessivas: embora, ainda que, mesmo que, conquanto, apesar de que.",
+    "exemplos_relacionados": ["Ainda que esteja cansado, vou estudar."],
+    "tags": ["conjunção", "concessão"]
+  },
+  {
+    "id": "C13", "area": "conectivos", "assunto": "conjuncao", "dificuldade": "intermediario", "tipo": "identificar_classe",
+    "texto_base": "O livro que li é ótimo.", "destaque": "que",
+    "enunciado": "Classifique 'que' nesta frase.",
+    "alternativas": [
+      {"letra": "A", "texto": "Conjunção integrante", "comentario": "A integrante não retoma termo; introduz oração com valor de substantivo ('Sei que virá')."},
+      {"letra": "B", "texto": "Pronome relativo", "comentario": null},
+      {"letra": "C", "texto": "Conjunção causal", "comentario": "Não há relação de causa."},
+      {"letra": "D", "texto": "Preposição", "comentario": "'que' não é preposição aqui."}
+    ],
+    "resposta": "B",
+    "justificativa": "'que' retoma 'livro' (li o livro) e introduz oração que o caracteriza: pronome relativo. Teste: troque por 'o qual'.",
+    "regra": "Nem toda palavra que liga orações é conjunção: o pronome relativo retoma um termo anterior.",
+    "exemplos_relacionados": ["A menina que chegou é minha irmã."],
+    "tags": ["que", "pronome relativo", "conjunção"]
+  },
+  {
+    "id": "C14", "area": "conectivos", "assunto": "conjuncao", "dificuldade": "avancado", "tipo": "identificar_classe",
+    "texto_base": "Sei que ele virá.", "destaque": "que",
+    "enunciado": "Classifique 'que' nesta frase.",
+    "alternativas": [
+      {"letra": "A", "texto": "Pronome relativo", "comentario": "Não há termo anterior retomado; 'que' não pode ser trocado por 'o qual'."},
+      {"letra": "B", "texto": "Conjunção subordinativa integrante", "comentario": null},
+      {"letra": "C", "texto": "Conjunção coordenativa explicativa", "comentario": "Não há justificativa de afirmação anterior."},
+      {"letra": "D", "texto": "Preposição", "comentario": "Introduz oração com verbo flexionado."}
+    ],
+    "resposta": "B",
+    "justificativa": "'que ele virá' completa o sentido de 'Sei' (sei isso). 'que' introduz oração com valor de substantivo: conjunção integrante.",
+    "regra": "Teste da integrante: a oração introduzida pode ser substituída por 'isso'.",
+    "exemplos_relacionados": ["Não sei se ele virá. (integrante 'se')"],
+    "tags": ["que", "conjunção integrante"]
+  },
+  {
+    "id": "C15", "area": "conectivos", "assunto": "conjuncao", "dificuldade": "intermediario", "tipo": "associacao",
+    "enunciado": "Associe cada conjunção à relação de sentido que ela costuma expressar.",
+    "pares": [
+      {"item": "portanto", "resposta": "conclusão"},
+      {"item": "embora", "resposta": "concessão"},
+      {"item": "caso", "resposta": "condição"},
+      {"item": "porém", "resposta": "oposição"}
+    ],
+    "resposta": "portanto=conclusão; embora=concessão; caso=condição; porém=oposição",
+    "justificativa": "Cada conjunção pertence a um grupo semântico: conclusivas, concessivas, condicionais e adversativas.",
+    "regra": "Relações semânticas das conjunções.",
+    "exemplos_relacionados": ["Estudei, portanto passei.", "Caso chova, fico."],
+    "tags": ["conjunção", "relações"]
+  },
+  {
+    "id": "C16", "area": "conectivos", "assunto": "preposicao", "dificuldade": "iniciante", "tipo": "encontrar_erro",
+    "texto_base": "Análise de um estudante para 'Gosto de música.':\nGosto = verbo | de = conjunção | música = substantivo",
+    "enunciado": "Qual classificação está errada?",
+    "alternativas": [
+      {"letra": "A", "texto": "'Gosto' como verbo", "comentario": "Correto."},
+      {"letra": "B", "texto": "'de' como conjunção", "comentario": null},
+      {"letra": "C", "texto": "'música' como substantivo", "comentario": "Correto."},
+      {"letra": "D", "texto": "Não há erro.", "comentario": "Há um erro: 'de' liga termos e é exigida pelo verbo — é preposição."}
+    ],
+    "resposta": "B",
+    "justificativa": "'de' liga o verbo 'gosto' ao substantivo 'música', subordinando-o: preposição.",
+    "regra": "Preposição liga termos; conjunção liga orações ou termos equivalentes.",
+    "exemplos_relacionados": ["Preciso de ajuda."],
+    "tags": ["encontrar_erro", "preposição"]
+  },
+  {
+    "id": "C17", "area": "conectivos", "assunto": "conjuncao", "dificuldade": "avancado", "tipo": "multipla_escolha",
+    "enunciado": "Assinale a afirmação INCORRETA sobre os conectivos.",
+    "alternativas": [
+      {"letra": "A", "texto": "A preposição costuma ligar termos, subordinando um ao outro.", "comentario": "Afirmação correta."},
+      {"letra": "B", "texto": "A conjunção pode ligar orações ou termos de mesma função.", "comentario": "Afirmação correta: 'Pedro e Ana chegaram' (termos)."},
+      {"letra": "C", "texto": "Trocar 'porque' por 'mas' mantém a relação de sentido da frase.", "comentario": null},
+      {"letra": "D", "texto": "Na forma 'do', há uma preposição e um artigo.", "comentario": "Afirmação correta: de + o."}
+    ],
+    "resposta": "C",
+    "justificativa": "'porque' expressa causa e 'mas', oposição: a troca altera o sentido. As demais afirmações estão corretas.",
+    "regra": "Cada conjunção estabelece uma relação lógica própria; trocar de grupo troca o sentido.",
+    "exemplos_relacionados": ["Estudei porque precisava aprender.", "Estudei, mas não aprendi."],
+    "tags": ["incorreta", "conectivos"]
+  },
+  {
+    "id": "C18", "area": "conectivos", "assunto": "preposicao", "dificuldade": "intermediario", "tipo": "justificativa",
+    "texto_base": "Gosto de música.", "destaque": "de",
+    "enunciado": "Explique por que 'de' é preposição, e não conjunção, nesta frase.",
+    "resposta": "'de' é preposição porque liga dois termos — o verbo 'gosto' e o substantivo 'música' —, subordinando o segundo ao primeiro. Além disso, é exigida pelo verbo 'gostar'. Não liga orações, como faria uma conjunção.",
+    "justificativa": "A justificativa deve mencionar que 'de' liga termos (não orações) e é exigida pelo verbo.",
+    "regra": "Preposição liga termos; conjunção liga orações ou termos equivalentes.",
+    "palavras_chave": ["liga", "termos", "verbo"],
+    "exemplos_relacionados": ["Estudei, mas não aprendi. (conjunção)"],
+    "tags": ["justificativa", "preposição"]
+  }
+]
